@@ -1,0 +1,71 @@
+.grid-pageList
+{
+    display: grid;
+    grid-template: repeat(20, 1fr) / repeat(20, 1fr);
+    grid-row-gap: 20px;
+    padding: 10px;
+
+    /* background-color: #3AAFA9; */
+    background-color: #06BC9B;
+
+
+    height: 90vh;
+}
+
+Button
+{
+    padding: 10px;
+    border-radius: 50%;
+    border-style: none;
+    /* grid-template-areas: 1 / span 5; */
+
+    /* background-color: #b5e9e9; */
+    /* color: white; */
+    background-color: #FEFFFF;
+
+    /* font-family: "Trebuchet MS"; */
+    /* font-family: "Verdana"; */
+    font-family: 'Sura', serif;
+
+    font-size: 15px;
+}
+
+
+Button:hover
+{
+    background-color: #6d9733;
+
+    color: white;
+    /* background-color: seagreen; */
+    transition-duration: 0.35s;
+}
+
+.About
+{
+    grid-area: 1 / 10 / span 3 / span 2;
+
+}
+
+.Skills
+{
+    grid-area: 5 / 13 / span 3 / span 2;
+
+}
+
+.Projects
+{
+    grid-area: 5 / 7 / span 3 / span 2;
+}
+
+.Education
+{
+    grid-area: 10 / 8 / span 3 / span 2;
+
+}
+
+
+.Contact
+{
+    grid-area: 10 / 12 / span 3 / span 2;
+
+}

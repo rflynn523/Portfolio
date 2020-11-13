@@ -1,0 +1,53 @@
+.card
+{
+    background-color: #fff;
+    color: #333;
+
+    font-size: 20px;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Cardo', serif; */
+    /* font-family: 'Carrois Gothic SC', sans-serif; */
+    font-family: 'Sura', serif;
+
+
+    /* font-weight: bold; */
+
+
+    align-items: center;
+
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    margin: 20px;
+    display: inline-block;
+    
+    padding: 10px;
+
+}
+
+/* The list of courses for each category */
+ul
+{
+    background-color: #fff;
+
+    margin: 10px; 
+    
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+
+}
+
+.card:hover
+{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition-duration: 0.15s;
+
+
+}
+
+.cardTitle
+{
+    font-weight: bold;
+}

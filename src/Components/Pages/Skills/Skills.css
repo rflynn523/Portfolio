@@ -1,0 +1,43 @@
+.skills
+{
+    height: auto;
+}
+
+/* When a Card is selected */
+.selected
+{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.options
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.unselected
+{
+    display: inline-block;
+    transition-duration: 5s;
+
+}
+
+.firstRow
+{
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);  
+    grid-template-rows: 1fr;
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.secondRow
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    grid-template-rows: 1fr;
+}

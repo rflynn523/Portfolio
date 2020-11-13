@@ -1,0 +1,234 @@
+<<<<<<< HEAD
+/* Overall Background */
+.grid-about
+{
+    display: grid;
+    grid-template-rows: 3fr 1fr 3fr 1fr 6fr;
+
+    padding: 10px;
+
+    /* light */
+    /* background-color: #3AAFA9; */
+    
+    /* dark */
+    /* background-color: #008073; */
+
+    /* medium */
+    /* background-color: #06BC9B; */
+
+    height: auto;
+
+}
+
+/* Intro paragraph */
+p
+{
+    background-color: #fff;
+    /* background-color: blue; */
+    color: #333;
+
+    /* font-family: "Verdana"; */
+    /* font-family: 'Roboto', sans-serif; */
+    
+
+    font-size: 25px;
+    text-align: left;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+/* Section Titles */
+.about_title
+{
+    /* light */
+    /* background-color: #3AAFA9; */
+
+    /* dark */
+    /* background-color: #008073; */
+    
+    /* medium */
+    background-color: #06BC9B;
+
+
+    color: #fff;
+
+    font-family: "Trebuchet MS";
+    font-size: 25px;
+
+    border-bottom: solid;
+    border-color: #fff;
+    margin: 15px;
+}
+
+/* Education Card */
+.grid-college
+{
+    display: grid;
+    grid-template-columns: repeat(1fr, 10);
+    font-family: 'Sura', serif;
+
+    background-color: #fff;
+    color: #333;
+
+    align-items: center;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+img
+{
+    padding: 20px;
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+
+.degree
+{
+    /* font-family: "Verdana"; */
+    font-family: 'Sura', serif;
+
+    font-weight: bold;
+    font-size: 25px;
+
+    grid-column-start: 6;
+    grid-column-end: 9;
+
+}
+
+.ucf
+{
+    font-weight: bold;
+}
+
+/* The three courses card containers */
+.grid-courses
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+
+}
+=======
+/* Overall Background */
+.grid-about
+{
+    display: grid;
+    grid-template-rows: 3fr 1fr 3fr 1fr 6fr;
+
+    padding: 10px;
+
+    /* light */
+    /* background-color: #3AAFA9; */
+    
+    /* dark */
+    /* background-color: #008073; */
+
+    /* medium */
+    /* background-color: #06BC9B; */
+
+    height: auto;
+
+}
+
+/* Intro paragraph */
+p
+{
+    background-color: #fff;
+    /* background-color: blue; */
+    color: #333;
+
+    /* font-family: "Verdana"; */
+    /* font-family: 'Roboto', sans-serif; */
+    
+
+    font-size: 25px;
+    text-align: left;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+/* Section Titles */
+.about_title
+{
+    /* light */
+    /* background-color: #3AAFA9; */
+
+    /* dark */
+    /* background-color: #008073; */
+    
+    /* medium */
+    background-color: #06BC9B;
+
+
+    color: #fff;
+
+    font-family: "Trebuchet MS";
+    font-size: 25px;
+
+    border-bottom: solid;
+    border-color: #fff;
+    margin: 15px;
+}
+
+/* Education Card */
+.grid-college
+{
+    display: grid;
+    grid-template-columns: repeat(1fr, 10);
+    font-family: 'Sura', serif;
+
+    background-color: #fff;
+    color: #333;
+
+    align-items: center;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+img
+{
+    padding: 20px;
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+
+.degree
+{
+    /* font-family: "Verdana"; */
+    font-family: 'Sura', serif;
+
+    font-weight: bold;
+    font-size: 25px;
+
+    grid-column-start: 6;
+    grid-column-end: 9;
+
+}
+
+.ucf
+{
+    font-weight: bold;
+}
+
+/* The three courses card containers */
+.grid-courses
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+
+}
+
+>>>>>>> 73704cb934f6d9e8c274d8aae1fa5fd67243a313
