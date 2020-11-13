@@ -59,6 +59,7 @@ class About extends React.Component
     {
         return(
             <div className='grid-about'>
+                This is a test
                 <p>
                     A young engineer with a growing passion for computer engineering, specifically embedded systems, computer
                     science, and software development. Graduating in December of 2020 from UCF I am looking forward to starting
