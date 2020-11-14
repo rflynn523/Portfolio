@@ -10,11 +10,19 @@ class ProjectPage extends React.Component
         title : "Budget GUI",
         image : budgetGUI,
         description : "A Desktop GUI Application that assists with a personal budget MicroSoft Excel Spreadsheet.",
-        technology : "Python, Tkinter, PyCharm",
+        technology : ["Python", "Tkinter", "PyCharm", "Python", "Tkinter", "PyCharm"],
+        links : ""
+    }
+    others_Project = 
+    {
+        title : "Budget GUI",
+        image : budgetGUI,
+        description : "A Desktop GUI Application that assists with a personal budget MicroSoft Excel Spreadsheet.",
+        technology : ["Python", "Tkinter", "PyCharm"],
         links : ""
     }
 
-    all_Projects = [this.test_Project, this.test_Project, this.test_Project, this.test_Project]
+    all_Projects = [this.others_Project, this.test_Project, this.test_Project, this.test_Project,this.test_Project, this.test_Project, this.test_Project, this.test_Project]
 
     render()
     {
