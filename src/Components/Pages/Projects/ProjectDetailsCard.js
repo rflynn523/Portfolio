@@ -18,7 +18,7 @@ class ProjectDetailsCard extends React.Component
                         {this.props.project.technology.map(tech => {return <li>{tech}</li>})}
                     </ul>
 
-                    <div className="dividerLine">links</div>
+                    <div className="dividerLine">{this.props.project.links}</div>
                  </div>
     }
 }
