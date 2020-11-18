@@ -3,8 +3,9 @@ import ProjectGrid from './ProjectGrid';
 import ProjectList from './ProjectList';
 import budgetGUI from '../../../images/New_Month.JPG'
 import resumeWebApp from '../../../images/ResumeWebApp.JPG'
-import groupBuyImage from '../../../images/CheckDiscountsPage.JPG'
-import SQLWebAppImage from '../../../images/EntComp.JPG'
+import groupBuyImage from '../../../images/CheckDiscountsPage.jpg'
+import SQLWebAppImage from '../../../images/Stretched.JPG'
+import waldoImage from '../../../images/puzzle_1.jpg'
 
 class ProjectPage extends React.Component
 {
@@ -97,7 +98,7 @@ class ProjectPage extends React.Component
     {
         title : "Where's Waldo",
         date : "August 2019 - October 2019",
-        image : budgetGUI,
+        image : waldoImage,
         description : "A Template Matching assignment that solves a 'Where's Waldo' puzzle.",
         technology : ["Created in a Robotic Systems course", "Developed in Python with Google Colab",
                       "OpenCV library"],
