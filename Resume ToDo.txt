@@ -1,0 +1,23 @@
+Resume Web App To Do List
+
+	- Finish the details card of the projects page
+	
+	- Fix / finalize the images that are used for the cards
+
+	- The list view of the projects pages
+
+	- Stop the courses cards from hovering on the courses section under the about page
+
+	- Change the Nav Bar to be (Ryan Flynn			Home, Education, Skills, Projects, Contact/Resume)
+
+	- Put a grad pic on the Home page
+
+	- Make sure everything has the same font
+
+	- Min/max for size of skills cards
+
+	- Clean up overall code
+
+	- Mobil versions for the css
+
+	- Use Firebase for all the information?

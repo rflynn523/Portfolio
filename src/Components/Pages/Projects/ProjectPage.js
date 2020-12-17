@@ -1,6 +1,7 @@
 import React from 'react';
 import ProjectGrid from './ProjectGrid';
 import ProjectList from './ProjectList';
+import petConnect from '../../../images/Overall.JPG'
 import budgetGUI from '../../../images/New_Month.JPG'
 import resumeWebApp from '../../../images/ResumeWebApp.JPG'
 import groupBuyImage from '../../../images/CheckDiscountsPage.jpg'
@@ -14,7 +15,7 @@ class ProjectPage extends React.Component
     {
         title : "Pet Connect",
         date : "May 2020 - December 2020",
-        image : budgetGUI,
+        image : petConnect,
         description : "A smart home system that allows people to let their pet outside when they are not home.",
         technology : ["Raspberry Pi controls senors, door motor, speaker, and camera",
                     "MSP430 Microcontroller controllers the home display",
