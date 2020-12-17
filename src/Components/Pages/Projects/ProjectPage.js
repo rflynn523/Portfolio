@@ -8,6 +8,7 @@ import groupBuyImage from '../../../images/CheckDiscountsPage.jpg'
 import SQLWebAppImage from '../../../images/Stretched.JPG'
 import waldoImage from '../../../images/puzzle_1.jpg'
 import escapeRoomImage from '../../../images/EscapeRoom.JPG'
+import ledDisplay from '../../../images/LEDDisplay.JPG'
 
 class ProjectPage extends React.Component
 {
@@ -49,7 +50,7 @@ class ProjectPage extends React.Component
     {
         title : "Multi Function LED Display",
         date : "May 2019 - August 2019",
-        image : budgetGUI,
+        image : ledDisplay,
         description : "Two seven segment diaplays that will ouptut different modes for the user",
         technology : ["MSP430... controls the two seven segment LEDs with jumper wires and a bread board",
                       "C code developed in Code Composer Studio"],
