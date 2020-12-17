@@ -6,6 +6,7 @@ import resumeWebApp from '../../../images/ResumeWebApp.JPG'
 import groupBuyImage from '../../../images/CheckDiscountsPage.jpg'
 import SQLWebAppImage from '../../../images/Stretched.JPG'
 import waldoImage from '../../../images/puzzle_1.jpg'
+import escapeRoomImage from '../../../images/EscapeRoom.JPG'
 
 class ProjectPage extends React.Component
 {
@@ -59,7 +60,7 @@ class ProjectPage extends React.Component
     {
         title : "Escape Room",
         date : "August 2019 - Novembere 2019",
-        image : budgetGUI,
+        image : escapeRoomImage,
         description : "A different take on an escape room game that consists of puzzles that you must solve to move onto the next level.",
         technology : ["Created for a group project for Process of Object Oriented Programming",
                       "Made with Java in Android Studio"],
