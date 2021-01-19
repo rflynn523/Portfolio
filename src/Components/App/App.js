@@ -1,7 +1,6 @@
 import React from 'react';
 import NavBar from '../NavBar/NavBar';
 import PageList from '../Pages/PageList/PageList';
-import About from '../Pages/About/About';
 import Skills from '../Pages/Skills/Skills';
 import ProjectPage from '../Pages/Projects/ProjectPage';
 import Education from '../Pages/Education/Education';
@@ -29,13 +28,6 @@ class App extends React.Component
     let name;
     switch(id)
     {
-      case "About":
-      {
-        component = <About/>;
-        name = "About";
-        break;
-      }
-
       case "Skills":
       {
         component = <Skills/>;
