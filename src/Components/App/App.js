@@ -31,7 +31,7 @@ class App extends React.Component
       case "Skills":
       {
         component = <Skills/>;
-        name = "Skill";
+        name = "Skills";
         break;
       }
 
@@ -56,7 +56,7 @@ class App extends React.Component
         break;
       }
 
-      case "home":
+      case "Home":
         component = <PageList onClick={this.updateActiveComponent}/>
         name = "PageList";
         break;
