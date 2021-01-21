@@ -1,8 +1,8 @@
 import React from 'react';
 import Button from '../../Button/Button'
-import '../PageList/PageList.css'
+import '../Home/Home.css'
 
-class PageList extends React.Component
+class Home extends React.Component
 {
     render()
     {
@@ -18,4 +18,4 @@ class PageList extends React.Component
     }
 }
 
-export default PageList;
+export default Home;

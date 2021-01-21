@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from '../NavBar/NavBar';
-import PageList from '../Pages/PageList/PageList';
+import Home from '../Pages/Home/Home';
 import Skills from '../Pages/Skills/Skills';
 import ProjectPage from '../Pages/Projects/ProjectPage';
 import Education from '../Pages/Education/Education';
@@ -16,7 +16,7 @@ class App extends React.Component
     this.updateActiveComponent = this.updateActiveComponent.bind(this);
 
     this.state = {
-                    activeComponent: <PageList class="pageList" onClick={this.updateActiveComponent}/>,
+                    activeComponent: <Home class="Homw" onClick={this.updateActiveComponent}/>,
                     componentName: "PageList"
                 };
 
@@ -57,13 +57,13 @@ class App extends React.Component
       }
 
       case "Home":
-        component = <PageList onClick={this.updateActiveComponent}/>
-        name = "PageList";
+        component = <Home onClick={this.updateActiveComponent}/>
+        name = "Home";
         break;
 
       default:
-        component = <PageList onClick={this.updateActiveComponent}/>
-        name = "PageList";
+        component = <Home onClick={this.updateActiveComponent}/>
+        name = "Home";
         
     }
 
