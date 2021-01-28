@@ -16,7 +16,7 @@ class App extends React.Component
     this.updateActiveComponent = this.updateActiveComponent.bind(this);
 
     this.state = {
-                    activeComponent: <Home class="Homw" onClick={this.updateActiveComponent}/>,
+                    activeComponent: <Home class="Home" onClick={this.updateActiveComponent}/>,
                     componentName: "PageList"
                 };
 

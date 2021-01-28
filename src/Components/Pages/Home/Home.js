@@ -8,11 +8,7 @@ class Home extends React.Component
     {
         return(
             <div className="grid-pageList">
-                <Button className="About" onClick={this.props.onClick}></Button>
-                <Button className="Skills" onClick={this.props.onClick}></Button>
-                <Button className="Education" onClick={this.props.onClick}></Button>
-                <Button className="Projects" onClick={this.props.onClick}></Button>
-                <Button className="Contact" onClick={this.props.onClick}></Button>
+                this is the home page
             </div>
         )
     }

@@ -1,0 +1,45 @@
+
+Button
+{
+    padding: 16px 32px;
+
+    margin: 15px;
+    /* border-radius: 10%; */
+    /* border-style: none; */
+    /* border: 4px solid #20bf6b !important; */
+
+    border: 4px solid #2D3032 !important;
+
+    border-radius: 6px;
+    transition: all 0.3s ease 0s;
+
+
+    /* grid-template-areas: 1 / span 5; */
+
+    /* background-color: #b5e9e9; */
+    /* color: white; */
+    background-color: #2D3032;
+    color: white;
+
+
+    /* font-family: "Trebuchet MS"; */
+    /* font-family: "Verdana"; */
+    font-family: 'Sura', serif;
+
+    font-size: 15px;
+}
+
+
+Button:hover
+{
+    /* background-color: #FEFFFF;
+
+    color: #2D3032;
+    /* background-color: seagreen; */
+    /*transition-duration: 0.35s; */
+
+    color: white !important;
+    border-radius: 50px;
+    border-color: white !important;
+    transition: all 0.5s ease 0s;
+}

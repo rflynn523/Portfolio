@@ -21,7 +21,7 @@ class NavBar extends React.Component
         return(
             <div className="grid-navBar">
                 <div className="name">Ryan Flynn</div>
-
+                
                 <Button className = "Home" onClick={this.props.onClick}></Button>
                 <Button className = "Projects" onClick={this.props.onClick}></Button>
                 <Button className = "Education" onClick={this.props.onClick}></Button>
@@ -29,8 +29,6 @@ class NavBar extends React.Component
                 <Button className = "Projects" onClick={this.props.onClick}></Button>
                 <Button className = "Work Experience" onClick={this.props.onClick}></Button>
                 <Button className = "Contact" onClick={this.props.onClick}></Button>
-
-
            </div>
         )
     }

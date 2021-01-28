@@ -1,23 +1,18 @@
 .grid-navBar
 {
-    display: inline-grid;
     width: 100%;
-    height: 15%;
-    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
     justify-items: center;
 
     font-size: 30 px;
 
-    /* background-color: black; */
     background-color: #2D3032;
 
 }
 
+
 .name
 {
-    /* color: blue; */
-    /* color: #8EE4AF; */
-    /* color: lime; */
     color: greenyellow;
     font-family: 'Courgette', cursive;
 
