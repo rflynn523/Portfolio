@@ -37,21 +37,21 @@ class App extends React.Component
 
       case "Education":
       {
-        component = <Education/>;
+        component = <Education />;
         name = "Education";
         break;
       }
 
       case "Projects":
       {
-        component = <ProjectPage/>;
+        component = <ProjectPage />;
         name = "Projects";
         break;
       }
 
       case "Contact":
       {
-        component = <Contact/>;
+        component = <Contact />;
         name = "Contact";
         break;
       }
@@ -90,7 +90,7 @@ class App extends React.Component
 
 
 
-        <NavBar class="navBar" activeComponent={this.state.componentName} onClick={this.updateActiveComponent}/>
+        <NavBar class="navBar" isActive={true} activeComponent={this.state.componentName} onClick={this.updateActiveComponent} />
         {this.state.activeComponent}
       </div>
     );

@@ -12,12 +12,12 @@ class Button extends React.Component
 
     handleClick()
     {
-        this.props.onClick(this.props.className);
+        this.props.onClick(this.props.id);
     }
 
     render()
     {
-        return <button className={this.props.className} onClick={this.handleClick}>{this.props.className}</button>
+        return <button onClick={this.handleClick}>{this.props.id}</button>
     }
 }
 

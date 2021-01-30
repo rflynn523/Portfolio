@@ -28,7 +28,7 @@
 
 .home
 {
-    color: white;
+    /* color: white; */
     font-size: 30px;
     /* font-family: "Verdana"; */
     font-family: "Georgia";
@@ -37,3 +37,4 @@
     padding: 15px;
 
 }
+

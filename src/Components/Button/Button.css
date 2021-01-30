@@ -1,5 +1,5 @@
 
-Button
+button
 {
     padding: 16px 32px;
 
@@ -30,7 +30,7 @@ Button
 }
 
 
-Button:hover
+button:hover      
 {
     /* background-color: #FEFFFF;
 
@@ -43,3 +43,13 @@ Button:hover
     border-color: white !important;
     transition: all 0.5s ease 0s;
 }
+
+button:focus
+{
+    color: white !important;
+    border-radius: 50px;
+    border-color: white !important;
+    transition: all 0.5s ease 0s;
+
+}
+
