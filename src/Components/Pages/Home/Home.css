@@ -1,28 +1,48 @@
 .homeGrid
 {
-    display: flexbox;
+    /* display: flexbox; */
+    object-fit: fill;
+    width: 100vw;
+    height: 100vh;
 }
 
 .homeGrid img
 {
-    height: 500px;
-    margin-left: 30px;
-    margin-right: 10px;
+    max-height: 800px;
+    max-width: 600px;
+
+    height: 80vh;
+    width: 30vw;
+
+    margin-top: 5vh;
+    margin-left: 5vw;
+
 
     float: left;
-    align-self: flex-start;
-    object-fit: contain;
+    align-self: inherit;
+    object-fit: fill;
 }
 
 
 p
 {   
-    margin-left: 10px;
-    margin-right: 30px;
+    /* max-height: 500px;
+    max-width: 800px; */
+    width: 45vw;
+    height: 80vh;
 
-    width: 50%;
+    margin-top: 5vh;
+    margin-right: 5vw;
+
+    overflow-y: scroll;
 
     float: right;
-    object-fit: fill;
+    object-fit: contain;
+    align-self:inherit;
 
+}
+
+.div
+{
+    object-fit: contain;
 }

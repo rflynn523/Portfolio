@@ -6,6 +6,14 @@
 
     padding: 10px;
 
+    /* width: 100vw;
+    height: 100vh; */
+
+    width: 100vw;
+    height: 100vh;
+
+    overflow: auto;
+
     /* light */
     /* background-color: #3AAFA9; */
     
@@ -15,7 +23,6 @@
     /* medium */
     /* background-color: #06BC9B; */
 
-    height: auto;
 
 }
 
