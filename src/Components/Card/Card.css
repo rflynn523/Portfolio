@@ -1,4 +1,4 @@
-.card
+.card, .education-card
 {
     background-color: #fff;
     color: #333;
@@ -23,6 +23,7 @@
     padding: 10px;
 
 }
+
 
 /* The list of courses for each category */
 ul

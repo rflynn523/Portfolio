@@ -13,12 +13,11 @@ class NavBar extends React.Component
                 {/* {this.getListOfButtons()} */}
 
                 <Button id = "Home" onClick={this.props.onClick} active = {this.props.activeComponent} updateNav={this.setActive}></Button>,
-                <Button id = "Projects" className="call" onClick={this.props.onClick} activeComponent={this.props.activeComponent} updateNav={this.setActive}></Button>,
                 <Button id = "Education" onClick={this.props.onClick} activeComponent={this.props.activeComponent} updateNav={this.setActive}></Button>,
                 <Button id = "Skills" onClick={this.props.onClick} updateNav={this.setActive}></Button>,
-                <Button id = "Projects" onClick={this.props.onClick} updateNav={this.setActive}></Button>,
+                <Button id = "Projects" className="call" onClick={this.props.onClick} activeComponent={this.props.activeComponent} updateNav={this.setActive}></Button>,
                 <Button id = "Work Experience" onClick={this.props.onClick} updateNav={this.setActive}></Button>,
-                <Button id = "Contact" onClick={this.props.onClick} updateNav={this.setActive}></Button>
+                <Button id = "Resume?" onClick={this.props.onClick} updateNav={this.setActive}></Button>
            </div>
         )
     }
