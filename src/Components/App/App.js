@@ -19,7 +19,7 @@ class App extends React.Component
     this.updateActiveComponent = this.updateActiveComponent.bind(this);
 
     // Initially have it set to the Home page
-    this.state = {activeComponent: <Home class="Home" onClick={this.updateActiveComponent}/> };
+    this.state = {activeComponent: <Home/> };
   }
 
   // Function that updates and switch the active page
@@ -31,12 +31,12 @@ class App extends React.Component
     switch(id)
     {
       case "Home":
-        component = <Home onClick={this.updateActiveComponent}/>
+        component = <Home/>
         break;
 
       case "Education":
       {
-        component = <Education />;
+        component = <Education/>;
         break;
       }
     
@@ -48,18 +48,18 @@ class App extends React.Component
 
       case "Projects":
       {
-        component = <ProjectPage />;
+        component = <ProjectPage/>;
         break;
       }
 
       case "Contact":
       {
-        component = <Contact />;
+        component = <Contact/>;
         break;
       }
 
       default:
-        component = <Home onClick={this.updateActiveComponent}/>
+        component = <Home/>
     }
 
     // Set the new state with teh active component and it's name

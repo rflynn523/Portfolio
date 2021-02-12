@@ -1,6 +1,9 @@
 import React from 'react';
 import './Button.css'
 
+// Component that breates the tab buttons on the navigation bar
+// (App -> NavBar -> Button)
+//  - id, onClick
 class Button extends React.Component
 {
     constructor(props)
@@ -10,6 +13,8 @@ class Button extends React.Component
         this.handleClick = this.handleClick.bind(this);
     }
 
+    // Sends back the id to the prop
+    // Used for switching between the pages
     handleClick()
     {
         this.props.onClick(this.props.id);

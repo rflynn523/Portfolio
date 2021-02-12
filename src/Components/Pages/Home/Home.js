@@ -1,13 +1,14 @@
 import React from 'react';
-import Button from '../../Button/Button'
 import '../Home/Home.css'
-
-import trees from '../../../images/BackTreesWebSize.jpg';
 import engBuilding from '../../../images/ENGBuildingWebSize.jpg';
-import cap from '../../../images/CapThrowWebSize.jpg';
 
+// Not used but keeping for now
+// import cap from '../../../images/CapThrowWebSize.jpg';
+// import trees from '../../../images/BackTreesWebSize.jpg';
+// import Button from '../../Button/Button'
 
-
+// Home page component
+// (App -> Home)
 class Home extends React.Component
 {
     render()
@@ -26,12 +27,7 @@ class Home extends React.Component
                     <div>This is my contact info</div>
                 </p>
 
-                {/* <img src = {trees} /> */}
-
                 <img src = {engBuilding} />
-                {/* <img src = {cap} /> */}
-
-
             </div>
         )
     }
