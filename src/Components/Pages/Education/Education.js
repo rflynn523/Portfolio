@@ -3,17 +3,21 @@ import './Education.css';
 import Card from '../../Card/Card'
 import logo from '../../../images/ucf_logo_horiz.png'
 
+// Education component with the hardcoded info for now
+// (App -> Education)
 class Education extends React.Component
 {
-    other_Object = 
-    {
-        title : "Other",
-        items : {
-            "Github" : "3 Courses - 3 Projects",
-            "Microsoft Office" : ""
-        }
-    }
+    // Not used but DELETE later
+    // other_Object = 
+    // {
+    //     title : "Other",
+    //     items : {
+    //         "Github" : "3 Courses - 3 Projects",
+    //         "Microsoft Office" : ""
+    //     }
+    // }
 
+    // Impliment Firebase LATER
     EE = 
     {
         title : "EE",
@@ -70,9 +74,13 @@ class Education extends React.Component
                 <div className="education_title">Courses</div>
 
                 <div className='grid-courses'>
-                    <Card object={this.EE} title="EE"/>
-                    <Card className="card" object={this.CpE}/>
-                    <Card className="card" object={this.CS} />
+                    <Card object={this.EE}/>
+                    <Card object={this.CpE}/>
+                    <Card object={this.CS} />
+
+                    {/* IF NEEDED WHEN CHECKED LATER */}
+                    {/* <Card className="card" object={this.CS} /> */}
+
                 </div>
 
             </div>

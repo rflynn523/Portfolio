@@ -1,6 +1,9 @@
 import React from 'react';
 import './Card.css';
 
+// Card component responsible for taking in object of info and creating the card list
+// (App -> Education -> Card)
+//      - object
 class Card extends React.Component
 {
     constructor(props)
@@ -23,6 +26,7 @@ class Card extends React.Component
         this.props.onClick(title);
     }
 
+    // Takes the object and creates a list based of its info
     makeList()
     {
         let skills = Object.keys(this.props.object.items);
@@ -30,17 +34,20 @@ class Card extends React.Component
 
         let list = [];
 
+        // Make a list of all the keys in the item attribute
         for(let i = 0; i < length; i++)
             list.push(<li>{skills[i]}</li>)
 
         return list;
     }
 
+    // Function to handle the two different types of cards
     checkTitle()
     {
         let title = this.props.object.title;
         let className = "card"
 
+        // Set the className, specify if education card so the cards do not hover
         if(title == "CS" || title == "EE" || title == "CpE")
             className = "education-card";
 
@@ -61,6 +68,7 @@ class Card extends React.Component
     render()
     {
         return(this.checkTitle());
+            // Not used DELETE later
             // <div>{this.checkTitle()}</div>
             // <div className="card" onClick={this.handleClick}>
                
