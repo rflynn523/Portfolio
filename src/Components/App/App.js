@@ -7,6 +7,9 @@ import Education from '../Pages/Education/Education';
 import Contact from '../Pages/Contact/Contact';
 import './App.css';
 
+// Top Component of the Web app that displays the nav bar, and the active page/component
+// Also handles the switching of the active page
+// (App)
 class App extends React.Component 
 {
   constructor(props)
@@ -15,69 +18,60 @@ class App extends React.Component
 
     this.updateActiveComponent = this.updateActiveComponent.bind(this);
 
-    this.state = {
-                    activeComponent: <Home class="Home" onClick={this.updateActiveComponent}/>,
-                    componentName: "PageList"
-                };
-
+    // Initially have it set to the Home page
+    this.state = {activeComponent: <Home class="Home" onClick={this.updateActiveComponent}/> };
   }
 
+  // Function that updates and switch the active page
   updateActiveComponent(id)
   {
     let component;
-    let name;
+
+    // Switch based on the className that is passed back as id
     switch(id)
     {
-      case "Skills":
-      {
-        component = <Skills/>;
-        name = "Skills";
+      case "Home":
+        component = <Home onClick={this.updateActiveComponent}/>
         break;
-      }
 
       case "Education":
       {
         component = <Education />;
-        name = "Education";
+        break;
+      }
+    
+      case "Skills":
+      {
+        component = <Skills/>;
         break;
       }
 
       case "Projects":
       {
         component = <ProjectPage />;
-        name = "Projects";
         break;
       }
 
       case "Contact":
       {
         component = <Contact />;
-        name = "Contact";
         break;
       }
 
-      case "Home":
-        component = <Home onClick={this.updateActiveComponent}/>
-        name = "Home";
-        break;
-
       default:
         component = <Home onClick={this.updateActiveComponent}/>
-        name = "Home";
-        
     }
 
-
-    this.setState({
-                    activeComponent: component,
-                    componentName: name
-                  });
+    // Set the new state with teh active component and it's name
+    this.setState({activeComponent: component});
   }
 
   render()
   {
     return (
       <div className="App">
+        {/* Include all of the hrefs here could prob move them to index? 
+            All Not needed???   */}
         <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Sura&display=swap" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet"/>
@@ -88,9 +82,7 @@ class App extends React.Component
         <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet"/>
 
 
-
-
-        <NavBar class="navBar" isActive={true} activeComponent={this.state.componentName} onClick={this.updateActiveComponent} />
+        <NavBar class="navBar" onClick={this.updateActiveComponent} />
         {this.state.activeComponent}
       </div>
     );

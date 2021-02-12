@@ -2,6 +2,9 @@ import React from 'react';
 import './NavBar.css'
 import Button from '../Button/Button'
 
+// NavBar Component, contains the listed out tab Buttons
+// (App -> NavBar)
+//  - isActive, activeComponent, onClick
 class NavBar extends React.Component
 {
     render()
@@ -9,15 +12,13 @@ class NavBar extends React.Component
         return(
             <div className="grid-navBar">
                 <div className="name">Ryan Flynn</div>
-                {/* Are getting the activeComponentName from this.props.activeComponent */}
-                {/* {this.getListOfButtons()} */}
 
-                <Button id = "Home" onClick={this.props.onClick} active = {this.props.activeComponent} updateNav={this.setActive}></Button>,
-                <Button id = "Education" onClick={this.props.onClick} activeComponent={this.props.activeComponent} updateNav={this.setActive}></Button>,
-                <Button id = "Skills" onClick={this.props.onClick} updateNav={this.setActive}></Button>,
-                <Button id = "Projects" className="call" onClick={this.props.onClick} activeComponent={this.props.activeComponent} updateNav={this.setActive}></Button>,
-                <Button id = "Work Experience" onClick={this.props.onClick} updateNav={this.setActive}></Button>,
-                <Button id = "Resume?" onClick={this.props.onClick} updateNav={this.setActive}></Button>
+                <Button id = "Home"             onClick={this.props.onClick} />,
+                <Button id = "Education"        onClick={this.props.onClick} />,
+                <Button id = "Skills"           onClick={this.props.onClick} />,
+                <Button id = "Projects"         onClick={this.props.onClick} />,
+                <Button id = "Work Experience"  onClick={this.props.onClick} />,
+                <Button id = "Resume?"          onClick={this.props.onClick} />
            </div>
         )
     }
