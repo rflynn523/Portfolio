@@ -7,17 +7,7 @@ import logo from '../../../images/ucf_logo_horiz.png'
 // (App -> Education)
 class Education extends React.Component
 {
-    // Not used but DELETE later
-    // other_Object = 
-    // {
-    //     title : "Other",
-    //     items : {
-    //         "Github" : "3 Courses - 3 Projects",
-    //         "Microsoft Office" : ""
-    //     }
-    // }
-
-    // Impliment Firebase LATER
+    // Impliment Firebase LATER so these are not hardcoded??
     EE = 
     {
         title : "EE",
@@ -77,10 +67,6 @@ class Education extends React.Component
                     <Card object={this.EE}/>
                     <Card object={this.CpE}/>
                     <Card object={this.CS} />
-
-                    {/* IF NEEDED WHEN CHECKED LATER */}
-                    {/* <Card className="card" object={this.CS} /> */}
-
                 </div>
 
             </div>

@@ -68,18 +68,6 @@ class Card extends React.Component
     render()
     {
         return(this.checkTitle());
-            // Not used DELETE later
-            // <div>{this.checkTitle()}</div>
-            // <div className="card" onClick={this.handleClick}>
-               
-            //     {/* Also need to change the title to access the object */}
-            //     <div className='cardTitle'>{this.props.object.title}</div>
-            //     <ul>
-            //         {/* Creates all the list items from the passed in list */}
-            //         {this.makeList()}
-            //     </ul>
-            // </div>
-        // );
     }
 }
 
