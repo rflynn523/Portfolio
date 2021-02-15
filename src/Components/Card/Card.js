@@ -3,7 +3,13 @@ import './Card.css';
 
 // Card component responsible for taking in object of info and creating the card list
 // (App -> Education -> Card)
-//      - object
+//              - object
+
+// (App -> Skills -> UnSelectedSkills -> Card)
+//                          - object, onClick
+
+// (App -> Skills -> SelectedSkill -> Card)
+//                          - object, onClick
 class Card extends React.Component
 {
     constructor(props)

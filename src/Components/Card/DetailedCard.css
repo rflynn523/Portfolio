@@ -1,26 +1,19 @@
 .detailedCard
 {
+    display: inline-block;
+
     background-color: #fff;
     color: #333;
 
     font-family: "Verdana";
     font-size: 20px;
-    /* font-family: 'Roboto', sans-serif; */
-    /* font-family: 'Cardo', serif; */
-    /* font-family: 'Carrois Gothic SC', sans-serif; */
     font-family: 'Sura', serif;
-
-
-    /* font-weight: bold; */
-
 
     align-items: center;
 
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     margin: 20px;
-    display: inline-block;
-    
     padding: 10px;
 
 }
@@ -34,16 +27,12 @@ ul
     
     text-align: center;
     list-style-type: none;
-    /* padding: 10px; */
-    /* padding-bottom: 2px; */
 
 }
 
 .skillTitle
 {
     text-align: left;
-    /* font-weight: bold; */
-
 }
 
 .detail

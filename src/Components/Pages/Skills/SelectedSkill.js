@@ -2,6 +2,10 @@ import React from 'react';
 import Card from '../../Card/Card';
 import DetailedCard from '../../Card/DetailedCard';
 
+// The SelectedSkill component displayed once a group is selected
+// (App -> Skills -> SelectedSkill)
+//             - allObjects, onSelected
+
 class SelectedSkill extends React.Component
 {
     // Objects can be saved here so they can be called by name below
@@ -115,15 +119,16 @@ class SelectedSkill extends React.Component
 
     render()
     {
-        return(<div className='selected'>
+        return(
+            <div className='selected'>
             
-            {this.state.activeCard}
+                {this.state.activeCard}
 
-            <div className="options">
+                <div className="otherSkillGroups">
                     {/* Function call to place all of the other lists */}
                     {this.getOtherCards()}
+                </div>
             </div>
-        </div>
         )
     }
 }

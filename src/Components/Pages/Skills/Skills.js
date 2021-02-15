@@ -6,8 +6,7 @@ import UnSelectedSkills from './UnSelectedSkills';
 // Can update all of the Skills Page Information in this Component and it will be passed through props
 // Only need to change the cases in switchSelection and possibly the addition/removal of a card
 
-// TODO: Change the lists into objects to make the code easier to read.
-//       Check the stats
+// (App -> Skills)
 class Skills extends React.Component
 {
     // Create objects for each category to make the code more readable.
@@ -96,6 +95,7 @@ class Skills extends React.Component
         }
     }
     
+    // Array of all the bojects
     Objects = [this.progLanguages_Object, this.IDEs_Object, this.libraries_Object, this.databases_Object,
                 this.hardware_Object, this.circuitSim_Object, this.other_Object];
 
@@ -111,12 +111,12 @@ class Skills extends React.Component
     // This method handles switching the view from unselected to the selected card
     switchToSelected(id)
     {
-        this.setState({activeState: <SelectedSkill onSelected={this.switchToUnSelected} allObjects={this.Objects} active={id}/>});
+        this.setState({activeState: <SelectedSkill allObjects={this.Objects} onSelected={this.switchToUnSelected}/>}); // active={id}
     }
 
+    // Switches the view back to unselected
     switchToUnSelected()
     {
-        // alert("In Unselected")
         this.setState({activeState : <UnSelectedSkills allObjects={this.Objects} onUnselected={this.switchToSelected}/>});
     }
 

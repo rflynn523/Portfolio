@@ -1,6 +1,9 @@
 import React from 'react';
 import './DetailedCard.css';
 
+// The component that creates the card with more detail on the skills page
+// (App -> Skills -> SelectedSkill -> Detailled card)
+//             - object, onSelected
 class DetailedCard extends React.Component
 {
     constructor(props)
@@ -18,12 +21,14 @@ class DetailedCard extends React.Component
 
     makeList()
     {
+        // Grabs the arrays of keys and values
         let skills = Object.keys(this.props.object.items);
         let details = Object.values(this.props.object.items);
         let length = skills.length;
 
         let list = [];
 
+        // Loops through those arrays and creates the list items
         for(let i = 0; i < length; i++)
         {
             list.push(<div>
