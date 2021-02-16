@@ -3,20 +3,16 @@
   /* Background color of the entire web app */
   background-color: #06BC9B;
 
-  /* Alignment of the basic card headings*/
-  /* text-align: center; */
+  /* Font for the website */
+  font-family: "Trebuchet MS";
+
 }
 
 /* Intro paragraph */
 p
 {
     background-color: #fff;
-    /* background-color: blue; */
     color: #333;
-
-    /* font-family: "Verdana"; */
-    /* font-family: 'Roboto', sans-serif; */
-    
 
     font-size: 25px;
     text-align: left;

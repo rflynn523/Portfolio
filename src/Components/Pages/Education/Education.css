@@ -20,7 +20,6 @@
     /* Font color of the title */
     color: #fff;
 
-    font-family: "Trebuchet MS";
     font-size: 25px;
 
     border-bottom: solid;
@@ -33,7 +32,6 @@
 {
     display: grid;
     grid-template-columns: repeat(1fr, 10);
-    font-family: 'Sura', serif;
 
     background-color: #fff;
     color: #333;
@@ -54,8 +52,6 @@ img
 
 .degree
 {
-    font-family: 'Sura', serif;
-
     font-weight: bold;
     font-size: 25px;
 

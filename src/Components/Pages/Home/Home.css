@@ -1,6 +1,5 @@
 .homeGrid
 {
-    /* display: flexbox; */
     object-fit: fill;
     width: 100vw;
     height: 100vh;
@@ -26,8 +25,6 @@
 
 p
 {   
-    /* max-height: 500px;
-    max-width: 800px; */
     width: 45vw;
     height: 80vh;
 

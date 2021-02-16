@@ -70,15 +70,13 @@ class App extends React.Component
   {
     return (
       <div className="App">
-        {/* Include all of the hrefs here could prob move them to index? 
-            All Not needed???   */}
-        <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Sura&display=swap" rel="stylesheet"/>
-        <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap" rel="stylesheet"/>
-        <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet"/>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"/>
+        {/* <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Sura&display=swap" rel="stylesheet"/> */}
+         {/* <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap" rel="stylesheet"/> */}
+         {/* <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet"/> */}
+         {/* <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"/> */}
 
-        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet"/>
-        <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet"/>
+        {/* <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet"/> */}
+        {/* <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet"/> */}
         <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet"/>
 
 
