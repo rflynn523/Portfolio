@@ -4,13 +4,10 @@
     display: grid;
     grid-template-rows: 1fr 3fr 1fr 6fr;
 
-    padding: 10px;
-
     width: 100vw;
     height: 100vh;
 
-    /* Maybe why it is scrolling? */
-    overflow: auto;
+    justify-content: center;
 
 }
 
@@ -33,6 +30,8 @@
     display: grid;
     grid-template-columns: repeat(1fr, 10);
 
+    width: 95vw; 
+
     background-color: #fff;
     color: #333;
 
@@ -40,12 +39,15 @@
     text-align: center;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+    margin-left: 3px;
+    margin-right: 3px;
+
 }
 
 /* UCF Image */
 img
 {
-    padding: 20px;
+    padding: 15px;
     grid-column-start: 3;
     grid-column-end: 6;
 }
@@ -66,4 +68,6 @@ img
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 10px;
+
+    width: 97vw;
 }
