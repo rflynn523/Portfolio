@@ -111,7 +111,7 @@ class Skills extends React.Component
     // This method handles switching the view from unselected to the selected card
     switchToSelected(id)
     {
-        this.setState({activeState: <SelectedSkill allObjects={this.Objects} onSelected={this.switchToUnSelected}/>}); // active={id}
+        this.setState({activeState: <SelectedSkill allObjects={this.Objects} onSelected={this.switchToUnSelected} active={id}/>}); // active={id}
     }
 
     // Switches the view back to unselected

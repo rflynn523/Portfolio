@@ -22,8 +22,12 @@
 /* Unselected section */
 .unselected
 {
-    display: inline-block;
+    /* display: inline-block; */
+    /* display: flex; */
+
+    margin-right: 5px;
     transition-duration: 5s;
+
 }
 
 .firstRow
