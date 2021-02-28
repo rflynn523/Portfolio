@@ -20,7 +20,7 @@ class ProjectBox extends React.Component
     showDetails()
     {
         if(this.state.class === "Title")
-            this.setState({class : "Details", active : <ProjectDetailsCard project={this.props.project}/>});
+            this.setState({class : "Details", active : <ProjectDetailsCard project={this.props.project} icons={this.props.icons}/>});
 
         else
             this.setState({class : "Title", active : <ProjectTitleCard project={this.props.project}/>})

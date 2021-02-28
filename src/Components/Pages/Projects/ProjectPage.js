@@ -10,6 +10,9 @@ import waldoImage from '../../../images/puzzle_1.jpg'
 import escapeRoomImage from '../../../images/EscapeRoom.JPG'
 import ledDisplay from '../../../images/LEDDisplay.JPG'
 
+import githubIcon from '../../../images/GitHub-Logo.png'
+import youtubeIcon from '../../../images/youtubeIcon.png'
+
 // Project page component that holds all of the info abd switch betweeb list and grid view
 // (App -> ProjectPage)
 class ProjectPage extends React.Component
@@ -24,7 +27,9 @@ class ProjectPage extends React.Component
                     "MSP430 Microcontroller controllers the home display",
                     "An Android app allows the user to change the mode, open or close the door, and interact with their pet",
                     "Google Firebase keeps track of the user's data and keeps each component up to date."],
-        links : "Demo video and github?"
+        links : {
+            "GitHub" : "https://github.com/rflynn523/BudgetGUI", 
+            "Youtube" :  "https://www.youtube.com/watch?v=4sF6NkZ8nSA&t=1s"}//"Demo video and github?"
     }
 
     BudgetGUI = 
@@ -35,7 +40,7 @@ class ProjectPage extends React.Component
         description : "A Desktop GUI Application that assists with a personal budget MicroSoft Excel Spreadsheet.",
         technology : ["Developed in PyCharm using Python", "The Tkinter library is used to make the GUI",
                       "Openpyxl is used to interact with the excel spreadsheet"],
-        links : "Github"
+        links : {"Github" : "https://github.com/rflynn523/BudgetGUI"}
     }
 
     ResumeWebApp = 
@@ -45,7 +50,7 @@ class ProjectPage extends React.Component
         image : resumeWebApp,
         description : "A website that diaplays my resume information better while also giving more in depth details. Also acts as a way to document the work I have done",
         technology : ["ReactJS used to create the web pages and components", "CSS handles the styling of the web app."],
-        links : "Github, this link"
+        links : {"Github" : "https://github.com/rflynn523/BudgetGUI"}
     }
 
     MultiFuncLED =
@@ -57,7 +62,7 @@ class ProjectPage extends React.Component
         technology : ["MSP430... controls the two seven segment LEDs with jumper wires and a bread board",
                       "C code developed in Code Composer Studio"],
 
-        links : "Github and my demo video"
+        links : {"Github" : "https://github.com/rflynn523/BudgetGUI"}
     }
 
     EscapeRoom = 
@@ -69,7 +74,7 @@ class ProjectPage extends React.Component
         technology : ["Created for a group project for Process of Object Oriented Programming",
                       "Made with Java in Android Studio"],
 
-        links : "Github? and more pictures?"
+        links : {"Github" : "https://github.com/rflynn523/BudgetGUI"}//"Github? and more pictures?"
     }
 
     GroupBuy = 
@@ -82,7 +87,7 @@ class ProjectPage extends React.Component
                       "The APIs consist of JavaScript and PHP to make queries from the database with SQL",
                       "Database Systems class"],
 
-        links : "Github? and more pictures?"
+        links : {"Github" : "https://github.com/rflynn523/BudgetGUI"}//"Github? and more pictures?"
     }
 
     SQLGUI =
@@ -96,7 +101,7 @@ class ProjectPage extends React.Component
                       "MySQL Workbench",
                       "Enterprise Computing class"],
 
-        links : "Github?"
+        links : {"Github" : "https://github.com/rflynn523/BudgetGUI"}//"Github?"
     }
 
     WheresWaldo = 
@@ -108,10 +113,10 @@ class ProjectPage extends React.Component
         technology : ["Created in a Robotic Systems course", "Developed in Python with Google Colab",
                       "OpenCV library"],
 
-        links : "Github"
+        links : {"Github" : "https://github.com/rflynn523/BudgetGUI"}//"Github"
     }
 
-
+    icons = {"GitHub" : githubIcon, "Youtube" : youtubeIcon}
     all_Projects = [this.PetConnect, this.BudgetGUI, this.ResumeWebApp, this.MultiFuncLED, 
                     this.EscapeRoom, this.GroupBuy, this.SQLGUI, this.WheresWaldo]
 
@@ -122,7 +127,7 @@ class ProjectPage extends React.Component
         return (<div>
                 View Option Goes Here
                 {/* Probably gonna need to change to an active state */}
-                <ProjectGrid allProjects = {this.all_Projects}/> 
+                <ProjectGrid allProjects = {this.all_Projects} icons={this.icons}/> 
                     
             </div>)
     }

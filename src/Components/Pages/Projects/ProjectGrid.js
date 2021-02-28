@@ -4,7 +4,7 @@ import './ProjectGrid.css';
 
 // Project Grid component that maps all of the projects to a Project Box
 // (App -> ProjectPage -> ProjectGrid)
-//              - allProjects
+//              - allProjects, icons
 class ProjectGrid extends React.Component
 {
     render()
@@ -12,7 +12,7 @@ class ProjectGrid extends React.Component
         // Have a loop/map functions that just creates all of the project boxes
         return(
                     <div className="Project_Grid_View">
-                    {this.props.allProjects.map((project) => {return <ProjectBox project={project}/>})}
+                    {this.props.allProjects.map((project) => {return <ProjectBox project={project} icons={this.props.icons}/>})}
                     </div>
               )
     }

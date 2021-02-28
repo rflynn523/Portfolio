@@ -9,7 +9,7 @@ class ProjectTitleCard extends React.Component
     render()
     {
         return <div className="ProjectTitle" >
-                    <img src={this.props.project.image}/>
+                    <img className = "projectImg" src={this.props.project.image}/>
 
                     <div className="title">
                         {this.props.project.title}

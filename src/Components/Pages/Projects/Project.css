@@ -44,7 +44,7 @@
   }
 
   
-  .Details img
+  .Details .projectImg
   {
     display: none;
     transition-duration: 5s;
@@ -108,5 +108,13 @@
 {
   /* border-top: 1px solid #333; */
   border-top: 1px solid rgba(160,160,160,1.0);
+  display: inline-block;
  
+}
+
+.detailLink img
+{
+  margin : 5px;
+  border-radius: 100%;
+  background-color: #00994C;
 }
