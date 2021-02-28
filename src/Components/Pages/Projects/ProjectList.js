@@ -1,5 +1,4 @@
 import React from 'react';
-import Project from './Project';
 import './Project.css';
 
 class ProjectList extends React.Component

@@ -3,7 +3,11 @@ import '../Projects/Project.css'
 import ProjectTitleCard from './ProjectTitleCard';
 import ProjectDetailsCard from './ProjectDetailsCard'
 
-class Project extends React.Component
+// Project box component that display each project in the grid/box view and switches to the details view
+// (App -> ProjectPage -> ProjectGrid -> ProjectBox)
+//                          - project
+
+class ProjectBox extends React.Component
 {
     constructor(props)
     {
@@ -31,4 +35,4 @@ class Project extends React.Component
     }
 }
 
-export default Project
+export default ProjectBox

@@ -10,6 +10,8 @@ import waldoImage from '../../../images/puzzle_1.jpg'
 import escapeRoomImage from '../../../images/EscapeRoom.JPG'
 import ledDisplay from '../../../images/LEDDisplay.JPG'
 
+// Project page component that holds all of the info abd switch betweeb list and grid view
+// (App -> ProjectPage)
 class ProjectPage extends React.Component
 {
     PetConnect = 
@@ -119,7 +121,8 @@ class ProjectPage extends React.Component
         // Possibly only need to change the class name to switch the layout from grid to list??
         return (<div>
                 View Option Goes Here
-                <ProjectGrid allProjects = {this.all_Projects}/>
+                {/* Probably gonna need to change to an active state */}
+                <ProjectGrid allProjects = {this.all_Projects}/> 
                     
             </div>)
     }
