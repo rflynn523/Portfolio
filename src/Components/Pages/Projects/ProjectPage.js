@@ -28,8 +28,10 @@ class ProjectPage extends React.Component
                     "An Android app allows the user to change the mode, open or close the door, and interact with their pet",
                     "Google Firebase keeps track of the user's data and keeps each component up to date."],
         links : {
-            "GitHub" : "https://github.com/rflynn523/BudgetGUI", 
-            "Youtube" :  "https://www.youtube.com/watch?v=4sF6NkZ8nSA&t=1s"}//"Demo video and github?"
+            "Youtube" :  "https://www.youtube.com/watch?v=4sF6NkZ8nSA&t=3s", // Presentation
+            "Youtube" : "https://www.youtube.com/watch?v=950Lf8dNDNU&t=2s"   // Demo
+
+        }
     }
 
     BudgetGUI = 
@@ -40,7 +42,7 @@ class ProjectPage extends React.Component
         description : "A Desktop GUI Application that assists with a personal budget MicroSoft Excel Spreadsheet.",
         technology : ["Developed in PyCharm using Python", "The Tkinter library is used to make the GUI",
                       "Openpyxl is used to interact with the excel spreadsheet"],
-        links : {"Github" : "https://github.com/rflynn523/BudgetGUI"}
+        links : {"GitHub" : "https://github.com/rflynn523/BudgetGUI"}
     }
 
     ResumeWebApp = 
@@ -50,7 +52,7 @@ class ProjectPage extends React.Component
         image : resumeWebApp,
         description : "A website that diaplays my resume information better while also giving more in depth details. Also acts as a way to document the work I have done",
         technology : ["ReactJS used to create the web pages and components", "CSS handles the styling of the web app."],
-        links : {"Github" : "https://github.com/rflynn523/BudgetGUI"}
+        links : {} // Github??
     }
 
     MultiFuncLED =
@@ -62,7 +64,10 @@ class ProjectPage extends React.Component
         technology : ["MSP430... controls the two seven segment LEDs with jumper wires and a bread board",
                       "C code developed in Code Composer Studio"],
 
-        links : {"Github" : "https://github.com/rflynn523/BudgetGUI"}
+        links : {
+                    "GitHub" : "https://github.com/rflynn523/Multi-Function-LED-Display",
+                    "Youtube" : "https://www.youtube.com/watch?v=Ino6i9vFSoI&feature=youtu.be"
+        }
     }
 
     EscapeRoom = 
@@ -74,7 +79,7 @@ class ProjectPage extends React.Component
         technology : ["Created for a group project for Process of Object Oriented Programming",
                       "Made with Java in Android Studio"],
 
-        links : {"Github" : "https://github.com/rflynn523/BudgetGUI"}//"Github? and more pictures?"
+        links : {} // More Pictures??
     }
 
     GroupBuy = 
@@ -87,7 +92,7 @@ class ProjectPage extends React.Component
                       "The APIs consist of JavaScript and PHP to make queries from the database with SQL",
                       "Database Systems class"],
 
-        links : {"Github" : "https://github.com/rflynn523/BudgetGUI"}//"Github? and more pictures?"
+        links : {} // More Pictures?
     }
 
     SQLGUI =
@@ -101,7 +106,7 @@ class ProjectPage extends React.Component
                       "MySQL Workbench",
                       "Enterprise Computing class"],
 
-        links : {"Github" : "https://github.com/rflynn523/BudgetGUI"}//"Github?"
+        links : {"GitHub" : "https://github.com/rflynn523/Java-Reference-Programs/tree/master/Assignment4/SqlGUI"}
     }
 
     WheresWaldo = 
@@ -113,7 +118,7 @@ class ProjectPage extends React.Component
         technology : ["Created in a Robotic Systems course", "Developed in Python with Google Colab",
                       "OpenCV library"],
 
-        links : {"Github" : "https://github.com/rflynn523/BudgetGUI"}//"Github"
+        links : {"GitHub" : "https://github.com/rflynn523/Python-Reference-Programs/tree/master/Template%20Matching"}
     }
 
     icons = {"GitHub" : githubIcon, "Youtube" : youtubeIcon}

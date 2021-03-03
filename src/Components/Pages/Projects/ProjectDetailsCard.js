@@ -21,7 +21,7 @@ class ProjectDetailsCard extends React.Component
         {
             linkList.push(
                 <a className = "detailLink" href = {this.props.project.links[keys[i]]} target="_blank">
-                    <img className = "linkIcon" src={this.props.icons[keys[i]]} width ="15px" height="15px"/>
+                    <img className = "linkIcon" src={this.props.icons[keys[i]]} width ="18px" height="18px"/>
                 </a>
             )
         }
