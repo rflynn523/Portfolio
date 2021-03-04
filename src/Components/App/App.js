@@ -35,28 +35,20 @@ class App extends React.Component
         break;
 
       case "Education":
-      {
         component = <Education/>;
         break;
-      }
     
       case "Skills":
-      {
         component = <Skills/>;
         break;
-      }
 
       case "Projects":
-      {
         component = <ProjectPage/>;
         break;
-      }
 
       case "Contact":
-      {
         component = <Contact/>;
         break;
-      }
 
       default:
         component = <Home/>

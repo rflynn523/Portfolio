@@ -24,7 +24,7 @@ class ProjectPage extends React.Component
         image : petConnect,
         description : "A smart home system that allows people to let their pet outside when they are not home.",
         technology : ["Raspberry Pi controls senors, door motor, speaker, and camera",
-                    "MSP430 Microcontroller controllers the home display",
+                    "MSP430 Microcontroller controls the home display",
                     "An Android app allows the user to change the mode, open or close the door, and interact with their pet",
                     "Google Firebase keeps track of the user's data and keeps each component up to date."],
         links : {
@@ -50,7 +50,7 @@ class ProjectPage extends React.Component
         title : "Resume Web App",
         date : "August 2020 - December 2020",
         image : resumeWebApp,
-        description : "A website that diaplays my resume information better while also giving more in depth details. Also acts as a way to document the work I have done",
+        description : "A website that displays my resume information in a more interactive way while also giving more in depth details. Also acts as a way to document the work I have done",
         technology : ["ReactJS used to create the web pages and components", "CSS handles the styling of the web app."],
         links : {} // Github??
     }
@@ -61,7 +61,7 @@ class ProjectPage extends React.Component
         date : "May 2019 - August 2019",
         image : ledDisplay,
         description : "Two seven segment diaplays that will ouptut different modes for the user",
-        technology : ["MSP430... controls the two seven segment LEDs with jumper wires and a bread board",
+        technology : ["MSP4302553 controls the two seven segment LEDs with jumper wires and a bread board",
                       "C code developed in Code Composer Studio"],
 
         links : {
@@ -76,7 +76,7 @@ class ProjectPage extends React.Component
         date : "August 2019 - Novembere 2019",
         image : escapeRoomImage,
         description : "A different take on an escape room game that consists of puzzles that you must solve to move onto the next level.",
-        technology : ["Created for a group project for Process of Object Oriented Programming",
+        technology : ["Created for a group project for Process of Object Oriented Programming course",
                       "Made with Java in Android Studio"],
 
         links : {} // More Pictures??
@@ -90,7 +90,7 @@ class ProjectPage extends React.Component
         description : "Group project that developed a web application similar to Groupon that sells items and gives out discount codes.",
         technology : ["HTML and CSS was used to create the web pages",
                       "The APIs consist of JavaScript and PHP to make queries from the database with SQL",
-                      "Database Systems class"],
+                      "Created for a Database Systems class"],
 
         links : {} // More Pictures?
     }
@@ -104,7 +104,7 @@ class ProjectPage extends React.Component
         technology : ["Java Programming Language",
                       "Java Servlet Pages",
                       "MySQL Workbench",
-                      "Enterprise Computing class"],
+                      "Developed for Enterprise Computing class"],
 
         links : {"GitHub" : "https://github.com/rflynn523/Java-Reference-Programs/tree/master/Assignment4/SqlGUI"}
     }

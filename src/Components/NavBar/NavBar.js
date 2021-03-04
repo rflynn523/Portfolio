@@ -18,7 +18,6 @@ class NavBar extends React.Component
                 <Button id = "Skills" onClick={this.props.onClick} />
                 <Button id = "Projects" onClick={this.props.onClick} />
                 <Button id = "Work Experience" onClick={this.props.onClick} />
-                <Button id = "Resume?" onClick={this.props.onClick} />
            </div>
         )
     }

@@ -24,7 +24,12 @@ class Home extends React.Component
                     features more information on my education along with interactive Projects and Skills pages.
 
                     <h3>Contact Info</h3>
-                    <div>This is my contact info</div>
+                    <div>
+                        This is my contact info
+                        Add Linked In 
+                        Add Github Link
+                        Add Resume Link    
+                    </div>
                 </p>
 
                 <img src = {engBuilding} />
