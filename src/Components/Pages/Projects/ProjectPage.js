@@ -42,13 +42,13 @@ class ProjectPage extends React.Component
         description : "A Desktop GUI Application that assists with a personal budget MicroSoft Excel Spreadsheet.",
         technology : ["Developed in PyCharm using Python", "The Tkinter library is used to make the GUI",
                       "Openpyxl is used to interact with the excel spreadsheet"],
-        links : {"GitHub" : "https://github.com/rflynn523/BudgetGUI"}
+        links : {"GitHub" : "https://github.com/rflynn523/BudgetGUI"}// More pics?
     }
 
     ResumeWebApp = 
     {
         title : "Resume Web App",
-        date : "August 2020 - December 2020",
+        date : "August 2020 - Feburary 2020",
         image : resumeWebApp,
         description : "A website that displays my resume information in a more interactive way while also giving more in depth details. Also acts as a way to document the work I have done",
         technology : ["ReactJS used to create the web pages and components", "CSS handles the styling of the web app."],
@@ -73,7 +73,7 @@ class ProjectPage extends React.Component
     EscapeRoom = 
     {
         title : "Escape Room",
-        date : "August 2019 - Novembere 2019",
+        date : "August 2019 - November 2019",
         image : escapeRoomImage,
         description : "A different take on an escape room game that consists of puzzles that you must solve to move onto the next level.",
         technology : ["Created for a group project for Process of Object Oriented Programming course",
@@ -130,7 +130,7 @@ class ProjectPage extends React.Component
         // Add the buttons to switch the views 
         // Possibly only need to change the class name to switch the layout from grid to list??
         return (<div>
-                View Option Goes Here
+                {/* View Option Goes Here */}
                 {/* Probably gonna need to change to an active state */}
                 <ProjectGrid allProjects = {this.all_Projects} icons={this.icons}/> 
                     

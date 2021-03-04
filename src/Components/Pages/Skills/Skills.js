@@ -15,11 +15,11 @@ class Skills extends React.Component
     {
         title : "Programming Languages",
         items : {
-            "Java" : "6 Courses - 4 Projects*",
-            "Python" : "1 Course - 2 Projects - Codecademy",
+            "Java" : "6 Courses - 4 Projects",
+            "Python" : "1 Course - 3 Projects - Codecademy",
             "C" : "4 Courses - 2 Projects",
-            "C++" : "1 Course - 1 Project - Codecademy",
-            "SQL" : "2 Courses - 3 Projects",
+            "C++" : "1 Course - Codecademy",
+            "SQL" : "2 Courses - 2 Projects",
             "JavaScript" : "1 Course - 2 Projects - Codecademy",
             "HTML" : "1 Course - 2 Projects",
             "CSS" : "1 Course - 1 Projects - Codecademy",
@@ -33,13 +33,13 @@ class Skills extends React.Component
     {
         title : "IDEs",
         items : {
-            "Visual Studio Code" : "2 Courses - 2 Projects", 
+            "Visual Studio Code" : "2 Courses - Various Projects", 
             "Atom" : "4 Courses", 
             "Android Studio" : "2 Courses - 2 Projects", 
-            "PyCharm" : "1 Project", 
+            "PyCharm" : "1 Project - 1 Course", 
             "Eclipse" : "1 Course", 
             "Code Composer Studio" : "2 Courses - 1 Project", 
-            "Google Colab" : "1 Course"
+            "Google Colab" : "1 Course - 1 Project"
         }
     }
 
@@ -49,7 +49,7 @@ class Skills extends React.Component
         items : {
             "ReactJS" : "2 Projects - Codecademy", 
             "Tkinter" : "1 Project", 
-            "java Swing" : "1 Course - 2 Projects", 
+            "Java Swing" : "1 Course - 2 Projects", 
             "OpenCV" : "1 Course", 
             "Openpyxl" : "1 Project", 
             "Apache Tomcat" : "2 Courses - 2 Projects"
