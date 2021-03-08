@@ -2,10 +2,9 @@ import React from 'react';
 import '../Home/Home.css'
 import engBuilding from '../../../images/ENGBuildingWebSize.jpg';
 
-// Not used but keeping for now
-// import cap from '../../../images/CapThrowWebSize.jpg';
-// import trees from '../../../images/BackTreesWebSize.jpg';
-// import Button from '../../Button/Button'
+import linkedInIcon from '../../../images/LI-In-Bug.png'
+import githubIcon from '../../../images/GitHub-Logo.png'
+import mailIcon from '../../../images/envelope.png'
 
 // Home page component
 // (App -> Home)
@@ -18,17 +17,22 @@ class Home extends React.Component
                 <p>
                     <h2>About Me</h2>
                     A young engineer with a growing passion for creating software and learning new about new 
-                    technology. I recently graduated from UCF in December of 2020 and start working as a 
+                    technology. I recently graduated from UCF in December of 2020 and started working as a 
                     Computer Programmer Intern at Cuhaci & Peterson where I am currently employed. This web app
-                    serves as an extension of my Resume and also gave me the opportunity to learn ReactJS. It 
+                    serves as an extension of my resume and also gave me the opportunity to learn ReactJS. It 
                     features more information on my education along with interactive Projects and Skills pages.
 
                     <h3>Contact Info</h3>
-                    <div>
-                        This is my contact info
-                        Add Linked In 
-                        Add Github Link
-                        Add Resume Link    
+                    <div className="contactInfoLink">
+                            <a href = "mailto:rflynn523@yahoo.com"  target="_blank">
+                                <img className="contactInfoLink" src={mailIcon} width ="5px" height="5px"/>
+                            </a>
+                            <a href = "https://www.linkedin.com/in/ryan-flynn-5b0a56170/"  target="_blank">
+                                <img className="contactInfoLink" src={linkedInIcon} width ="5px" height="5px"/>
+                            </a>
+                            <a href = "https://github.com/rflynn523"  target="_blank">
+                                <img className="contactInfoLink" src={githubIcon} />
+                            </a>
                     </div>
                 </p>
 
