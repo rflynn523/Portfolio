@@ -5,6 +5,7 @@ import engBuilding from '../../../images/ENGBuildingWebSize.jpg';
 import linkedInIcon from '../../../images/LI-In-Bug.png'
 import githubIcon from '../../../images/GitHub-Logo.png'
 import mailIcon from '../../../images/envelope.png'
+import resumeIcon from '../../../images/resumeIcno.png'
 
 // Home page component
 // (App -> Home)
@@ -32,6 +33,9 @@ class Home extends React.Component
                             </a>
                             <a href = "https://github.com/rflynn523"  target="_blank">
                                 <img className="contactInfoLink" src={githubIcon} />
+                            </a>
+                            <a href = "./Ryan_Flynn_Resume.pdf"  target="_blank">
+                                <img className="contactInfoLink" src={resumeIcon} />
                             </a>
                     </div>
                 </p>

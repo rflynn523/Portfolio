@@ -4,7 +4,6 @@ import Home from '../Pages/Home/Home';
 import Skills from '../Pages/Skills/Skills';
 import ProjectPage from '../Pages/Projects/ProjectPage';
 import Education from '../Pages/Education/Education';
-import Contact from '../Pages/Contact/Contact';
 import './App.css';
 
 // Top Component of the Web app that displays the nav bar, and the active page/component
@@ -46,10 +45,6 @@ class App extends React.Component
         component = <ProjectPage/>;
         break;
 
-      case "Contact":
-        component = <Contact/>;
-        break;
-
       default:
         component = <Home/>
     }
@@ -64,7 +59,6 @@ class App extends React.Component
       <div className="App">
         {/* The font for the website */}
         <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet"/>
-
 
         <NavBar class="navBar" onClick={this.updateActiveComponent} />
         {this.state.activeComponent}
