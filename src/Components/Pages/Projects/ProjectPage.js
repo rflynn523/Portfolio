@@ -19,7 +19,7 @@ class ProjectPage extends React.Component
 {
     PetConnect = 
     {
-        title : "Pet",
+        title : "Pet Connect",
         date : "May 2020 - December 2020",
         image : petConnect,
         description : "A smart home system that allows people to let their pet outside when they are not home.",
@@ -29,7 +29,7 @@ class ProjectPage extends React.Component
                     "Google Firebase keeps track of the user's data and keeps each component up to date."],
         links : {
             "Youtube" :  "https://www.youtube.com/watch?v=4sF6NkZ8nSA&t=3s", // Presentation
-            // "Youtube" : "https://www.youtube.com/watch?v=950Lf8dNDNU&t=2s"   // Demo
+             "Youtube" : "https://www.youtube.com/watch?v=950Lf8dNDNU&t=2s"   // Demo
         }
     }
 
