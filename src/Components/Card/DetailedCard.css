@@ -19,6 +19,11 @@
 
 }
 
+.detailedCard:hover
+{
+    cursor: pointer;
+}
+
 /* The list of courses for each category */
 ul
 {
