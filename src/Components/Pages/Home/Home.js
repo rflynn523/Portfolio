@@ -7,6 +7,8 @@ import githubIcon from '../../../images/GitHub-Logo.png'
 import mailIcon from '../../../images/envelope.png'
 import resumeIcon from '../../../images/resumeIcno.png'
 
+import resumePDF from '../Home/Ryan_Flynn_Resume.pdf'
+
 // Home page component
 // (App -> Home)
 class Home extends React.Component
@@ -34,7 +36,7 @@ class Home extends React.Component
                             <a href = "https://github.com/rflynn523"  target="_blank">
                                 <img className="contactInfoLink" src={githubIcon} />
                             </a>
-                            <a href = "./Ryan_Flynn_Resume.pdf"  target="_blank">
+                            <a href = {resumePDF}  target="_blank">
                                 <img className="contactInfoLink" src={resumeIcon} />
                             </a>
                     </div>
