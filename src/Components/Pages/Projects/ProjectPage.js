@@ -28,8 +28,8 @@ class ProjectPage extends React.Component
                     "An Android app allows the user to change the mode, open or close the door, and interact with their pet",
                     "Google Firebase keeps track of the user's data and keeps each component up to date."],
         links : {
-            // "Youtube" :  "https://www.youtube.com/watch?v=4sF6NkZ8nSA&t=3s", // Presentation
-            "Youtube" : "https://www.youtube.com/watch?v=950Lf8dNDNU&t=2s"   // Demo
+            "Youtube" :  "https://www.youtube.com/watch?v=4sF6NkZ8nSA&t=3s", // Presentation
+            // "Youtube" : "https://www.youtube.com/watch?v=950Lf8dNDNU&t=2s"   // Demo
         }
     }
 
