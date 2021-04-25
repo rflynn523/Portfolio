@@ -20,8 +20,9 @@ class Home extends React.Component
                 <p>
                     <h2>About Me</h2>
                     A young engineer with a growing passion for creating software and learning new about new 
-                    technology. I recently graduated from UCF in December of 2020 and started working as a 
-                    Computer Programmer Intern at Cuhaci & Peterson where I am currently employed. This web app
+                    technology. I recently graduated from UCF in December of 2020 and started working at  
+                    Cuhaci & Peterson where I am currently employed. I started as a Computer Programmer Intern in
+                    January and was promoted to Computational Design Programmer starting in April. This web app
                     serves as an extension of my resume and also gave me the opportunity to learn ReactJS. It 
                     features more information on my education along with interactive Projects and Skills pages.
 
