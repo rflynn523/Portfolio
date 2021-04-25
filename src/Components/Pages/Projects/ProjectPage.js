@@ -19,7 +19,7 @@ class ProjectPage extends React.Component
 {
     PetConnect = 
     {
-        title : "Pet Connect",
+        title : "TEST",
         date : "May 2020 - December 2020",
         image : petConnect,
         description : "A smart home system that allows people to let their pet outside when they are not home.",
