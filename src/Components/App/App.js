@@ -21,19 +21,19 @@ class App extends React.Component
 
     // Initially have it set to the Home page
     this.state = {activeComponent: <Home/> };
-  }
 
-  useEffect()
-  {
     ReactGA.initialize('G-DNY6G9NVY7')
 
     // To report page view
     ReactGA.pageview('/')
+
   }
+
 
   // Function that updates and switch the active page
   updateActiveComponent(id)
   {
+
     let component;
 
     // Switch based on the className that is passed back as id
