@@ -1,8 +1,18 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import ReactGA from 'react-ga'
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './Components/App/App';
 import * as serviceWorker from './serviceWorker';
+
+const App2 = () => 
+{
+    useEffect(() => {
+        ReactGA.initialize('G-DNY6G9NVY7')
+        
+        ReactGA.pageview('/');
+    }, [])
+}
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

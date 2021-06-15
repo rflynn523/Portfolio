@@ -18,8 +18,6 @@ class Home extends React.Component
     
     render()
     {
-        ReactGA.initialize('G-DNY6G9NVY7')
-
         // To report page view
         ReactGA.pageview('/')
     

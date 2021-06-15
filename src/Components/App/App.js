@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ReactGA from 'react-ga'
 
 import NavBar from '../NavBar/NavBar';
@@ -23,7 +23,6 @@ class App extends React.Component
     this.state = {activeComponent: <Home/> };
 
   }
-
 
   // Function that updates and switch the active page
   updateActiveComponent(id)
