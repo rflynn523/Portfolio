@@ -1,4 +1,6 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import ReactGA from 'react-ga'
+
 import NavBar from '../NavBar/NavBar';
 import Home from '../Pages/Home/Home';
 import Skills from '../Pages/Skills/Skills';
@@ -19,6 +21,14 @@ class App extends React.Component
 
     // Initially have it set to the Home page
     this.state = {activeComponent: <Home/> };
+  }
+
+  useEffect()
+  {
+    ReactGA.initialize('G-DNY6G9NVY7')
+
+    // To report page view
+    ReactGA.pageview('/')
   }
 
   // Function that updates and switch the active page
