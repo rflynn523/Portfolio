@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactGA from 'react-ga'
+
 import '../Home/Home.css'
 import engBuilding from '../../../images/ENGBuildingWebSize.jpg';
 
@@ -13,13 +15,19 @@ import resumePDF from '../Home/Ryan_Flynn_Resume.pdf'
 // (App -> Home)
 class Home extends React.Component
 {
+    
     render()
     {
+        ReactGA.initialize('G-DNY6G9NVY7')
+
+        // To report page view
+        ReactGA.pageview('/')
+    
         return(
             <div className="homeGrid">
                 <p>
                     <h2>About Me</h2>
-                    A young engineer with a growing passion for creating software and learning new about new 
+                    second TEST A young engineer with a growing passion for creating software and learning new about new 
                     technology. I recently graduated from UCF in December of 2020 and started working at  
                     Cuhaci & Peterson where I am currently employed. I started as a Computer Programmer Intern in
                     January and was promoted to Computational Design Programmer starting in April. This web app

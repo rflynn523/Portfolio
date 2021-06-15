@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import ReactGA from 'react-ga'
 
 import NavBar from '../NavBar/NavBar';
@@ -21,11 +21,6 @@ class App extends React.Component
 
     // Initially have it set to the Home page
     this.state = {activeComponent: <Home/> };
-
-    ReactGA.initialize('G-DNY6G9NVY7')
-
-    // To report page view
-    ReactGA.pageview('/')
 
   }
 
