@@ -25,7 +25,7 @@ class Home extends React.Component
             <div className="homeGrid">
                 <p>
                     <h2>About Me</h2>
-                    TESTA young engineer with a growing passion for creating software and learning new about new 
+                    A young engineer with a growing passion for creating software and learning new about new 
                     technology. I recently graduated from UCF in December of 2020 and started working at  
                     Cuhaci & Peterson where I am currently employed. I started as a Computer Programmer Intern in
                     January and was promoted to Computational Design Programmer starting in April. This web app
