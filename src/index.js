@@ -5,9 +5,9 @@ import './index.css';
 import App from './Components/App/App';
 import * as serviceWorker from './serviceWorker';
 
-ReactGA.initialize("G-DNY6G9NVY7")
-        
-ReactGA.pageview('ResumeWebApp/');
+ReactGA.initialize("UA-169730099-1")
+            
+ReactGA.pageview("/");
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
