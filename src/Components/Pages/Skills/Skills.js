@@ -124,7 +124,8 @@ class Skills extends React.Component
 
     render()
     {
-        ReactGA.pageview('/skills')
+        // For Tracking purposes
+        ReactGA.pageview('/Skills')
 
         return(<div className="skills">{this.state.activeState}</div>)       
     }

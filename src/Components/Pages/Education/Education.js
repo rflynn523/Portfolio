@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactGA from 'react-ga'
+
 import './Education.css';
 import Card from '../../Card/Card'
 import logo from '../../../images/ucf_logo_horiz.png'
@@ -51,6 +53,8 @@ class Education extends React.Component
 
     render()
     {
+        ReactGA.pageview('/Projects')
+
         return(
             <div className='grid-education'>               
                 <div className="education_title">Education</div>

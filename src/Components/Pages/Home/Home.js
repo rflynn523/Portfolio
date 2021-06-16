@@ -19,7 +19,7 @@ class Home extends React.Component
     render()
     {
         // To report page view
-        ReactGA.pageview('/home')
+        ReactGA.pageview('/Home')
     
         return(
             <div className="homeGrid">

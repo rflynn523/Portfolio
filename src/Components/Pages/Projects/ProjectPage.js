@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactGA from 'react-ga'
+
 import ProjectGrid from './ProjectGrid';
 import ProjectList from './ProjectList';
 import petConnect from '../../../images/Overall.JPG'
@@ -126,6 +128,8 @@ class ProjectPage extends React.Component
 
     render()
     {
+        ReactGA.pageview('/Projects')
+
         // Add the buttons to switch the views 
         // Possibly only need to change the class name to switch the layout from grid to list??
         return (<div>
