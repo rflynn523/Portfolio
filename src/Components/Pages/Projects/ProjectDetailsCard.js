@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactGA from 'react-ga'
 import '../Projects/Project.css'
 import close from '../../../images/close.png'
 
@@ -20,7 +21,7 @@ class ProjectDetailsCard extends React.Component
         for(let i = 0; i < keys.length; i++)
         {
             linkList.push(
-                <a className = "detailLink" href = {this.props.project.links[keys[i]]} target="_blank">
+                <a className = "detailLink" href = {this.props.project.links[keys[i]]} onClick={e=>ReactGA.event({category:"Link Clicked", action:this.props.project.links[keys[i]]})} target="_blank">
                     <img className = "linkIcon" src={this.props.icons[keys[i]]} width ="18px" height="18px"/>
                 </a>
             )

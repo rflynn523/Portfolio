@@ -11,6 +11,15 @@ import resumeIcon from '../../../images/resumeIcno.png'
 
 import resumePDF from '../Home/Ryan_Flynn_Resume.pdf'
 
+// Tracking Pages
+//      (/, /Home, /Education. /Skills, /Projects)
+// Tracking Events
+//      Links Clicked (Home Page Icons - Home.js) 
+//      Skills Selected (Card.js)
+//      Project Details Viewed (ProjectBox.js)
+//      Links Clicked (Project Detail Links - ProjectDetailsCard.js)
+
+
 // Home page component
 // (App -> Home)
 class Home extends React.Component
@@ -35,16 +44,16 @@ class Home extends React.Component
                     <h3>Contact Info</h3>
                     <div className="contactInfoLink">
                             <a href = "mailto:rflynn523@yahoo.com"  target="_blank">
-                                <img className="contactInfoLink" src={mailIcon} width ="5px" height="5px"/>
+                                <img className="contactInfoLink" src={mailIcon} width ="5px" height="5px" onClick={e=>ReactGA.event({category:"Link Clicked", action:"Email"})}/>
                             </a>
-                            <a href = "https://www.linkedin.com/in/ryan-flynn-5b0a56170/"  target="_blank">
+                            <a href = "https://www.linkedin.com/in/ryan-flynn-5b0a56170/"  target="_blank" onClick={e=>ReactGA.event({category:"Link Clicked", action:"LinkedIn"})}>
                                 <img className="contactInfoLink" src={linkedInIcon} width ="5px" height="5px"/>
                             </a>
-                            <a href = "https://github.com/rflynn523"  target="_blank">
+                            <a href = "https://github.com/rflynn523"  target="_blank" onClick={e=>ReactGA.event({category:"Link Clicked", action:"Github Profile"})}>
                                 <img className="contactInfoLink" src={githubIcon} />
                             </a>
                             <a href = {resumePDF}  target="_blank">
-                                <img className="contactInfoLink" src={resumeIcon} onClick={e=>ReactGA.event({category:"Clicked Link", action:"CLicked Resume"})} />
+                                <img className="contactInfoLink" src={resumeIcon} onClick={e=>ReactGA.event({category:"Link Clicked", action:"Resume"})} />
                             </a>
                     </div>
                 </p>
