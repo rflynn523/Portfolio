@@ -22,6 +22,12 @@ class App extends React.Component
     // Initially have it set to the Home page
     this.state = {activeComponent: <Home/> };
 
+    
+    ReactGA.initialize("UA-GDNY6G9NVY-7")
+            
+    ReactGA.pageview("/");
+
+
   }
 
   // Function that updates and switch the active page
