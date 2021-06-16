@@ -5,14 +5,9 @@ import './index.css';
 import App from './Components/App/App';
 import * as serviceWorker from './serviceWorker';
 
-const App2 = () => 
-{
-    useEffect(() => {
-        ReactGA.initialize('G-DNY6G9NVY7')
+ReactGA.initialize("G-DNY6G9NVY7")
         
-        ReactGA.pageview('/');
-    }, [])
-}
+ReactGA.pageview('/');
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
