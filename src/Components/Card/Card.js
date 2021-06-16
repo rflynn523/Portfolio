@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactGA from 'react-ga'
 import './Card.css';
 
 // Card component responsible for taking in object of info and creating the card list
@@ -28,6 +29,9 @@ class Card extends React.Component
 
         if(title == "CS" || title == "EE" || title == "CpE")
             return;
+
+        // Tracking specific events
+        ReactGA.event({category: 'Selected a skill', action:"Viewed the " + title + "skills card"})
         
         this.props.onClick(title);
     }

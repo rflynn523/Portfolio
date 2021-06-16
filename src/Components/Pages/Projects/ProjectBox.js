@@ -22,7 +22,8 @@ class ProjectBox extends React.Component
     {
         if(this.state.class === "Title")
         {
-            ReactGA.event({category: 'Project Details Viewed', action:"Viewed the " + this.props.project.title})
+            // Tracking specific events
+            ReactGA.event({category: 'Project Details Viewed', action:"Viewed the " + this.props.project.title + "details"})
             this.setState({class : "Details", active : <ProjectDetailsCard project={this.props.project} icons={this.props.icons}/>});
         }
             
