@@ -23,7 +23,7 @@ class App extends React.Component
     this.state = {activeComponent: <Home/> };
 
     
-    ReactGA.initialize("UA-GDNY6G9NVY-7")
+    ReactGA.initialize("UA-169730099-1")
             
     ReactGA.pageview("/");
 
