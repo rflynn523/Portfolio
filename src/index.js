@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactGA.initialize("G-DNY6G9NVY7")
         
-ReactGA.pageview('/ResumeWebApp/');
+ReactGA.pageview('ResumeWebApp/');
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
