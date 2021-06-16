@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactGA from 'react-ga'
+
 import './Skills.css';
 import SelectedSkill from './SelectedSkill';
 import UnSelectedSkills from './UnSelectedSkills';
