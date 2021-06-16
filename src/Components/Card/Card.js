@@ -31,7 +31,7 @@ class Card extends React.Component
             return;
 
         // Tracking specific events
-        ReactGA.event({category: 'Selected a skill', action:"Viewed the " + title + "skills card"})
+        ReactGA.event({category: 'Selected a Skill', action: title})
         
         this.props.onClick(title);
     }

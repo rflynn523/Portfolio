@@ -53,7 +53,7 @@ class Education extends React.Component
 
     render()
     {
-        ReactGA.pageview('/Projects')
+        ReactGA.pageview('/Education')
 
         return(
             <div className='grid-education'>               

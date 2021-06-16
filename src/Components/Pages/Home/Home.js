@@ -44,7 +44,7 @@ class Home extends React.Component
                                 <img className="contactInfoLink" src={githubIcon} />
                             </a>
                             <a href = {resumePDF}  target="_blank">
-                                <img className="contactInfoLink" src={resumeIcon} />
+                                <img className="contactInfoLink" src={resumeIcon} onClick={e=>ReactGA.event({category:"Clicked Link", action:"CLicked Resume"})} />
                             </a>
                     </div>
                 </p>
