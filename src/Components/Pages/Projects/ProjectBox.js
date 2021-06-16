@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactGA from 'react-ga'
 import '../Projects/Project.css'
 import ProjectTitleCard from './ProjectTitleCard';
 import ProjectDetailsCard from './ProjectDetailsCard'
@@ -20,8 +21,11 @@ class ProjectBox extends React.Component
     showDetails()
     {
         if(this.state.class === "Title")
+        {
+            ReactGA.event({category: 'Project Details Viewed', action:"Viewed the " + this.props.project.title})
             this.setState({class : "Details", active : <ProjectDetailsCard project={this.props.project} icons={this.props.icons}/>});
-
+        }
+            
         else
             this.setState({class : "Title", active : <ProjectTitleCard project={this.props.project}/>})
     }
