@@ -6,6 +6,7 @@ import Home from '../Pages/Home/Home';
 import Skills from '../Pages/Skills/Skills';
 import ProjectPage from '../Pages/Projects/ProjectPage';
 import Education from '../Pages/Education/Education';
+import Work from '../Pages/Work/Work';
 import './App.css';
 
 // Top Component of the Web app that displays the nav bar, and the active page/component
@@ -21,14 +22,11 @@ class App extends React.Component
 
     // Initially have it set to the Home page
     this.state = {activeComponent: <Home/> };
-
-    
   }
 
   // Function that updates and switch the active page
   updateActiveComponent(id)
   {
-
     let component;
 
     // Switch based on the className that is passed back as id
@@ -48,6 +46,10 @@ class App extends React.Component
 
       case "Projects":
         component = <ProjectPage/>;
+        break;
+
+      case "Work Experience":
+        component = <Work/>;
         break;
 
       default:
