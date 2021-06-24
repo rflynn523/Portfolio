@@ -28,25 +28,19 @@ class Work extends React.Component
     // }
     
     // Work Object
-    // CP = 
-    // {
-    //     title : "Cuhaci & Peterson AEC",
-    //     date : "Jan 2021 - Present",
-    //     image : CPLogo, ??? CP Logo
-    //     description : "A general overview of my role and whate I do",
-    //     technology : ["List of accomplishments"],
-    //     links : {} // Any links that I can share but probably none
-    // }
+    CP = 
+    {
+        title : "Cuhaci & Peterson AEC",
+        date : "Jan 2021 - Present",
+        // image : CPLogo, ??? CP Logo
+        description : "A general overview of my role and whate I do",
+        technology : ["List of accomplishments"],
+        links : {} // Any links that I can share but probably none
+    }
     
     
     // Array of all the objects
-    Objects = [this.progLanguages_Object]
-
-    constructor(props)
-    {
-        super(props);
-        this.state = { activeState: <UnSelectedSkills allObjects={this.Objects} onUnselected={this.switchToSelected}/>};
-    }
+    allWork = [this.CP, this.CP, this.CP, this.CP]
 
     render()
     {
@@ -54,7 +48,8 @@ class Work extends React.Component
         ReactGA.pageview('/Work')
 
         return(<div className="work">
-            <ListCard allWork = {this.Objects}/>
+            <h1>Hello this is the work Experience page</h1>
+            <ListCard allObjects = {this.allWork}/>
         </div>)       
     }
 }
