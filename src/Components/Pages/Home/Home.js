@@ -9,7 +9,7 @@ import githubIcon from '../../../images/GitHub-Logo.png'
 import mailIcon from '../../../images/envelope.png'
 import resumeIcon from '../../../images/resumeIcno.png'
 
-import resumePDF from '../Home/Ryan_Flynn_Resume.pdf'
+import resumePDF from '../Home/Ryan Flynn Resume.pdf'
 
 // Tracking Pages
 //      (/, /Home, /Education. /Skills, /Projects)
@@ -34,7 +34,7 @@ class Home extends React.Component
             <div className="homeGrid">
                 <p>
                     <h2>About Me</h2>
-                    A young engineer with a growing passion for creating software and learning new about new 
+                    A young engineer with a growing passion for creating software and learning about new 
                     technology. I recently graduated from UCF in December of 2020 and started working at  
                     Cuhaci & Peterson where I am currently employed. I started as a Computer Programmer Intern in
                     January and was promoted to Computational Design Programmer starting in April. This web app

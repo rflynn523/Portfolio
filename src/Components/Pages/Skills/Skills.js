@@ -17,12 +17,13 @@ class Skills extends React.Component
     {
         title : "Programming Languages",
         items : {
+            "Python" : "1 Course - 3 Projects - Cuhaci & Peterson - Codecademy",
             "Java" : "6 Courses - 4 Projects",
-            "Python" : "1 Course - 3 Projects - Codecademy",
             "C" : "4 Courses - 2 Projects",
             "C++" : "1 Course - Codecademy",
-            "SQL" : "2 Courses - 2 Projects",
+            "C#" : "Cuhaci & Peterson",
             "JavaScript" : "1 Course - 2 Projects - Codecademy",
+            "SQL" : "2 Courses - 2 Projects",
             "HTML" : "1 Course - 2 Projects",
             "CSS" : "1 Course - 1 Projects - Codecademy",
             "Haskell" : "1 Course", 
@@ -41,7 +42,8 @@ class Skills extends React.Component
             "PyCharm" : "1 Project - 1 Course", 
             "Eclipse" : "1 Course", 
             "Code Composer Studio" : "2 Courses - 1 Project", 
-            "Google Colab" : "1 Course - 1 Project"
+            "Google Colab" : "1 Course - 1 Project",
+            "Dynamo" : "Cuhaci & Peterson"
         }
     }
 
@@ -93,6 +95,8 @@ class Skills extends React.Component
         title : "Other",
         items : {
             "Github" : "3 Courses - 3 Projects",
+            "REST APIs" : "Cuhaci & Peterson",
+            "Postman" : "Cuhaci & Peterson",
             "Microsoft Office" : ""
         }
     }
