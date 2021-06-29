@@ -17,7 +17,7 @@ class NavBar extends React.Component
                 <Button id = "Education" onClick={this.props.onClick} />
                 <Button id = "Skills" onClick={this.props.onClick} />
                 <Button id = "Projects" onClick={this.props.onClick} />
-                {/* <Button id = "Work Experience" onClick={this.props.onClick} /> */}
+                <Button id = "Work Experience" onClick={this.props.onClick} />
            </div>
         )
     }

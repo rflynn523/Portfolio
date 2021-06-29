@@ -33,8 +33,8 @@ class Work extends React.Component
         title : "Cuhaci & Peterson AEC",
         date : "Jan 2021 - Present",
         // image : CPLogo, ??? CP Logo
-        description : "A general overview of my role and whate I do",
-        technology : ["List of accomplishments"],
+        description : "A general overview of my role and whate I do, I want to seeeeeeeee how long the text goes out",
+        technology : ["List of accomplishments, List of accomplishments, List of accomplishments"],
         links : {} // Any links that I can share but probably none
     }
     
@@ -48,7 +48,6 @@ class Work extends React.Component
         ReactGA.pageview('/Work')
 
         return(<div className="work">
-            <h1>Hello this is the work Experience page</h1>
             <ListCard allObjects = {this.allWork}/>
         </div>)       
     }

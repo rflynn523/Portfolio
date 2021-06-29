@@ -1,0 +1,38 @@
+.listCard
+{
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+
+    background-color: #fff;
+    /* color: #333; */
+
+    font-size: 20px;
+
+    align-items: center;
+
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+/* 
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px; */
+
+    margin: 2rem 2rem 2rem 2rem;
+    padding: 30px;
+
+}
+
+h3, h4, .listCardText
+{
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.listCardText
+{
+  justify-content: top;
+  z-index: 10;
+
+  grid-column-start: 2;
+  /* grid-column-end: 9; */
+}

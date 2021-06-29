@@ -9,7 +9,6 @@ import './ListCard.css'
 // Next I would look at the CSS and add more work experience for testing
 class ListCard extends React.Component
 {
-    
     constructor(props)
     {
         super(props);
@@ -24,14 +23,14 @@ class ListCard extends React.Component
         for (let i = 0; i < numObjects; i++)
         {
             let currentObject = this.props.allObjects[i]
-            alert(currentObject.title)
             let newCard = (
-                <div className = "card">
+                <div className = "listCard">
+                    <div>Image goes here</div>
                     {/* <div className = "image"></div> */}
 
-                    <div>
-                        <h2>{currentObject.title}</h2>
-                        <h3>{currentObject.date}</h3>
+                    <div className="listCardtext">
+                        <h3>{currentObject.title}</h3>
+                        <h4>{currentObject.date}</h4>
 
                         <div>{currentObject.description}</div>
                         <br/>
@@ -50,7 +49,7 @@ class ListCard extends React.Component
 
     render()
     {
-        return(<div className="listCard">{this.createCards()}</div>)       
+        return(this.createCards())       
     }
 
 }
