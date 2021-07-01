@@ -25,8 +25,12 @@ class ListCard extends React.Component
             let currentObject = this.props.allObjects[i]
             let newCard = (
                 <div className = "listCard">
-                    <div>Image goes here</div>
+                    {/* <div>Image goes here</div> */}
                     {/* <div className = "image"></div> */}
+                    <div>
+                        <img src={currentObject.image}/>
+                    </div>
+
 
                     <div className="listCardtext">
                         <h3>{currentObject.title}</h3>

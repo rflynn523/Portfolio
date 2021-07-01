@@ -2,6 +2,7 @@
 {
     display: grid;
     grid-template-columns: 2fr 8fr;
+    grid-template-rows: 1fr;
 
     background-color: #fff;
     /* color: #333; */
@@ -11,20 +12,14 @@
     align-items: center;
 
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-/* 
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 15px;
-    margin-bottom: 15px; */
 
     margin: 2rem 2rem 2rem 2rem;
-    padding: 30px;
-
+    padding: 10px;
 }
 
 h3, h4, .listCardText
 {
-    margin-top: auto;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -35,4 +30,16 @@ h3, h4, .listCardText
 
   grid-column-start: 2;
   /* grid-column-end: 9; */
+
+}
+
+.listCard img
+{
+  z-index: 5;
+  height: 15rem;
+  width: 30rem;
+  padding-right: 30px;
+  /* grid-column-start: 0; */
+  /* grid-column-end: 1; */
+
 }

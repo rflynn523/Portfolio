@@ -3,6 +3,8 @@ import ReactGA from 'react-ga'
 
 import ProjectGrid from './ProjectGrid';
 import ProjectList from './ProjectList';
+import ListCard from '../../Card/ListCard';
+
 import petConnect from '../../../images/Overall.JPG'
 import budgetGUI from '../../../images/New_Month.JPG'
 import resumeWebApp from '../../../images/ResumeWebApp.JPG'
@@ -135,7 +137,8 @@ class ProjectPage extends React.Component
         return (<div>
                 {/* View Option Goes Here */}
                 {/* Probably gonna need to change to an active state */}
-                <ProjectGrid allProjects = {this.all_Projects} icons={this.icons}/> 
+                {/* <ProjectGrid allProjects = {this.all_Projects} icons={this.icons}/>  */}
+                <ListCard allObjects = {this.all_Projects} />
                     
             </div>)
     }
