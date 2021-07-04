@@ -14,6 +14,23 @@ class ListCard extends React.Component
         super(props);
         this.createCards = this.createCards.bind(this);
     }
+
+    setupLinks(links)
+    {
+        let linkList = [];
+        let keys = Object.keys(links);
+
+        // Add the links and the icons based on the links object
+        for(let i = 0; i < keys.length; i++)
+        {
+            linkList.push(
+                <a className = "listCardLink" href = {links[keys[i]]} target="_blank">
+                    <img src={this.props.icons[keys[i]]}/>
+                </a>
+            )
+        }
+        return linkList;
+    }
     
     createCards() 
     {
@@ -39,7 +56,11 @@ class ListCard extends React.Component
                         <div>{currentObject.description}</div>
                         <br/>
                         <div>{currentObject.technology}</div>
-                        <div>this is where the links go</div>
+                        
+                        {/* <div className="dividerLine">
+                            {this.setupLinks(currentObject.links)}
+                        </div> */}
+                        {/* <div>this is where the links go</div> */}
 
                     </div>
                 </div>

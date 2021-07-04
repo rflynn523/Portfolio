@@ -16,6 +16,7 @@ import ledDisplay from '../../../images/LEDDisplay.JPG'
 
 import githubIcon from '../../../images/GitHub-Logo.png'
 import youtubeIcon from '../../../images/youtubeIcon.png'
+import { act } from '@testing-library/react';
 
 // Project page component that holds all of the info abd switch betweeb list and grid view
 // (App -> ProjectPage)
@@ -128,6 +129,31 @@ class ProjectPage extends React.Component
     all_Projects = [this.PetConnect, this.BudgetGUI, this.ResumeWebApp, this.MultiFuncLED, 
                     this.EscapeRoom, this.GroupBuy, this.SQLGUI, this.WheresWaldo]
 
+    constructor(props)
+    {
+        super(props);
+        this.switchView = this.switchView.bind(this)
+        this.state = 
+        {   
+            activeComponentId : "Grid View",
+            activeComponent: <ProjectGrid allProjects = {this.all_Projects} icons={this.icons}/> 
+        };
+
+    }
+
+    switchView()
+    {
+        if(this.state.activeComponentId == "List View")
+        {
+            this.setState({activeComponentId: "Grid View", activeComponent: <ProjectGrid allProjects = {this.all_Projects} icons={this.icons}/>})
+        }
+
+        else
+        {
+            this.setState({activeComponentId: "List View", activeComponent: <ListCard allObjects = {this.all_Projects} icons={this.icons}/>})
+        }
+    }
+
     render()
     {
         ReactGA.pageview('/Projects')
@@ -136,10 +162,8 @@ class ProjectPage extends React.Component
         // Possibly only need to change the class name to switch the layout from grid to list??
         return (<div>
                 {/* View Option Goes Here */}
-                {/* Probably gonna need to change to an active state */}
-                {/* <ProjectGrid allProjects = {this.all_Projects} icons={this.icons}/>  */}
-                <ListCard allObjects = {this.all_Projects} />
-                    
+                <button onClick = {this.switchView}>{this.state.activeComponentId}</button>
+                {this.state.activeComponent}
             </div>)
     }
 }
