@@ -2,7 +2,6 @@ import React from 'react';
 import ReactGA from 'react-ga'
 
 import ProjectGrid from './ProjectGrid';
-import ProjectList from './ProjectList';
 import ListCard from '../../Card/ListCard';
 
 import petConnect from '../../../images/Overall.JPG'
@@ -160,8 +159,11 @@ class ProjectPage extends React.Component
 
         // Add the buttons to switch the views 
         // Possibly only need to change the class name to switch the layout from grid to list??
-        return (<div>
-                <button className="viewSwitcher" onClick = {this.switchView}>{this.state.activeComponentId}</button>
+        return (
+            <div>
+                <div className="viewSwitcher" onClick = {this.switchView}>
+                    {this.state.activeComponentId}
+                </div>
                 {this.state.activeComponent}
             </div>)
     }
