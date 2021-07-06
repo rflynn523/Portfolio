@@ -38,6 +38,11 @@ class ListCard extends React.Component
         {
             return (<h4>{currentObject.date}</h4>)
         }
+
+        else
+        {
+            return (<h4>{currentObject.links}</h4>)
+        }
     }
 
     // Sets up the links for each project
