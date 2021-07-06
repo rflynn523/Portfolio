@@ -13,8 +13,34 @@ class ListCard extends React.Component
     {
         super(props);
         this.createCards = this.createCards.bind(this);
+        this.imageCheck = this.imageCheck.bind(this);
+        this.dateCheck = this.dateCheck.bind(this);
     }
 
+    // Return special divs based on if the parent component is a Work component
+    imageCheck(currentObject)
+    {
+        if(this.props.componentType == "Work")
+        {
+            return(<div>{currentObject.date}</div>)
+        }
+
+        else
+        {
+            return (<div><img src={currentObject.image}/></div>)
+        }
+    }
+
+    // Check to see if the date is needed as part of the list break down
+    dateCheck(currentObject)
+    {
+        if(this.props.componentType != "Work")
+        {
+            return (<h4>{currentObject.date}</h4>)
+        }
+    }
+
+    // Sets up the links for each project
     setupLinks(links)
     {
         let linkList = [];
@@ -32,6 +58,7 @@ class ListCard extends React.Component
         return linkList;
     }
     
+    // Function to create each card
     createCards() 
     {
         let cards = []
@@ -42,16 +69,11 @@ class ListCard extends React.Component
             let currentObject = this.props.allObjects[i]
             let newCard = (
                 <div className = "listCard">
-                    {/* <div>Image goes here</div> */}
-                    {/* <div className = "image"></div> */}
-                    <div>
-                        <img src={currentObject.image}/>
-                    </div>
-
-
+                    {this.imageCheck(currentObject)}
+                    
                     <div className="listCardtext">
                         <h3>{currentObject.title}</h3>
-                        <h4>{currentObject.date}</h4>
+                        {this.dateCheck(currentObject)}
 
                         <div>{currentObject.description}</div>
                         <br/>
