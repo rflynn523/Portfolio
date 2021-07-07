@@ -14,17 +14,18 @@ class Work extends React.Component
     {
         title : "Computational Design Programmer",
         date : "Jan 2021 - Present",
-        // image : CPLogo, ??? CP Logo
-        description : "A general overview of my role and whate I do, I want to seeeeeeeee how long the text goes out",
-        technology : ["List of accomplishments, List of accomplishments, List of accomplishments"],
-        links : "Cuhaci & Peterson AEC" // Any links that I can share but probably none/ Use for the company name
+        description : "Develop automation scripts that create Revit models for teams within the company. " + 
+                        "Using Computational Design to incorporate intelligence to make workflows more efficient. " + 
+                        "Building team specific software such as a desktop GUI for teams to record locations of site photos.",
+        technology : [],
+        links : "Cuhaci & Peterson Architects" // Any links that I can share but probably none/ Use for the company name
     }
 
     shipt =
     {
         title : "Shipt Shopper",
         date : "Feb 2017 - Dec 2020",
-        description : "I shopped for and delivered groceries to the customer with in the delivery window. Along the way I would comunicate with the customer about the status of their items.",
+        description : "Shopped for and delivered groceries to the customer with in the delivery window. Along the way I would comunicate with the customer about the status of their items.",
         technology : [],
         links : "Shipt"
     }
