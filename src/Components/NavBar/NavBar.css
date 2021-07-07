@@ -12,7 +12,8 @@
 
 .name
 {   
-    color: greenyellow;
+    /* color: greenyellow; */
+    color:  #1aff1a;
 
     font-size: 30px;
     /* font-family: 'Courgette', cursive; */

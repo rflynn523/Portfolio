@@ -9,6 +9,11 @@
   overflow-x: hidden;
 }
 
+button
+{
+  font-family: "Trebuchet MS";
+}
+
 /* Intro paragraph */
 p
 {
