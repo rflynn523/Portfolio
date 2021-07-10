@@ -32,8 +32,8 @@ class ProjectPage extends React.Component
                     "An Android app allows the user to change the mode, open or close the door, and interact with their pet",
                     "Google Firebase keeps track of the user's data and keeps each component up to date."],
         links : {
-            "Youtube" :  "https://www.youtube.com/watch?v=4sF6NkZ8nSA&t=3s", // Presentation
-             "Youtube" : "https://www.youtube.com/watch?v=950Lf8dNDNU&t=2s"   // Demo
+            "https://www.youtube.com/watch?v=4sF6NkZ8nSA&t=3s" : "Youtube", // Presentation
+            "https://www.youtube.com/watch?v=950Lf8dNDNU&t=2s" : "Youtube"    // Demo
         }
     }
 
@@ -45,7 +45,7 @@ class ProjectPage extends React.Component
         description : "A Desktop GUI Application that assists with a personal budget MicroSoft Excel Spreadsheet.",
         technology : ["Developed in PyCharm using Python", "The Tkinter library is used to make the GUI",
                       "Openpyxl is used to interact with the excel spreadsheet"],
-        links : {"GitHub" : "https://github.com/rflynn523/BudgetGUI"}// More pics?
+        links : {"https://github.com/rflynn523/BudgetGUI" : "GitHub" }// More pics?
     }
 
     ResumeWebApp = 
@@ -68,8 +68,8 @@ class ProjectPage extends React.Component
                       "C code developed in Code Composer Studio"],
 
         links : {
-                    "GitHub" : "https://github.com/rflynn523/Multi-Function-LED-Display",
-                    "Youtube" : "https://www.youtube.com/watch?v=Ino6i9vFSoI&feature=youtu.be"
+                    "https://github.com/rflynn523/Multi-Function-LED-Display" : "GitHub",
+                    "https://www.youtube.com/watch?v=Ino6i9vFSoI&feature=youtu.be" : "Youtube" 
         }
     }
 
@@ -109,7 +109,7 @@ class ProjectPage extends React.Component
                       "MySQL Workbench",
                       "Developed for Enterprise Computing class"],
 
-        links : {"GitHub" : "https://github.com/rflynn523/Java-Reference-Programs/tree/master/Assignment4/SqlGUI"}
+        links : {"https://github.com/rflynn523/Java-Reference-Programs/tree/master/Assignment4/SqlGUI" : "GitHub"}
     }
 
     WheresWaldo = 
@@ -121,7 +121,7 @@ class ProjectPage extends React.Component
         technology : ["Created in a Robotic Systems course", "Developed in Python with Google Colab",
                       "OpenCV library"],
 
-        links : {"GitHub" : "https://github.com/rflynn523/Python-Reference-Programs/tree/master/Template%20Matching"}
+        links : {"https://github.com/rflynn523/Python-Reference-Programs/tree/master/Template%20Matching" : "GitHub"}
     }
 
     icons = {"GitHub" : githubIcon, "Youtube" : youtubeIcon}

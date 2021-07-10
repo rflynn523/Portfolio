@@ -22,7 +22,7 @@ class ListCard extends React.Component
     {
         if(this.props.componentType == "Work")
         {
-            return(<div>{currentObject.date}</div>)
+            return(<div className="workDate">{currentObject.date}</div>)
         }
 
         else
@@ -62,8 +62,8 @@ class ListCard extends React.Component
             for(let i = 0; i < keys.length; i++)
             {
                 linkList.push(
-                    <a className = "detailLink" href = {links[keys[i]]} onClick={e=>ReactGA.event({category:"Link Clicked", action:links[keys[i]]})} target="_blank">
-                        <img src={this.props.icons[keys[i]]}/>
+                    <a className = "detailLink" href = {[keys[i]]} onClick={e=>ReactGA.event({category:"Link Clicked", action:[keys[i]]})} target="_blank">
+                        <img src={this.props.icons[links[keys[i]]]}/>
                     </a>
                 )
             }

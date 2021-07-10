@@ -20,9 +20,13 @@ class ProjectDetailsCard extends React.Component
         // Add the links and the icons based on the links object
         for(let i = 0; i < keys.length; i++)
         {
+            let link = keys[i];
+            let typeOfLink = this.props.project.links[link];
+            let icon = this.props.icons[typeOfLink]
+
             linkList.push(
-                <a className = "detailLink" href = {this.props.project.links[keys[i]]} onClick={e=>ReactGA.event({category:"Link Clicked", action:this.props.project.links[keys[i]]})} target="_blank">
-                    <img className = "linkIcon" src={this.props.icons[keys[i]]} width ="18px" height="18px"/>
+                <a className = "detailLink" href = {link} onClick={e=>ReactGA.event({category:"Link Clicked", action:[keys[i]]})} target="_blank">
+                    <img className = "linkIcon" src={icon} width ="18px" height="18px"/>
                 </a>
             )
         }
