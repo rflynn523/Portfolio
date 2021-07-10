@@ -27,33 +27,38 @@ h3, h4, .listCardText
 {
   justify-content: top;
   z-index: 10;
-
   grid-column-start: 2;
-  /* grid-column-end: 9; */
+  grid-row-start: 1;
+  grid-row-end: 8;
 
 }
 
 .listCard img
 {
   z-index: 5;
+
   height: 15rem;
   width: 30rem;
-  padding-right: 30px;
+  /* padding-right: 30px; */
   /* grid-column-start: 0; */
   /* grid-column-end: 1; */
 
 }
 
-.listCardLink
+.listCardGrid img
 {
-  z-index: 5;
-  
-  /* height: 2rem; */
-  /* width: 2rem;  */
-  /* grid-column-start: 0; */
-  /* grid-column-end: 1; */
+  margin : 5px;
+  height: 1rem;
+  width: 1rem;
+}
+
+.listCardGrid
+{
+  display: grid;
+  padding-left: 30px;
 
 }
+
 
 .listCard .dividerLine
 {

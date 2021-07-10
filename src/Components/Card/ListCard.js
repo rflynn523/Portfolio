@@ -48,19 +48,28 @@ class ListCard extends React.Component
     // Sets up the links for each project
     setupLinks(links)
     {
-        let linkList = [];
-        let keys = Object.keys(links);
-
-        // Add the links and the icons based on the links object
-        for(let i = 0; i < keys.length; i++)
+        if(this.props.componentType == "Work")
         {
-            linkList.push(
-                <a className = "listCardLink" href = {links[keys[i]]} target="_blank">
-                    <img src={this.props.icons[keys[i]]}/>
-                </a>
-            )
+            return null;
         }
-        return linkList;
+
+        else
+        {
+            let linkList = [];
+            let keys = Object.keys(links);
+    
+            // Add the links and the icons based on the links object
+            for(let i = 0; i < keys.length; i++)
+            {
+                linkList.push(
+                    <a className = "detailLink" href = {links[keys[i]]} onClick={e=>ReactGA.event({category:"Link Clicked", action:links[keys[i]]})} target="_blank">
+                        <img src={this.props.icons[keys[i]]}/>
+                    </a>
+                )
+            }
+
+            return linkList;
+        }
     }
     
     // Function to create each card
@@ -76,20 +85,22 @@ class ListCard extends React.Component
                 <div className = "listCard">
                     {this.imageCheck(currentObject)}
                     
-                    <div className="listCardtext">
-                        <h3>{currentObject.title}</h3>
-                        {this.dateCheck(currentObject)}
+                    <div className = "listCardGrid">
 
-                        <div>{currentObject.description}</div>
-                        <br/>
-                        <div>{currentObject.technology}</div>
+                        <div className="listCardtext">
+                            <h3>{currentObject.title}</h3>
+                            {this.dateCheck(currentObject)}
+
+                            <div>{currentObject.description}</div>
+                            <br/>
+                            <div>{currentObject.technology}</div>
+                        </div>
                         
-                        {/* <div className="dividerLine">
+                        <div>
                             {this.setupLinks(currentObject.links)}
-                        </div> */}
-                        {/* <div>this is where the links go</div> */}
-
+                        </div>
                     </div>
+
                 </div>
             )
             
