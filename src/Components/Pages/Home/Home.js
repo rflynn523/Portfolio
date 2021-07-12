@@ -11,6 +11,8 @@ import resumeIcon from '../../../images/resumeIcno.png'
 
 import resumePDF from '../Home/Ryan Flynn Resume.pdf'
 
+// npm run build to update live website
+
 // Tracking Pages
 //      (/, /Home, /Education. /Skills, /Projects)
 // Tracking Events
