@@ -130,7 +130,7 @@
 .viewSwitcher
 {
   border-radius: 50px;
-  opacity: 75%;
+  opacity: 0.75;
   background-color: #2D3032;
   color: white;
 
