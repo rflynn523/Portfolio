@@ -3,8 +3,14 @@ import ReactGA from 'react-ga'
 
 import './ListCard.css'
 
+// Project page component that holds all of the info abd switch betweeb list and grid view
+// (App -> ProjectPage -> ListCard)
+//                     - List of objects, allObjects
+//                     - icons for the link buttons
+
 // (App -> Work -> ListCard)
-//              - List of objects
+//              - List of objects, allObjects
+//              - Component type, only for work
 
 // Next I would look at the CSS and add more work experience for testing
 class ListCard extends React.Component
