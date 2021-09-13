@@ -9,7 +9,16 @@ import ListCard from '../../Card/ListCard';
 // (App -> Work)
 class Work extends React.Component
 {
-    // Work Object
+    // Work Objects
+    solute = 
+    {
+        title : "Software Engineer",
+        date : "Aug 2021 - Present",
+        description : "No description yet",
+        technology : [],
+        links : "Solute" // Any links that I can share but probably none/ Use for the company name
+    }
+
     CP = 
     {
         title : "Computational Design Programmer",
@@ -49,7 +58,7 @@ class Work extends React.Component
     }
     
     // Array of all the objects
-    allWork = [this.CP, this.shipt, this.nass, this.summerCamp]
+    allWork = [this.solute, this.CP, this.shipt, this.nass, this.summerCamp]
 
     render()
     {
