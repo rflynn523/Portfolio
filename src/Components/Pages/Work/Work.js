@@ -22,7 +22,7 @@ class Work extends React.Component
     CP = 
     {
         title : "Computational Design Programmer",
-        date : "Jan 2021 - Present",
+        date : "Jan 2021 - Aug 2021",
         description : "Develop automation scripts that create Revit models for teams within the company. " + 
                         "Using Computational Design to incorporate intelligence to make workflows more efficient. " + 
                         "Building team specific software such as a desktop GUI for teams to record locations of site photos.",
