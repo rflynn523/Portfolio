@@ -14,19 +14,19 @@ class Work extends React.Component
     {
         title : "Software Engineer",
         date : "Aug 2021 - Present",
-        description : "No description yet",
+        description : "",
         technology : [],
-        links : "Solute" // Any links that I can share but probably none/ Use for the company name
+        links : "SOLUTE" // Any links that I can share but probably none/ Use for the company name
     }
 
     CP = 
     {
         title : "Computational Design Programmer",
         date : "Jan 2021 - Aug 2021",
-        description : "Develop automation scripts that create Revit models for teams within the company. " + 
-                        "Using Computational Design to incorporate intelligence to make workflows more efficient. " + 
-                        "Building team specific software such as a desktop GUI for teams to record locations of site photos.",
-        technology : [],
+        description : "Developed automation scripts that create Revit models for teams within the company. " + 
+                        "Used Computational Design to incorporate intelligence to make workflows more efficient. " + 
+                        "Built team specific software such as a desktop GUI for teams to record locations of site photos.",
+        technology : ["360 Photo Mapper"],
         links : "Cuhaci & Peterson Architects" // Any links that I can share but probably none/ Use for the company name
     }
 

@@ -37,11 +37,10 @@ class Home extends React.Component
                 <p>
                     <h2>About Me</h2>
                     A young engineer with a growing passion for creating software and learning about new 
-                    technology. I recently graduated from UCF in December of 2020 and started working at  
-                    Cuhaci & Peterson where I am currently employed. I started as a Computer Programmer Intern in
-                    January and was promoted to Computational Design Programmer starting in April. This web app
-                    serves as an extension of my resume and also gave me the opportunity to learn ReactJS. It 
-                    features more information on my education along with interactive Projects and Skills pages.
+                    technology. I recently graduated from UCF in December of 2020 and I am currently working as 
+                    a Software Engineer at SOLUTE. This web app serves as an extension of my resume and also gave 
+                    me the opportunity to learn ReactJS. It features more information displayed in more interactive way. 
+                    I am now using it to personally track my growth as a developer through my projects, skills, and work experience.
 
                     <h3>Contact Info</h3>
                     <div className="contactInfoLink">
