@@ -38,9 +38,16 @@ class Home extends React.Component
                     <h2>About Me</h2>
                     A young engineer with a growing passion for creating software and learning about new 
                     technology. I recently graduated from UCF in December of 2020 and I am currently working as 
-                    a Software Engineer at SOLUTE. This web app serves as an extension of my resume and also gave 
+                    a Software Engineer at SOLUTE. My most recent personal project is an IOS app called "Savings Mapper". 
+                    You can chcek it out on the App Store. 
+
+                    <h2></h2>
+                    This web app serves as an extension of my resume and also gave 
                     me the opportunity to learn ReactJS. It features more information displayed in a more interactive way. 
                     I am now using it to personally track my growth as a developer through my projects, skills, and work experience.
+
+                    <h3>Savings Mapper Support</h3>
+                    For Savings Mapper support you can contanct me at one of the links below.
 
                     <h3>Contact Info</h3>
                     <div className="contactInfoLink">
