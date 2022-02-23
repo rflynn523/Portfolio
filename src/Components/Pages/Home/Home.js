@@ -10,6 +10,7 @@ import mailIcon from '../../../images/envelope.png'
 import resumeIcon from '../../../images/resumeIcno.png'
 
 import resumePDF from '../Home/Ryan Flynn Resume.pdf'
+import savingsMapperPrivacyPolicy from '../Home/Privacy Policy.pdf'
 
 // npm run deploy to update live website
 
@@ -46,8 +47,13 @@ class Home extends React.Component
                     me the opportunity to learn ReactJS. It features more information displayed in a more interactive way. 
                     I am now using it to personally track my growth as a developer through my projects, skills, and work experience.
 
-                    <h3>Savings Mapper Support</h3>
+                    <h3>Savings Mapper</h3>
                     For Savings Mapper support you can contanct me at one of the links below.
+                    <h4>
+                        <a href = {savingsMapperPrivacyPolicy}  target="_blank">
+                            Savings Mapper Privacy Policy
+                        </a>
+                    </h4>
 
                     <h3>Contact Info</h3>
                     <div className="contactInfoLink">
