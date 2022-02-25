@@ -50,7 +50,7 @@ class Home extends React.Component
                     <h3>Savings Mapper</h3>
                     For Savings Mapper support you can contanct me at one of the links below.
                     <h4>
-                        <a href = {savingsMapperPrivacyPolicy}  target="_blank">
+                        <a href = { savingsMapperPrivacyPolicy }  target="_blank">
                             Savings Mapper Privacy Policy
                         </a>
                     </h4>
