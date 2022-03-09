@@ -4,6 +4,7 @@ import ReactGA from 'react-ga'
 import ProjectGrid from './ProjectGrid';
 import ListCard from '../../Card/ListCard';
 
+import savingsMapper from  '../../../images/savings_mapper_1200x628.png'
 import petConnect from '../../../images/Overall.JPG'
 import budgetGUI from '../../../images/New_Month.JPG'
 import resumeWebApp from '../../../images/ResumeWebApp.JPG'
@@ -15,12 +16,25 @@ import ledDisplay from '../../../images/LEDDisplay.JPG'
 
 import githubIcon from '../../../images/GitHub-Logo.png'
 import youtubeIcon from '../../../images/youtubeIcon.png'
-import { act } from '@testing-library/react';
+import appStore from '../../../images/appStoreIcon.png'
+// import { act } from '@testing-library/react';
 
 // Project page component that holds all of the info abd switch betweeb list and grid view
 // (App -> ProjectPage)
 class ProjectPage extends React.Component
 {
+    SavingsMapper = 
+    {
+        title : "Savings Mapper",
+        date : "November 2021 - February 2022",
+        image : savingsMapper,
+        description : "An IOS app that helps people track how much money they are saving every month.",
+        technology : ["Swift", "SwiftUI", "XCode"],
+        links : {
+            "https://apps.apple.com/us/app/savings-mapper/id1611083071?itsct=apps_box_link&itscg=30200" : "AppStore", // App Store Link
+        }
+    }
+
     PetConnect = 
     {
         title : "Pet Connect",
@@ -124,8 +138,8 @@ class ProjectPage extends React.Component
         links : {"https://github.com/rflynn523/Python-Reference-Programs/tree/master/Template%20Matching" : "GitHub"}
     }
 
-    icons = {"GitHub" : githubIcon, "Youtube" : youtubeIcon}
-    all_Projects = [this.PetConnect, this.BudgetGUI, this.ResumeWebApp, this.MultiFuncLED, 
+    icons = {"GitHub" : githubIcon, "Youtube" : youtubeIcon, "AppStore" : appStore}
+    all_Projects = [this.SavingsMapper, this.PetConnect, this.BudgetGUI, this.ResumeWebApp, this.MultiFuncLED, 
                     this.EscapeRoom, this.GroupBuy, this.SQLGUI, this.WheresWaldo]
 
     constructor(props)
