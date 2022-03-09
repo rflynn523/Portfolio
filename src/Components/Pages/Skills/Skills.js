@@ -20,9 +20,10 @@ class Skills extends React.Component
             "Python" : "1 Course - 3 Projects - Cuhaci & Peterson - Codecademy",
             "Java" : "6 Courses - 4 Projects",
             "C" : "4 Courses - 2 Projects",
-            "C++" : "1 Course - Codecademy",
+            "C++" : "1 Course - Codecademy - SOLUTE",
             "C#" : "Cuhaci & Peterson",
             "JavaScript" : "1 Course - 2 Projects - Codecademy",
+            "Golang" : "SOLUTE",
             "SQL" : "2 Courses - 2 Projects",
             "HTML" : "1 Course - 2 Projects",
             "CSS" : "1 Course - 1 Projects - Codecademy",
@@ -69,6 +70,14 @@ class Skills extends React.Component
         }
     }
 
+    certifications_Object = 
+    {
+        title: "Certifications",
+        items: {
+            "CompTIA Sec+ 2021" : "SOLUTE"
+        }
+    }
+
     hardware_Object = 
     {
         title : "Hardware Programming",
@@ -103,7 +112,7 @@ class Skills extends React.Component
     
     // Array of all the bojects
     Objects = [this.progLanguages_Object, this.IDEs_Object, this.libraries_Object, this.databases_Object,
-                this.hardware_Object, this.circuitSim_Object, this.other_Object];
+                this.certifications_Object, this.hardware_Object, this.circuitSim_Object, this.other_Object];
 
     constructor(props)
     {
