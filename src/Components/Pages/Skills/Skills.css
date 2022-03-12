@@ -9,6 +9,8 @@
 {
     display: grid;
     grid-template-columns: 25% 75%;
+
+    overflow-y: auto;
 }
 
 .otherSkillGroups
@@ -27,7 +29,8 @@
 
     margin-right: 5px;
     transition-duration: 5s;
-
+    
+    overflow-y: hidden;
 }
 
 .firstRow
@@ -46,4 +49,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);  
     grid-template-rows: 1fr;
+
+    
 }
