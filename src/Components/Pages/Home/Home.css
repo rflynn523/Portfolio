@@ -31,7 +31,7 @@ p
     margin-top: 5vh;
     margin-right: 5vw;
 
-    overflow-y: scroll;
+    overflow-y: auto;
 
     float: right;
     object-fit: contain;

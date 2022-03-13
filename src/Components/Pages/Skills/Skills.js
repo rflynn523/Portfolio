@@ -19,10 +19,12 @@ class Skills extends React.Component
         items : {
             "Python" : "1 Course - 3 Projects - Cuhaci & Peterson - Codecademy",
             "Java" : "6 Courses - 4 Projects",
+            "Swift" : "2 Projects",
             "C" : "4 Courses - 2 Projects",
-            "C++" : "1 Course - Codecademy",
+            "C++" : "1 Course - Codecademy - SOLUTE",
             "C#" : "Cuhaci & Peterson",
             "JavaScript" : "1 Course - 2 Projects - Codecademy",
+            "Golang" : "SOLUTE",
             "SQL" : "2 Courses - 2 Projects",
             "HTML" : "1 Course - 2 Projects",
             "CSS" : "1 Course - 1 Projects - Codecademy",
@@ -52,6 +54,7 @@ class Skills extends React.Component
         title : "Libraries/Frameworks",
         items : {
             "ReactJS" : "2 Projects - Codecademy", 
+            "VueJS" : "SOLUTE",
             "Tkinter" : "1 Project", 
             "Java Swing" : "1 Course - 2 Projects", 
             "OpenCV" : "1 Course", 
@@ -94,6 +97,8 @@ class Skills extends React.Component
     {
         title : "Other",
         items : {
+            "CompTIA Sec+ 2021" : "SOLUTE",
+            "Kafka" : "SOLUTE",
             "Github" : "3 Courses - 3 Projects",
             "REST APIs" : "Cuhaci & Peterson",
             "Postman" : "Cuhaci & Peterson",

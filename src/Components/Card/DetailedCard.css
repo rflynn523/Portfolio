@@ -15,7 +15,7 @@
     padding: 10px;
 
     height: 80vh;
-    overflow-y: scroll;
+    overflow-y: auto;
 
 }
 
