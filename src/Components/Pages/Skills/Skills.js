@@ -19,6 +19,7 @@ class Skills extends React.Component
         items : {
             "Python" : "1 Course - 3 Projects - Cuhaci & Peterson - Codecademy",
             "Java" : "6 Courses - 4 Projects",
+            "Swift" : "2 Projects",
             "C" : "4 Courses - 2 Projects",
             "C++" : "1 Course - Codecademy - SOLUTE",
             "C#" : "Cuhaci & Peterson",

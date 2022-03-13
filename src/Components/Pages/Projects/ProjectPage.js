@@ -28,7 +28,8 @@ class ProjectPage extends React.Component
         title : "Savings Mapper",
         date : "November 2021 - February 2022",
         image : savingsMapper,
-        description : "An IOS app that helps people track how much money they are saving every month.",
+        description : "An IOS app that gives people a flexible way to calculate " +
+                        "how much they allocate to each of their savings goals every month.",
         technology : ["Swift", "SwiftUI", "XCode"],
         links : {
             "https://apps.apple.com/us/app/savings-mapper/id1611083071?itsct=apps_box_link&itscg=30200" : "AppStore", // App Store Link
