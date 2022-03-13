@@ -14,7 +14,9 @@ class Work extends React.Component
     {
         title : "Software Engineer",
         date : "Aug 2021 - Present",
-        description : "",
+        description : "Developing a microservice in Golang that parses NMEA messages using Kafka in a publish-subscribe architecture. " + 
+                    "Documented legacy build and configuration systems using markdown and Gitlab Wiki. " +
+                    "Working on AGILE developement schedule with 2-week sprints, managing issues with Gitlab. ",
         technology : [],
         links : "SOLUTE" // Any links that I can share but probably none/ Use for the company name
     }
