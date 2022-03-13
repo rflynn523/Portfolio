@@ -16,7 +16,7 @@ class Work extends React.Component
         date : "Aug 2021 - Present",
         description : "Developing a microservice in Golang that parses messages using Kafka in a publish-subscribe architecture. " + 
                     "Documented legacy build and configuration systems using Gitlab Wiki. " +
-                    "Working on AGILE developement schedule with 2-week sprints, managing issues with Gitlab. ",
+                    "Working on AGILE development schedule with 2-week sprints, managing issues with Gitlab. ",
         technology : [],
         links : "SOLUTE" // Any links that I can share but probably none/ Use for the company name
     }
