@@ -14,11 +14,15 @@ class Work extends React.Component
     {
         title : "Software Engineer",
         date : "Aug 2021 - Present",
-        description : "Developing a microservice in Golang that parses messages using Kafka in a publish-subscribe architecture. " + 
+        description : 
+                    "Backend work in Python, included various feature work, creating unit tests, adding data validation with pydantic." +
+                    "Also worked in a team to perform merge requests, debug errors before releases, and come up with new ideas for features/improvements." +
+                    "When the team needed it, spent time doing DevOps work to get Redmine running in a RKE2 environment." +
+                    "Developed a microservice in Golang that parses messages using Kafka in a publish-subscribe architecture." + 
                     "Documented legacy build and configuration systems using Gitlab Wiki. " +
                     "Working on AGILE development schedule with 2-week sprints, managing issues with Gitlab. ",
-        technology : [],
-        links : "SOLUTE" // Any links that I can share but probably none/ Use for the company name
+        technology : ["Python - Postgres - Pydantic - Swagger - GitLab"],
+        links : "SOLUTE A Sigma Defense Company" // Any links that I can share but probably none/ Use for the company name
     }
 
     CP = 
@@ -28,7 +32,7 @@ class Work extends React.Component
         description : "Developed automation scripts that create Revit models for teams within the company. " + 
                         "Used Computational Design to incorporate intelligence to make workflows more efficient. " + 
                         "Built team specific software such as a desktop GUI for teams to record locations of site photos.",
-        technology : ["360 Photo Mapper"],
+        technology : ["360 Photo Mapper - Python - Dynamo"],
         links : "Cuhaci & Peterson Architects" // Any links that I can share but probably none/ Use for the company name
     }
 
