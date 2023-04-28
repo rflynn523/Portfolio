@@ -4,6 +4,7 @@ import ReactGA from 'react-ga'
 import ProjectGrid from './ProjectGrid';
 import ListCard from '../../Card/ListCard';
 
+import budgetAssistant from '../../../images/BudgetAssistant Screenshot.png'
 import savingsMapper from  '../../../images/savings_mapper_1200x628.png'
 import petConnect from '../../../images/Overall.JPG'
 import budgetGUI from '../../../images/New_Month.JPG'
@@ -23,6 +24,20 @@ import appStore from '../../../images/appStoreIcon.png'
 // (App -> ProjectPage)
 class ProjectPage extends React.Component
 {
+
+    BudgetAssistant = 
+    {
+        title : "Budget Assistant",
+        date : "January 2023 - March 2023",
+        image : budgetAssistant,
+        description : "Inspried by the BudgetGUI predecessor, this python script resets monthly budgets," +
+                        "runs checks to ensure they are setup correctly, and prints progress to terminal.",
+        technology : ["Written in Python", "Unit testing with Pytest", "Openpyxl used to interact with the excel spreadsheet"],
+        links : {
+            "https://github.com/rflynn523/Budget-Assistant" : "GitHub", // App Store Link
+        }
+    }
+
     SavingsMapper = 
     {
         title : "Savings Mapper",
@@ -140,7 +155,7 @@ class ProjectPage extends React.Component
     }
 
     icons = {"GitHub" : githubIcon, "Youtube" : youtubeIcon, "AppStore" : appStore}
-    all_Projects = [this.SavingsMapper, this.PetConnect, this.BudgetGUI, this.ResumeWebApp, this.MultiFuncLED, 
+    all_Projects = [this.BudgetAssistant, this.SavingsMapper, this.PetConnect, this.BudgetGUI, this.ResumeWebApp, this.MultiFuncLED, 
                     this.EscapeRoom, this.GroupBuy, this.SQLGUI, this.WheresWaldo]
 
     constructor(props)
