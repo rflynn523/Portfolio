@@ -17,9 +17,9 @@ class Skills extends React.Component
     {
         title : "Programming Languages",
         items : {
-            "Python" : "1 Course - 3 Projects - Cuhaci & Peterson - Codecademy",
+            "Python" : "1 Course - 3 Projects - Sigma Defense - Cuhaci & Peterson - Codecademy",
             "Java" : "6 Courses - 4 Projects",
-            "Swift" : "2 Projects",
+            "Swift" : "2 Projects - Savings Mapper",
             "C" : "4 Courses - 2 Projects",
             "C++" : "1 Course - Codecademy - SOLUTE",
             "C#" : "Cuhaci & Peterson",
@@ -55,6 +55,9 @@ class Skills extends React.Component
         items : {
             "ReactJS" : "2 Projects - Codecademy", 
             "VueJS" : "SOLUTE",
+            "Pydantic" : "Sigma Defense",
+            "Pytest" : "Sigma Defense",
+            "Alembic" : "Sigma Defense",
             "Tkinter" : "1 Project", 
             "Java Swing" : "1 Course - 2 Projects", 
             "OpenCV" : "1 Course", 
@@ -68,7 +71,8 @@ class Skills extends React.Component
         title : "Databases",
         items : {
             "MySQL" : "2 Courses - 2 Projects", 
-            "Google Firebase" : "1 Course - 1 Project"
+            "Google Firebase" : "1 Course - 1 Project",
+            "Postgres" : "Sigma Defense"
         }
     }
 
@@ -100,8 +104,13 @@ class Skills extends React.Component
             "CompTIA Sec+ 2021" : "SOLUTE",
             "Kafka" : "SOLUTE",
             "Github" : "3 Courses - 3 Projects",
-            "REST APIs" : "Cuhaci & Peterson",
+            "REST APIs" : "Cuhaci & Peterson - Sigma Defense",
             "Postman" : "Cuhaci & Peterson",
+            "Swagger" : "Sigma Defense",
+            "Kubernetes" : "Sigma Defense",
+            "Docker" : "Sigma Defense",
+            "Flake8, Black, Mypy linters" : "Sigma Defense",
+            "Poetry" : "Sigma Defense",
             "Microsoft Office" : ""
         }
     }
