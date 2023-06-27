@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Projects/Project.css'
+import './Project.css'
 import more from '../../../images/more.png'
 
 

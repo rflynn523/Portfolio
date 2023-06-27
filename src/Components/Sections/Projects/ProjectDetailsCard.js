@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactGA from 'react-ga'
-import '../Projects/Project.css'
+import './Project.css'
 import close from '../../../images/close.png'
 
 

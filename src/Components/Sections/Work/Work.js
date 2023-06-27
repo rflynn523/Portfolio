@@ -71,9 +71,14 @@ class Work extends React.Component
         // For Tracking purposes
         ReactGA.pageview('/Work')
 
-        return(<div className="work">
-            <ListCard allObjects = {this.allWork} componentType = "Work"/>
-        </div>)       
+        return(
+            <div className='borderBox'>
+                <h2>Work Section</h2>
+                <div className="work">
+                    <ListCard allObjects = {this.allWork} componentType = "Work"/>
+                </div>
+            </div>
+        )       
     }
 }
 

@@ -190,7 +190,8 @@ class ProjectPage extends React.Component
         // Add the buttons to switch the views 
         // Possibly only need to change the class name to switch the layout from grid to list??
         return (
-            <div>
+            <div className='borderBox'>
+                <h2>Projects Section</h2>
                 <div className="viewSwitcher" onClick = {this.switchView}>
                     {this.state.activeComponentId}
                 </div>
