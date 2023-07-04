@@ -13,11 +13,11 @@ class NavBar extends React.Component
             <div className="grid-navBar">
                 <div className="name">Ryan Flynn</div>
 
-                <Button className = "unselected" id = "Home" onClick={this.props.onClick} />
-                <Button id = "Education" onClick={this.props.onClick} />
-                <Button id = "Skills" onClick={this.props.onClick} />
-                <Button id = "Projects" onClick={this.props.onClick} />
-                <Button id = "Work Experience" onClick={this.props.onClick} />
+                <Button id = "Home" />
+                <Button id = "About Me" />
+                <Button id = "Projects" />
+                <Button id = "Work" />
+                <Button id = "Contact" />
            </div>
         )
     }

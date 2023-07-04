@@ -17,7 +17,7 @@ class Button extends React.Component
     // Used for switching between the pages
     handleClick()
     {
-        this.props.onClick(this.props.id);
+        document.getElementById(this.props.id).scrollIntoView({ behavior: 'smooth' })
     }
 
     render()

@@ -21,12 +21,28 @@ class App extends React.Component
         {/* The font for the website */}
         <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet"/>
 
-        <NavBar class="navBar"/> 
-        <Home />
-        <AboutMe />
-        <ProjectPage />
-        <Work />
-        <Contact />
+        <NavBar className="navBar"/> 
+
+        <section id="Home">
+          <Home />
+        </section>
+
+        <section id = "About Me">
+          <AboutMe/>
+        </section>
+
+        <section id = "Projects">
+          <ProjectPage/>
+        </section>
+
+        <section id = "Work">
+          <Work/>
+        </section>
+
+        <section id = "Contact">
+          <Contact/>
+        </section>
+
       </div>
     );
   }
