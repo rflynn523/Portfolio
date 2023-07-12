@@ -8,13 +8,104 @@ import TechUsedCard from '../../Card/TechUsedCard';
 import { Grid, Container, Card, CardContent, Typography } from '@mui/material';
 import test from '../../../images/appStoreIcon.png'
 
+// Programming Languages
+import python from '../../../images/tech_logos/languages/python-logo-only.png'
+import java from '../../../images/tech_logos/languages/java-logo.png'
+import swift from '../../../images/tech_logos/languages/Swift Logo/Assets/Swift logo/SVG/Swift_logo_color.svg'
+import cpp from '../../../images/tech_logos/languages/cpp_logo.png'
+import c from '../../../images/tech_logos/languages/c-logo/icons8-c-programming-48.png'
+import javascript from '../../../images/tech_logos/languages/js.png'
+import html from '../../../images/tech_logos/languages/HTML5_Logo_512.png'
+import css from '../../../images/tech_logos/languages/icons8-css-logo-color/icons8-css-logo-48.png'
+
+// Database Images
+import mysql from '../../../images/tech_logos/databases/logo-mysql-170x115.png'
+import firebase from '../../../images/tech_logos/databases/firebase-logo-logomark.png'
+import postgres from '../../../images/tech_logos/databases/PostgreSQL_logo.3colors.120x120.png'
+
 
 class AboutMe extends React.Component
 {
-    test_list = [test, test, test, test, test]
-    test2 = [test]
+    prog_lang = {
+        title: "Programming Languages",
+        logos: [
+            python,
+            java,
+            swift,
+            c,
+            cpp,
+            javascript,
+            html,
+            css
+            // C / C++ / C#
+            // JavaScript
+            // Golang
+            // SQL?
+            // HTML / CSS ?
+        ]
+    }
 
-    all_lists = [this.test_list, this.test2, this.test_list, this.test2, this.test_list, this.test2]
+    libraries = 
+    {
+        title : "Libraries/Frameworks",
+        logos: [
+            // Pytest
+            // Alembic
+            // Pydantic
+            // ReactJS
+            // VueJS
+            // Tkinter?
+            // Java Swing
+            // OpenCV?
+            // Openpyxl
+            // Kafka?
+        ]
+    }
+
+    tools = 
+    {
+        title: "Tools",
+        logos: [
+            // VS Code
+            // Atom?
+            // Pytest
+            // Postman
+            // Swagger
+            // Flake8 / Black / MyPy python linters
+        ]
+    }
+
+    databases = {
+        title: "Databases",
+        logos: [
+            mysql,
+            firebase,
+            postgres
+        ]
+    }
+
+    devops = {
+        title: "DevOps",
+        logos: [
+            // Git
+            // Gitlab / GitHub
+            // Kubernetes
+            // Docker
+            // Poetry (Python Manager)?
+        ]
+    }
+
+    hardware = {
+        title: "Hardware Programming",
+        logos: [
+            // Raspberry Pi
+            // Boe-Bot
+            // MSP-EXP430 G2 and FR6989
+        ]
+    }
+
+    card_info = [this.prog_lang, this.libraries, this.tools, this.databases, this.devops, this.hardware]
+
     render()
     {
         // To report page view
@@ -61,11 +152,11 @@ class AboutMe extends React.Component
                         {/* Container for the Tech Used */}
                         <Container maxWidth="lg">
                             <Grid container spacing={2}>
-                                {this.all_lists.map((list_of_logos, index) => (
+                                {this.card_info.map((card, index) => (
                                 <Grid item xs={12} sm={6} md={4} key={index}>
                                     
                                     {/* Add Props to TechUsedCard to fill with the icons and probably the info needed for the grids */}
-                                    <TechUsedCard images = {list_of_logos}/>
+                                    <TechUsedCard title = {card.title} logos = {card.logos}/>
                                 </Grid>
                                 ))}
                             </Grid>

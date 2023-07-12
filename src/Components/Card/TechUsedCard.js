@@ -52,10 +52,10 @@ class TechUsedCard extends React.Component
         return(
             <div>
                 <Card style={cardStyle}>
-                    <CardHeader title="Card Title" sx={{ backgroundColor: 'blue', color: 'white' }}/>
+                    <CardHeader title={this.props.title} sx={{ backgroundColor: 'blue', color: 'white' }}/>
                     <CardContent>
                         <div style={imageContainerStyle}>
-                            {this.props.images.map((image, imageIndex) => {
+                            {this.props.logos.map((image, imageIndex) => {
                                 return <img
                                     src={image}
                                     alt={`Image ${imageIndex + 1}`}
@@ -63,26 +63,8 @@ class TechUsedCard extends React.Component
                                     style={imageStyle}
                                     />
                             })}
-                            
-
 
                         </div>
-                        {/* <Grid container spacing={2}>
-                            
-                            <Grid item xs={4} sm={2}>
-                                <img src={test}/>
-                                <img src={test}/>
-                            </Grid>
-                            
-                            <Grid item xs={4} sm={2}>
-                                <img src={test}/>
-                            </Grid>
-                            
-                            <Grid item xs={4} sm={2}>
-                                <img src={test}/>
-                            </Grid>
-
-                        </Grid> */}
                     </CardContent>
                 </Card>
             </div>
