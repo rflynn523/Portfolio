@@ -1,11 +1,12 @@
 .homeGrid
 {
     object-fit: fill;
+    align-items: center;
     width: 100vw;
     height: 100vh;
 }
-
-.homeGrid img
+/* 
+.aboutMePic img
 {
     max-height: 800px;
     max-width: 600px;
@@ -17,13 +18,13 @@
     margin-left: 5vw;
 
 
-    float: left;
-    align-self: inherit;
-    object-fit: fill;
-}
+    /* float: left; */
+    /* align-self: inherit; */
+    /* object-fit: fill; */
 
 
-p
+
+/* p
 {   
     width: 45vw;
     height: 80vh;
@@ -37,7 +38,7 @@ p
     object-fit: contain;
     align-self:inherit;
 
-}
+} */
 
 .div
 {

@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactGA from 'react-ga'
 
-import './Home.css'
-
 // npm run deploy to update live website
 
 // Tracking Pages
