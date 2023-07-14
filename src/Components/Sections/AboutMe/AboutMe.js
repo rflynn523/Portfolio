@@ -10,13 +10,13 @@ import test from '../../../images/appStoreIcon.png'
 
 // Programming Languages
 import python from '../../../images/tech_logos/languages/python-logo-only.png'
-import java from '../../../images/tech_logos/languages/java-logo.png'
+import java from '../../../images/tech_logos/languages/java-icon.svg'
 import swift from '../../../images/tech_logos/languages/Swift Logo/Assets/Swift logo/SVG/Swift_logo_color.svg'
-import cpp from '../../../images/tech_logos/languages/cpp_logo.png'
-import c from '../../../images/tech_logos/languages/c-logo/icons8-c-programming-48.png'
+import go from '../../../images/tech_logos/languages/Go-Logo_Aqua.png'
+import c from '../../../images/tech_logos/languages/c-logo/icons8-c-programming-480.png'
+import cpp from '../../../images/tech_logos/languages/cpp_logo.svg'
 import javascript from '../../../images/tech_logos/languages/js.png'
 import html from '../../../images/tech_logos/languages/HTML5_Logo_512.png'
-import css from '../../../images/tech_logos/languages/icons8-css-logo-color/icons8-css-logo-48.png'
 
 // Database Images
 import mysql from '../../../images/tech_logos/databases/logo-mysql-170x115.png'
@@ -32,12 +32,10 @@ class AboutMe extends React.Component
             python,
             java,
             swift,
+            go,
             c,
             cpp,
             javascript,
-            html,
-            css
-            // C / C++ / C#
             // JavaScript
             // Golang
             // SQL?

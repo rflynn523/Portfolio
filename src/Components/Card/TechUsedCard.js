@@ -34,7 +34,10 @@ const cardStyle = {
 
   const imageStyle = {
     objectFit: 'cover',
-    borderRadius: '4px',
+    // borderRadius: '4px',
+    margin: '5px',
+    // width: '70px',
+    height: '70px', 
   };
 
 class TechUsedCard extends React.Component
