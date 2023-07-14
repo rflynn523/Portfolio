@@ -2,7 +2,10 @@ import React from 'react';
 import ReactGA from 'react-ga'
 
 import './Work.css';
-import ListCard from '../../Card/ListCard';
+import Job from './Job';
+
+import { Box, Grid, Container, Card, CardContent, Typography } from '@mui/material';
+
 
 // Can update all of the Work Experience Information in this Component and it will be passed through props
 
@@ -13,6 +16,7 @@ class Work extends React.Component
     solute = 
     {
         title : "Software Engineer",
+        company : "SOLUTE",
         date : "Aug 2021 - Present",
         description : 
                     "Backend work in Python, included various feature work, creating unit tests, adding data validation with pydantic." +
@@ -28,6 +32,7 @@ class Work extends React.Component
     CP = 
     {
         title : "Computational Design Programmer",
+        company : "Cuhaci & Peterson Architects",
         date : "Jan 2021 - Aug 2021",
         description : "Developed automation scripts that create Revit models for teams within the company. " + 
                         "Used Computational Design to incorporate intelligence to make workflows more efficient. " + 
@@ -39,6 +44,7 @@ class Work extends React.Component
     shipt =
     {
         title : "Shipt Shopper",
+        company : "Shipt",
         date : "Feb 2017 - Dec 2020",
         description : "Shopped for and delivered groceries to the customer with in the delivery window. Along the way I would comunicate with the customer about the status of their items.",
         technology : [],
@@ -48,6 +54,7 @@ class Work extends React.Component
     nass = 
     {
         title : "Special Projects Assistant",
+        company : "NASS",
         date : "Mar 2017 - Sep 2018",
         description : "Performed various tasks that came up, which included employee computer setup and configuration, data entry, and budget organization.",
         technology : [],
@@ -57,6 +64,7 @@ class Work extends React.Component
     summerCamp = 
     {
         title : "Summer Camp Counselor",
+        company : "Hunter's Creek Community Association",
         date : "Summer 2017 & 2018",
         description : "Worked as a team with the other counselors to provide fun and safe activities for the campers",
         technology : [],
@@ -75,7 +83,16 @@ class Work extends React.Component
             <div className='borderBox'>
                 <h2>Work Section</h2>
                 <div className="work">
-                    <ListCard allObjects = {this.allWork} componentType = "Work"/>
+                    <Container maxWidth="lg">
+                        {this.allWork.map((job, index) => (
+                            <Grid item xs={12} sm={6} md={4} key={index}>
+                                
+                                <Job job_info = {job}/>
+
+                            </Grid>
+                            ))}
+                    </Container>
+
                 </div>
             </div>
         )       
