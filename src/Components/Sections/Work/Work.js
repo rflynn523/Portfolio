@@ -2,9 +2,14 @@ import React from 'react';
 import ReactGA from 'react-ga'
 
 import './Work.css';
-import Job from './Job';
+import JobSummary from './JobSummary';
+import JobDetails from './JobDetails';
 
-import { Box, Grid, Container, Card, CardContent, Typography } from '@mui/material';
+import Accordion from '@material-ui/core/Accordion';
+import AccordionSummary from '@material-ui/core/AccordionSummary';
+import AccordionDetails from '@material-ui/core/AccordionDetails';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { Box, Grid, Container } from '@mui/material';
 
 
 // Can update all of the Work Experience Information in this Component and it will be passed through props
@@ -86,9 +91,19 @@ class Work extends React.Component
                     <Container maxWidth="lg">
                         {this.allWork.map((job, index) => (
                             <Grid item xs={12} sm={6} md={4} key={index}>
-                                
-                                <Job job_info = {job}/>
+                                <Box marginBottom={2} >
+                                    <Accordion container spacing={2} alignItems="center">
 
+                                        <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel1a-content" id="panel1a-header" >
+                                            <JobSummary job_info = {job}/>
+                                        </AccordionSummary>
+
+                                        <AccordionDetails>
+                                            <JobDetails job_info = {job}/>
+                                        </AccordionDetails>
+                    
+                                    </Accordion>
+                                </Box>
                             </Grid>
                             ))}
                     </Container>
