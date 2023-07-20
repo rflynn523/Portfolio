@@ -1,16 +1,9 @@
 import React from 'react';
 import ReactGA from 'react-ga'
 
-import { Divider, IconButton, Box, Grid, Container, Card, CardContent, Typography } from '@mui/material';
-import AddIcon from '@mui/icons-material/Add';
+import { Chip, Grid, List, ListItem, ListItemIcon, ListItemText } from '@mui/material';
 
-import Fab from '@mui/material/Fab';
-import Accordion from '@material-ui/core/Accordion';
-import AccordionSummary from '@material-ui/core/AccordionSummary';
-import AccordionDetails from '@material-ui/core/AccordionDetails';
-import AccordionAction from '@material-ui/core/AccordionActions';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-
+import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 
 class JobDetails extends React.Component
 {
@@ -19,10 +12,33 @@ class JobDetails extends React.Component
     {
         return (
             
-            <div>
-                sdf
-            </div>
-                        
+            <Grid container spacing={2} alignItems="center">
+
+                {/* Bullet Points */}
+                <Grid item xs={12} md={12}>
+                    <List sx={{ listStyleType: 'disc' }}>
+                    {this.props.job_info.bullet_points.map((bullet) => (
+
+                        <ListItem>
+                            <ListItemIcon >
+                                <FiberManualRecordIcon color="black" />
+                            </ListItemIcon>
+
+                            <ListItemText primary={bullet} />
+                        </ListItem>
+                    ))}
+                    </List> 
+                </Grid>
+
+                {/* Chips with the tech used */}
+                <Grid item xs={12}>
+                    <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+                        {this.props.job_info.technology.map((tech) => 
+                            <Chip label={tech} />
+                        )}
+                    </div>
+                </Grid>
+            </Grid>
             );
         };   
     }
