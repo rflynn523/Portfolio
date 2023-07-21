@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactGA from 'react-ga'
 
+import MessageCardContainer from './MessageCardContainer';
+import { Grid, Container, Card, CardContent, Typography } from '@mui/material';
+
 // npm run deploy to update live website
 
 // Tracking Pages
@@ -10,7 +13,6 @@ import ReactGA from 'react-ga'
 //      Skills Selected (Card.js)
 //      Project Details Viewed (ProjectBox.js)
 //      Links Clicked (Project Detail Links - ProjectDetailsCard.js)
-
 
 // Home page component
 // (App -> Home)
@@ -25,8 +27,8 @@ class Home extends React.Component
         return(
             <div className='borderBox'>
                 <h2>Home Section</h2>
+                <MessageCardContainer message="HELLO WORLD MY NAME IS RYAN FLYNN A SOFTWARE ENGINEER. THIS IS MY WEB APP" />
 
-                <div>Add cool landing page here</div>
             </div>
         )
     }
