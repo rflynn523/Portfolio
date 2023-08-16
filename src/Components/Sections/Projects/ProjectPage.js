@@ -158,31 +158,6 @@ class ProjectPage extends React.Component
     all_Projects = [this.BudgetAssistant, this.SavingsMapper, this.PetConnect, this.BudgetGUI, this.ResumeWebApp, this.MultiFuncLED, 
                     this.EscapeRoom, this.GroupBuy, this.SQLGUI, this.WheresWaldo]
 
-    constructor(props)
-    {
-        super(props);
-        this.switchView = this.switchView.bind(this)
-        this.state = 
-        {   
-            activeComponentId : "Grid View",
-            activeComponent: <ProjectGrid allProjects = {this.all_Projects} icons={this.icons}/> 
-        };
-
-    }
-
-    switchView()
-    {
-        if(this.state.activeComponentId == "List View")
-        {
-            this.setState({activeComponentId: "Grid View", activeComponent: <ProjectGrid allProjects = {this.all_Projects} icons={this.icons}/>})
-        }
-
-        else
-        {
-            this.setState({activeComponentId: "List View", activeComponent: <ListCard allObjects = {this.all_Projects} icons={this.icons}/>})
-        }
-    }
-
     render()
     {
         ReactGA.pageview('/Projects')
@@ -192,10 +167,10 @@ class ProjectPage extends React.Component
         return (
             <div className='borderBox'>
                 <h2>Projects Section</h2>
-                <div className="viewSwitcher" onClick = {this.switchView}>
-                    {this.state.activeComponentId}
+                <div>
+                    <ProjectGrid allProjects = {this.all_Projects} icons={this.icons}/>
+
                 </div>
-                {this.state.activeComponent}
             </div>)
     }
 }

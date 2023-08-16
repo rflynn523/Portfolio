@@ -49,6 +49,7 @@ class ProjectDetailsCard extends React.Component
                     <div className="dividerLine">
                         {this.setupLinks()}
                     </div>
+                    
                  </div>
     }
 }

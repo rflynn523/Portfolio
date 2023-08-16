@@ -1,12 +1,32 @@
 import React from 'react';
 import ReactGA from 'react-ga'
-import './Project.css'
+// import './Project.css'
 import ProjectTitleCard from './ProjectTitleCard';
 import ProjectDetailsCard from './ProjectDetailsCard'
+
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+import { CardActionArea } from '@mui/material';
 
 // Project box component that display each project in the grid/box view and switches to the details view
 // (App -> ProjectPage -> ProjectGrid -> ProjectBox)
 //                          - project
+
+const styles = {
+    card: {
+      width: '100%',
+      paddingTop: '100%',
+      position: 'relative',
+    },
+    media: {
+      height: '80%',
+    },
+    content: {
+      height: '20%',
+    },
+  };
 
 class ProjectBox extends React.Component
 {
@@ -34,9 +54,31 @@ class ProjectBox extends React.Component
     render()
     {
        // Need to add the more details with the on click
-        return <div onClick={this.showDetails}>
-                    {this.state.active}
-                 </div>
+        return (
+
+            // onClick={this.showDetails}>
+        <div > 
+            {this.state.active}
+         </div>
+                // <Card sx={{ maxWidth: 345 }} className="ProjectTitle">
+                //         <CardMedia
+                //         component="img"
+                //         height="140"
+                //         image={this.props.project.image}
+                //         alt="green iguana"
+                //         className = "projectImg"
+                //         />
+                //         <CardContent>
+                //             <Typography className="title">
+                //                 {this.props.project.title}
+                //             </Typography>
+                        
+                //             <Typography className="description">
+                //                 {this.props.project.description}
+                //             </Typography>
+                //         </CardContent>
+                // </Card>
+        )
     }
 }
 
