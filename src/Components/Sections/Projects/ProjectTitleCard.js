@@ -1,7 +1,5 @@
 import React from 'react';
 import './Project.css'
-import more from '../../../images/more.png'
-
 
 
 class ProjectTitleCard extends React.Component
@@ -14,6 +12,7 @@ class ProjectTitleCard extends React.Component
 
     handleClick()
     {
+        // Call the switchToSelectedGrid(id) function to expand the project
         this.props.onClick(this.props.projectID)
     }
 

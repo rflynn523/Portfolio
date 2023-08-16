@@ -1,7 +1,5 @@
 import React from 'react';
 import './ProjectGrid.css';
-import ProjectDetailsCard from './ProjectDetailsCard';
-
 
 
 // Project Grid component that maps all of the projects to a Project Box
@@ -18,21 +16,16 @@ class ExpandedProject extends React.Component
 
     handleClick()
     {
+        // Call the switchToUnSelectedGrid() function to hide the project's expanded component
         this.props.onClick()
     }
 
     render()
     {
-        // Have a loop/map functions that just creates all of the project boxes
         return(
-                    <div className="Project_Grid_View" onClick={this.handleClick}>
-                        <h3>ExpandedProject {this.props.project.title}</h3>
-                    {/* {
-                        this.props.allProjects.map((project) => {
-                            return <ProjectDetailsCard project={this.props.project} icons={this.props.icons}/>
-                            })
-                    } */}
-                    </div>
+                <div className="Project_Grid_View" onClick={this.handleClick}>
+                    <h3>ExpandedProject {this.props.project.title}</h3>
+                </div>
               )
     }
 }

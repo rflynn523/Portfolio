@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactGA from 'react-ga'
 // import './Project.css'
-import ProjectTitleCard from './ProjectTitleCard';
+import ProjectTitleCard from '../../Sections/Projects/ProjectTitleCard';
 import ProjectDetailsCard from './ProjectDetailsCard'
 
 import Card from '@mui/material/Card';

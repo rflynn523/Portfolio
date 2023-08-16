@@ -1,5 +1,4 @@
 import React from 'react';
-import ProjectBox from './ProjectBox';
 import './ProjectGrid.css';
 import UnselectedProjectGrid from './UnselectedProjectGrid';
 import SelectedProjectGrid from './SelectedProjectGrid';
@@ -13,39 +12,33 @@ class ProjectGrid extends React.Component
     constructor(props)
     {
         super(props);
-        this.switchToSelected = this.switchToSelected.bind(this);
-        this.switchToUnSelected = this.switchToUnSelected.bind(this);
+        this.switchToSelectedGrid = this.switchToSelectedGrid.bind(this);
+        this.switchToUnSelectedGrid = this.switchToUnSelectedGrid.bind(this);
 
-        this.state = { activeState: <UnselectedProjectGrid allProjects={this.props.allProjects} onUnselected={this.switchToSelected}/>};
-        // this.state = {activeState: <SelectedProjectGrid allProjects={this.props.allProjects} onSelected={this.switchToUnSelected}/>}; // active={id}
-
+        this.state = { activeState: <UnselectedProjectGrid allProjects={this.props.allProjects} onUnselectedGrid={this.switchToSelectedGrid}/>};
     }
 
-    // This method handles switching the view from unselected to the selected card
-    switchToSelected(id)
+    // Switches the project grid so the selected project shows the expanded component, given the project's id.
+    // When a project is already selected, that project's title card will be displayed and the new project's 
+    // expanded component will be displayed.
+    switchToSelectedGrid(id)
     {
-        this.setState({activeState: <SelectedProjectGrid allProjects={this.props.allProjects} onSelected={this.switchToUnSelected} onUnselected={this.switchToSelected} active={id}/>}); // active={id}
+        this.setState({activeState: <SelectedProjectGrid allProjects={this.props.allProjects} onSelectedGrid={this.switchToUnSelectedGrid} onUnselectedGrid={this.switchToSelectedGrid} active={id}/>}); // active={id}
     }
 
-    // Switches the view back to unselected
-    switchToUnSelected()
+    // Switches the view back to unselected when the user clicks on the expanded component
+    switchToUnSelectedGrid()
     {
-        this.setState({activeState : <UnselectedProjectGrid allProjects={this.props.allProjects} onUnselected={this.switchToSelected}/>});
+        this.setState({activeState : <UnselectedProjectGrid allProjects={this.props.allProjects} onUnselectedGrid={this.switchToSelectedGrid}/>});
     }
-
-
 
     render()
     {
-        // Have a loop/map functions that just creates all of the project boxes
         return(
-                    <div className="Project_Grid_View">
-                        {this.state.activeState}
-                        {/* // this.props.allProjects.map((project) => { */}
-                        {/* //     return <ProjectBox project={project} icons={this.props.icons} /> */}
-                        {/* //     }) */}
-                    </div>
-              )
+                <div className="Project_Grid_View">
+                    {this.state.activeState}
+                </div>
+        )
     }
 }
 

@@ -1,7 +1,5 @@
 import React from 'react';
-import ProjectBox from './ProjectBox';
 import './ProjectGrid.css';
-import ProjectDetailsCard from './ProjectDetailsCard';
 import ExpandedProject from './ExpandedProject';
 import ProjectTitleCard from './ProjectTitleCard';
 
@@ -14,26 +12,27 @@ class SelectedProjectGrid extends React.Component
 {
     render()
     {
-        // Have a loop/map functions that just creates all of the project boxes
         return(
-                    <div className="Project_Grid_View" >
-                    {
+                <div className="Project_Grid_View" >
+                {
 
-                        this.props.allProjects.map((project, index) => {
-                            if (this.props.active == index)
-                            {
-                                return <ExpandedProject project={project} projectID={index} isProjectExpanded={this.props.active == index} onClick={this.props.onSelected}/>
+                    this.props.allProjects.map((project, index) => {
+                        if (this.props.active == index)
+                        {
+                            // Show the active's project expanded component
+                            return <ExpandedProject project={project} projectID={index} isProjectExpanded={this.props.active == index} onClick={this.props.onSelectedGrid}/>
 
-                            }
+                        }
 
-                            else
-                            {
-                                return <ProjectTitleCard project={project} projectID={index} onClick={this.props.onUnselected}/>
-                            }
+                        else
+                        {
+                            // Show the project title card if the project isn't active
+                            return <ProjectTitleCard project={project} projectID={index} onClick={this.props.onUnselectedGrid}/>
+                        }
 
-                        })
-                    }
-                    </div>
+                    })
+                }
+                </div>
               )
     }
 }

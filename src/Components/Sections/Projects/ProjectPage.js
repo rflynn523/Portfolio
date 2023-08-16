@@ -2,7 +2,6 @@ import React from 'react';
 import ReactGA from 'react-ga'
 
 import ProjectGrid from './ProjectGrid';
-import ListCard from '../../Card/ListCard';
 
 import budgetAssistant from '../../../images/BudgetAssistant Screenshot.png'
 import savingsMapper from  '../../../images/savings_mapper_1200x628.png'
@@ -18,9 +17,8 @@ import ledDisplay from '../../../images/LEDDisplay.JPG'
 import githubIcon from '../../../images/GitHub-Logo.png'
 import youtubeIcon from '../../../images/youtubeIcon.png'
 import appStore from '../../../images/appStoreIcon.png'
-// import { act } from '@testing-library/react';
 
-// Project page component that holds all of the info abd switch betweeb list and grid view
+// Project page component that holds all of the info abd switch between list and grid view
 // (App -> ProjectPage)
 class ProjectPage extends React.Component
 {
@@ -162,8 +160,6 @@ class ProjectPage extends React.Component
     {
         ReactGA.pageview('/Projects')
 
-        // Add the buttons to switch the views 
-        // Possibly only need to change the class name to switch the layout from grid to list??
         return (
             <div className='borderBox'>
                 <h2>Projects Section</h2>
