@@ -2,9 +2,6 @@ import React from 'react';
 import './ProjectGrid.css';
 
 
-// Project Grid component that maps all of the projects to a Project Box
-// (App -> ProjectPage -> ProjectGrid)
-//              - allProjects, icons
 class ExpandedProject extends React.Component
 {
 

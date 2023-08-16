@@ -3,9 +3,7 @@ import './ProjectGrid.css';
 import UnselectedProjectGrid from './UnselectedProjectGrid';
 import SelectedProjectGrid from './SelectedProjectGrid';
 
-// Project Grid component that maps all of the projects to a Project Box
-// (App -> ProjectPage -> ProjectGrid)
-//              - allProjects, icons
+
 class ProjectGrid extends React.Component
 {
 

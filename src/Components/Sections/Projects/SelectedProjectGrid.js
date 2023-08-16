@@ -4,10 +4,6 @@ import ExpandedProject from './ExpandedProject';
 import ProjectTitleCard from './ProjectTitleCard';
 
 
-
-// Project Grid component that maps all of the projects to a Project Box
-// (App -> ProjectPage -> ProjectGrid)
-//              - allProjects, icons
 class SelectedProjectGrid extends React.Component
 {
     render()
