@@ -23,6 +23,27 @@
 
 }
 
+.ExpandedProject 
+{
+  /* display: flex;
+  flex-direction: column; */
+  display: grid;
+  grid-template-columns: 2fr 8fr;
+  grid-template-rows: 1fr;
+
+  height: 23rem;  
+  width: 69rem;
+
+  /* justify-content: top; */
+
+  background-color: #fff;
+  
+  /* margin: 1rem 1rem 3rem 1rem; */
+
+  transition: transform 0.2s ease-in-out;
+
+}
+
 .Details
 {
   display: grid;
