@@ -23,7 +23,8 @@ class Home extends React.Component
         ReactGA.pageview('/Home')
     
         return(
-            <div className='borderBox'>
+            <div>
+
                 <h2>Home Section</h2>
 
                 <div>Add cool landing page here</div>

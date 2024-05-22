@@ -1,9 +1,11 @@
 import React, {useEffect} from 'react';
 import ReactGA from 'react-ga'
 import ReactDOM from 'react-dom';
-import './index.css';
+// import './index.css';
 import App from './Components/App/App';
 import * as serviceWorker from './serviceWorker';
+import './output.css';
+
 
 ReactGA.initialize("UA-169730099-1")
             
