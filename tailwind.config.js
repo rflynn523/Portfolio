@@ -19,10 +19,35 @@ module.exports = {
       'gray-dark': '#273444',
       'gray': '#8492a6',
       'gray-light': '#d3dce6',
-      'test1': '#0F2027',
-      'test2': '#203A43',
-      'test3': '#2C5364',
-      'test4' : '#0f172a'
+      'darkside': '#0f172a',
+      'skyblue': '#3498db',
+      'lightgray' : "#cccccc",
+      'middarkside3' : "#1b294b",
+
+      // teal variations
+      'teal' : "#00cccc",
+      'teal2' : "#00b3b3",
+      'teal3' : "#009999",
+      'teal4' : "#008080",
+      
+      // dark blue from tailwinds website
+      'tailwinds' : '#102653',
+      
+      // colors from ig gradient posts
+      'ig-1' : '#00EAFF',
+      'ig-2' : '#4D3589',
+      'ig-3' : '#BADAFF',
+      'ig-4' : '#0025CE',
+      'ig-5' : '#07D2FB',
+      'ig-6' : '#0819B5',
+      'ig-7' : '#21FCC7',
+      
+      // background dark sides
+      'middarkside2': "#0e1525",
+      
+      // background mid color
+      'teal5' : "#006666",
+      
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
