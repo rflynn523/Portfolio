@@ -32,11 +32,3 @@ p
 
 }
 
-.borderBox
-{
-  border-style: solid;
-  padding: 12px;
-  box-shadow:inset 0px 0px 0px 10px #fff;
-
-}
-

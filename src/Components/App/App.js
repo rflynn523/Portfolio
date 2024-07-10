@@ -17,7 +17,7 @@ class App extends React.Component
   render()
   {
     return (
-      <div className="App">
+      <div className="bg-gradient-to-r from-middarkside2 via-teal5 to-middarkside2">
         {/* The font for the website */}
         <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet"/>
 
