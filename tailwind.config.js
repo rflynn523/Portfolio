@@ -60,6 +60,10 @@ module.exports = {
       },
       borderRadius: {
         '4xl': '2rem',
+      },
+      // Not being used currently
+      backgroundImage: {
+        'pattern': '/public/trianglify.jpeg',
       }
     }
   },
