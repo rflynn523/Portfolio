@@ -110,7 +110,7 @@ class AboutMe extends React.Component
         ReactGA.pageview('/AboutMe')
 
         return(
-            <div className="borderBox">
+            <div>
 
                 <Container maxWidth="lg">
                     <Grid container spacing={2}>
@@ -133,14 +133,14 @@ class AboutMe extends React.Component
                         
                         {/* Intro paragraph on the right */}
                         <Grid item xs={12} md={6}>
-                            <Typography variant="body1" paragraph>
+                            <Typography className="bg-slate bg-opacity-10 backdrop-blur-lg p-8 rounded-lg shadow-lg text-black" variant="body1" paragraph>
                                 A young engineer with a growing passion for creating software and learning about new 
                                 technology. I recently graduated from UCF in December of 2020 and I am currently working as 
                                 a Software Engineer at SOLUTE. My most recent personal project is an IOS app called "Savings Mapper". 
                                 You can check it out on the App Store. 
                             </Typography>
 
-                            <Typography variant="body1" paragraph>
+                            <Typography className="bg-slate bg-opacity-10 backdrop-blur-lg p-8 rounded-lg shadow-lg text-black" variant="body1" paragraph>
                                 This web app serves as an extension of my resume and also gave 
                                 me the opportunity to learn ReactJS. It features more information displayed in a more interactive way. 
                                 I am now using it to personally track my growth as a developer through my projects, skills, and work experience.
@@ -151,7 +151,7 @@ class AboutMe extends React.Component
                         <Container maxWidth="lg">
                             <Grid container spacing={2}>
                                 {this.card_info.map((card, index) => (
-                                <Grid item xs={12} sm={6} md={4} key={index}>
+                                <Grid  item xs={12} sm={6} md={4} key={index}>
                                     
                                     {/* Add Props to TechUsedCard to fill with the icons and probably the info needed for the grids */}
                                     <TechUsedCard title = {card.title} logos = {card.logos}/>

@@ -20,9 +20,11 @@ module.exports = {
       'gray': '#8492a6',
       'gray-light': '#d3dce6',
       'darkside': '#0f172a',
+      'slate' : '#f8fafc',
       'skyblue': '#3498db',
       'lightgray' : "#cccccc",
       'middarkside3' : "#1b294b",
+      'black': '#030712',
 
       // teal variations
       'teal' : "#00cccc",
