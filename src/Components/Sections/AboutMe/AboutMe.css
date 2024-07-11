@@ -1,9 +1,8 @@
-.homeGrid
-{
-    object-fit: fill;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
+.homeGrid {
+  object-fit: fill;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 /* 
 .aboutMePic img
@@ -19,10 +18,8 @@
 
 
     /* float: left; */
-    /* align-self: inherit; */
-    /* object-fit: fill; */
-
-
+/* align-self: inherit; */
+/* object-fit: fill; */
 
 /* p
 {   
@@ -40,21 +37,18 @@
 
 } */
 
-.div
-{
-    object-fit: contain;
+.div {
+  object-fit: contain;
 }
 
-.contactInfoLink
-{
-    display: block;
+.contactInfoLink {
+  display: block;
 }
 
-.contactInfoLink img
-{ 
-    display: block;
-    width: 50px;
-    height: 50px;
-    margin: auto;
-    padding: auto;
+.contactInfoLink img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  padding: auto;
 }
