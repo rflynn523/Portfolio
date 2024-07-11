@@ -9,14 +9,14 @@ import { Grid, Container, Card, CardContent, Typography } from "@mui/material";
 import test from "../../../images/appStoreIcon.png";
 
 // Programming Languages
-import python from "../../../images/tech_logos/languages/python-logo-only.png";
-import java from "../../../images/tech_logos/languages/java-icon.svg";
-import swift from "../../../images/tech_logos/languages/Swift Logo/Assets/Swift logo/SVG/Swift_logo_color.svg";
-import go from "../../../images/tech_logos/languages/Go-Logo_Aqua.png";
-import c from "../../../images/tech_logos/languages/c-logo/icons8-c-programming-480.png";
-import cpp from "../../../images/tech_logos/languages/cpp_logo.svg";
-import javascript from "../../../images/tech_logos/languages/js.png";
-import html from "../../../images/tech_logos/languages/HTML5_Logo_512.png";
+import python from "../../../images/tech_logos/languages/python-logo.png";
+import java from "../../../images/tech_logos/languages/java-logo.svg";
+import swift from "../../../images/tech_logos/languages/swift-logo.svg";
+import javascript from "../../../images/tech_logos/languages/js-logo.png";
+import go from "../../../images/tech_logos/languages/go-logo.png";
+import rust from "../../../images/tech_logos/languages/rust-logo.png";
+import cpp from "../../../images/tech_logos/languages/cpp-logo.svg";
+import c from "../../../images/tech_logos/languages/c-logo.png";
 
 // Database Images
 import mysql from "../../../images/tech_logos/databases/logo-mysql-170x115.png";
@@ -26,19 +26,7 @@ import postgres from "../../../images/tech_logos/databases/PostgreSQL_logo.3colo
 class AboutMe extends React.Component {
   prog_lang = {
     title: "Programming Languages",
-    logos: [
-      python,
-      java,
-      swift,
-      go,
-      c,
-      cpp,
-      javascript,
-      // JavaScript
-      // Golang
-      // SQL?
-      // HTML / CSS ?
-    ],
+    logos: [python, java, swift, javascript, go, rust, cpp, c],
   };
 
   libraries = {
@@ -130,7 +118,7 @@ class AboutMe extends React.Component {
             {/* Intro paragraph on the right */}
             <Grid item xs={12} md={6}>
               <Typography
-                className="bg-slate bg-opacity-10 backdrop-blur-lg p-8 rounded-lg shadow-lg text-black"
+                className="bg-slate bg-opacity-10 backdrop-blur-lg p-8 rounded-lg shadow-lg text-app-text-color"
                 variant="body1"
                 paragraph
               >
@@ -143,7 +131,7 @@ class AboutMe extends React.Component {
               </Typography>
 
               <Typography
-                className="bg-slate bg-opacity-10 backdrop-blur-lg p-8 rounded-lg shadow-lg text-black"
+                className="bg-slate bg-opacity-10 backdrop-blur-lg p-8 rounded-lg shadow-lg text-app-text-color"
                 variant="body1"
                 paragraph
               >

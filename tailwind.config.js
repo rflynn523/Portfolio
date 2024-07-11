@@ -26,6 +26,8 @@ module.exports = {
       'middarkside3' : "#1b294b",
       'black': '#030712',
 
+      'app-text-color': '#030712',
+      'app-text-color-slate': '#f8fafc',
       // teal variations
       'teal' : "#00cccc",
       'teal2' : "#00b3b3",

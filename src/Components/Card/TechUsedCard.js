@@ -20,26 +20,6 @@ import './Card.css'
 
 import './Card.css';
 
-const cardStyle = {
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'space-between',
-    height: '100%',
-    backgroundColor: 'rgba(0, 0, 0, 0.1)', // Adjust background opacity
-    backdropFilter: 'blur(10px)',
-    padding: '16px', // Equivalent to p-8
-    borderRadius: '8px', // Equivalent to rounded-lg
-    boxShadow: '0 10px 20px rgba(0, 0, 0, 0.2)', // Equivalent to shadow-lg
-    color: '#000', // Equivalent to text-black
-  };
-
-  const imageContainerStyle = {
-    display: 'flex',
-    justifyContent: 'space-evenly',
-    alignItems: 'center',
-    flexWrap: 'wrap',
-  };
-
   const imageStyle = {
     objectFit: 'cover',
     // borderRadius: '4px',
@@ -62,38 +42,19 @@ class TechUsedCard extends React.Component
 
         return(
 
-            <div className="bg-slate bg-opacity-10 backdrop-blur-lg p-5 rounded-lg shadow-lg text-black">
-                <div className="flex text-xl font-bold mb-4 justify-center">{this.props.title}</div>
+            <div className="bg-slate bg-opacity-10 backdrop-blur-lg p-5 rounded-lg shadow-lg text-app-text-color">
+                <div className="flex text-xl font-bold mb-5 border-2 rounded-full justify-center">{this.props.title}</div>
                     <div className="flex flex-wrap gap-4 justify-evenly">
                     {this.props.logos.map((image, imageIndex) => {
                                         return <img
                                             src={image}
                                             alt={`Image ${imageIndex + 1}`}
                                             key={imageIndex}
-                                            style={imageStyle}
+                                            className='size-16 object-contain"'
                                             />
                                     })}
-                    {/* <FaBeer size={32} />
-                    <FaCoffee size={32} />
-                    <FaApple size={32} />
-                    <FaBeer size={32} />
-                    <FaCoffee size={32} />
-                    <FaApple size={32} />
-                    <FaBeer size={32} />
-                    <FaCoffee size={32} />
-                    <FaApple size={32} />
-                    <FaBeer size={32} />
-                    <FaCoffee size={32} />
-                    <FaApple size={32} /> */}
                 </div>
           </div>
-
-                            
-
-            //             </div>
-            //         </CardContent>
-            //     </Card>
-            // </div>
         )
     }
 }
