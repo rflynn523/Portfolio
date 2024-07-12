@@ -19,9 +19,14 @@ import cpp from "../../../images/tech_logos/languages/cpp-logo.svg";
 import c from "../../../images/tech_logos/languages/c-logo.png";
 
 // Database Images
-import mysql from "../../../images/tech_logos/databases/logo-mysql-170x115.png";
-import firebase from "../../../images/tech_logos/databases/firebase-logo-logomark.png";
-import postgres from "../../../images/tech_logos/databases/PostgreSQL_logo.3colors.120x120.png";
+import postgres from "../../../images/tech_logos/databases/postgres-logo.png";
+import firebase from "../../../images/tech_logos/databases/firebase-logo.png";
+import mysql from "../../../images/tech_logos/databases/mysql-logo.png";
+
+// DevOps
+import gitlab from "../../../images/tech_logos/devops/gitlab-logo.png";
+import terraform from "../../../images/tech_logos/devops/terraform-logo.png";
+import docker from "../../../images/tech_logos/devops/docker-logo.png";
 
 class AboutMe extends React.Component {
   prog_lang = {
@@ -49,8 +54,6 @@ class AboutMe extends React.Component {
     title: "Tools",
     logos: [
       // VS Code
-      // Atom?
-      // Pytest
       // Postman
       // Swagger
       // Flake8 / Black / MyPy python linters
@@ -59,18 +62,7 @@ class AboutMe extends React.Component {
 
   databases = {
     title: "Databases",
-    logos: [mysql, firebase, postgres],
-  };
-
-  devops = {
-    title: "DevOps",
-    logos: [
-      // Git
-      // Gitlab / GitHub
-      // Kubernetes
-      // Docker
-      // Poetry (Python Manager)?
-    ],
+    logos: [postgres, firebase, mysql],
   };
 
   hardware = {
@@ -82,13 +74,18 @@ class AboutMe extends React.Component {
     ],
   };
 
+  devops = {
+    title: "DevOps",
+    logos: [gitlab, docker, terraform],
+  };
+
   card_info = [
     this.prog_lang,
     this.libraries,
     this.tools,
     this.databases,
-    this.devops,
     this.hardware,
+    this.devops,
   ];
 
   render() {

@@ -1,6 +1,5 @@
-.Project_Grid_View
-{
-    display: flex;  
-    flex-wrap: wrap;
-    justify-content: space-around;
+.Project_Grid_View {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
