@@ -1,12 +1,9 @@
 import React from "react";
 import ReactGA from "react-ga";
 
-import "./AboutMe.css";
-
 import engBuilding from "../../../images/ENGBuildingWebSize.jpg";
 import TechUsedCard from "../../Card/TechUsedCard";
 import { Grid, Container, Card, CardContent, Typography } from "@mui/material";
-import test from "../../../images/appStoreIcon.png";
 
 // Programming Languages
 import python from "../../../images/tech_logos/languages/python-logo.png";
@@ -18,7 +15,13 @@ import rust from "../../../images/tech_logos/languages/rust-logo.png";
 import cpp from "../../../images/tech_logos/languages/cpp-logo.svg";
 import c from "../../../images/tech_logos/languages/c-logo.png";
 
-// Database Images
+// Libraries / Frameworks
+
+// Tools
+
+// Hardware Programming?
+
+// Databases
 import postgres from "../../../images/tech_logos/databases/postgres-logo.png";
 import firebase from "../../../images/tech_logos/databases/firebase-logo.png";
 import mysql from "../../../images/tech_logos/databases/mysql-logo.png";
@@ -42,9 +45,6 @@ class AboutMe extends React.Component {
       // Pydantic
       // ReactJS
       // VueJS
-      // Tkinter?
-      // Java Swing
-      // OpenCV?
       // Openpyxl
       // Kafka?
     ],
@@ -54,9 +54,11 @@ class AboutMe extends React.Component {
     title: "Tools",
     logos: [
       // VS Code
+      // XCode
+      // Android Studio
+      // PyCharm
       // Postman
       // Swagger
-      // Flake8 / Black / MyPy python linters
     ],
   };
 
