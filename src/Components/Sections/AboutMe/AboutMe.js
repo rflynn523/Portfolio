@@ -96,11 +96,11 @@ class AboutMe extends React.Component {
 
     return (
       <div>
-            {/* Title of the Section */}
+        {/* Title of the Section */}
 
-              <Typography variant="h4" align="center" gutterBottom>
-                About Me
-              </Typography>
+        <Typography variant="h4" align="center" gutterBottom>
+          About Me
+        </Typography>
           <div className="flex items-center p-32">
 
             {/* Picture on the left */}
@@ -109,7 +109,7 @@ class AboutMe extends React.Component {
                 src={engBuilding}
                 alt="Image"
                 className="size-128 rounded-full object-cover"
-              />
+                />
               </div>
 
             {/* Intro paragraph on the right */}
@@ -119,7 +119,7 @@ class AboutMe extends React.Component {
                 className="bg-slate bg-opacity-10 backdrop-blur-lg p-8 rounded-lg shadow-lg text-app-text-color"
                 variant="body1"
                 paragraph
-              >
+                >
                 A young engineer with a growing passion for creating software
                 and learning about new technology. I recently graduated from UCF
                 in December of 2020 and I am currently working as a Software
@@ -132,7 +132,7 @@ class AboutMe extends React.Component {
                 className="bg-slate bg-opacity-10 backdrop-blur-lg p-8 rounded-lg shadow-lg text-app-text-color"
                 variant="body1"
                 paragraph
-              >
+                >
                 This web app serves as an extension of my resume and also gave
                 me the opportunity to learn ReactJS. It features more
                 information displayed in a more interactive way. I am now using
