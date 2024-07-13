@@ -24,8 +24,11 @@ import android_studio from "../../../images/tech_logos/tools/android-studio-logo
 import pycharm from "../../../images/tech_logos/tools/pycharm-logo.png";
 import postman from "../../../images/tech_logos/tools/postman-logo.png";
 import swagger from "../../../images/tech_logos/tools/swagger-logo.svg";
+import git from "../../../images/tech_logos/tools/git-logo.png"
 
-// Hardware Programming?
+// Hardware Programming
+import raspberry from "../../../images/tech_logos/hardware/raspberry-pi-logo.png";
+import ti from "../../../images/tech_logos/hardware/ti-logo.jpg"
 
 // Databases
 import postgres from "../../../images/tech_logos/databases/postgres-logo.png";
@@ -58,7 +61,7 @@ class AboutMe extends React.Component {
 
   tools = {
     title: "Tools",
-    logos: [vscode, xcode, android_studio, pycharm, postman, swagger],
+    logos: [vscode, xcode, android_studio, pycharm, postman, swagger, git],
   };
 
   databases = {
@@ -69,9 +72,9 @@ class AboutMe extends React.Component {
   hardware = {
     title: "Hardware Programming",
     logos: [
-      // Raspberry Pi
+      raspberry,
       // Boe-Bot
-      // MSP-EXP430 G2 and FR6989
+      ti,
     ],
   };
 
