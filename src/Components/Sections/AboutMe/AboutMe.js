@@ -96,26 +96,25 @@ class AboutMe extends React.Component {
 
     return (
       <div>
-        <Container maxWidth="lg">
-          <Grid container spacing={2}>
             {/* Title of the Section */}
-            <Grid item xs={12}>
+
               <Typography variant="h4" align="center" gutterBottom>
                 About Me
               </Typography>
-            </Grid>
+          <div className="flex items-center p-32">
 
             {/* Picture on the left */}
-            <Grid item xs={12} md={6}>
+            <div className="flex-shrink-0">
               <img
                 src={engBuilding}
                 alt="Image"
-                style={{ width: "100%", height: "auto" }}
+                className="size-128 rounded-full object-cover"
               />
-            </Grid>
+              </div>
 
             {/* Intro paragraph on the right */}
-            <Grid item xs={12} md={6}>
+            <div className="ml-12">
+
               <Typography
                 className="bg-slate bg-opacity-10 backdrop-blur-lg p-8 rounded-lg shadow-lg text-app-text-color"
                 variant="body1"
@@ -140,10 +139,11 @@ class AboutMe extends React.Component {
                 it to personally track my growth as a developer through my
                 projects, skills, and work experience.
               </Typography>
-            </Grid>
+              </div>
+            </div>
 
             {/* Grid for the Tech Used */}
-            <div className="grid grid-cols-3 gap-10">
+            <div className="grid grid-cols-3 gap-10 mx-24">
               {this.card_info.map((card, index) => (
                 <div key={card.id}>
                   {/* Add Props to TechUsedCard to fill with the icons and probably the info needed for the grids */}
@@ -151,8 +151,6 @@ class AboutMe extends React.Component {
                 </div>
               ))}
             </div>
-          </Grid>
-        </Container>
       </div>
     );
   }
