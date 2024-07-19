@@ -16,13 +16,12 @@ import cpp from "../../../images/tech_logos/languages/cpp-logo.svg";
 import c from "../../../images/tech_logos/languages/c-logo.png";
 
 // Libraries / Frameworks
-import react from "../../../images/tech_logos/libraries/react-logo.png"
-import pytest from "../../../images/tech_logos/libraries/pytest-logo.png"
-import pydantic from "../../../images/tech_logos/libraries/pydantic-logo.svg"
-import kafka from "../../../images/tech_logos/libraries/kafka-logo.png"
-import tailwinds from "../../../images/tech_logos/libraries/tailwind-logo.png"
-import swiftui from "../../../images/tech_logos/libraries/swiftui-logo.png"
-
+import react from "../../../images/tech_logos/libraries/react-logo.png";
+import pytest from "../../../images/tech_logos/libraries/pytest-logo.png";
+import pydantic from "../../../images/tech_logos/libraries/pydantic-logo.svg";
+import kafka from "../../../images/tech_logos/libraries/kafka-logo.png";
+import tailwinds from "../../../images/tech_logos/libraries/tailwind-logo.png";
+import swiftui from "../../../images/tech_logos/libraries/swiftui-logo.png";
 
 // Tools
 import vscode from "../../../images/tech_logos/tools/vscode-logo.png";
@@ -35,7 +34,7 @@ import git from "../../../images/tech_logos/tools/git-logo.png";
 
 // Hardware Programming
 import raspberry from "../../../images/tech_logos/hardware/raspberry-pi-logo.png";
-import boebot from "../../../images/tech_logos/hardware/boebot-parallax-logo.png"
+import boebot from "../../../images/tech_logos/hardware/boebot-parallax-logo.png";
 import ti from "../../../images/tech_logos/hardware/ti-logo.png";
 
 // Databases
@@ -51,44 +50,158 @@ import docker from "../../../images/tech_logos/devops/docker-logo.png";
 class AboutMe extends React.Component {
   prog_lang = {
     title: "Programming Languages",
-    logos: [python, java, swift, javascript, go, rust, cpp, c],
+    logos: [
+      {
+        image: python,
+        tooltip: "Python",
+      },
+      {
+        image: java,
+        tooltip: "Java",
+      },
+      {
+        image: swift,
+        tooltip: "Swift",
+      },
+      {
+        image: javascript,
+        tooltip: "JavaScript",
+      },
+      {
+        image: go,
+        tooltip: "Golang",
+      },
+      {
+        image: rust,
+        tooltip: "Rust",
+      },
+      {
+        image: cpp,
+        tooltip: "C++",
+      },
+      {
+        image: c,
+        tooltip: "C",
+      },
+    ],
   };
 
   libraries = {
     title: "Libraries/Frameworks",
     logos: [
-      // Pytest
-      // Alembic
-      // Pydantic
-      // ReactJS
-      // VueJS
-      // Openpyxl
-      // Kafka?
+      {
+        image: react,
+        tooltip: "ReactJS",
+      },
+      {
+        image: pytest,
+        tooltip: "PyTest",
+      },
+      {
+        image: pydantic,
+        tooltip: "Pydantic",
+      },
+      {
+        image: swiftui,
+        tooltip: "SwiftUI",
+      },
+      {
+        image: tailwinds,
+        tooltip: "Tailwinds",
+      },
+      {
+        image: kafka,
+        tooltip: "Kafka",
+      },
     ],
   };
 
   tools = {
     title: "Tools",
-    logos: [vscode, xcode, android_studio, pycharm, postman, swagger, git],
+    logos: [
+      {
+        image: vscode,
+        tooltip: "Visual Studio Code",
+      },
+      {
+        image: xcode,
+        tooltip: "Xcode",
+      },
+      {
+        image: android_studio,
+        tooltip: "Android Studio",
+      },
+      {
+        image: pycharm,
+        tooltip: "PyCharm",
+      },
+      {
+        image: postman,
+        tooltip: "Postman",
+      },
+      {
+        image: swagger,
+        tooltip: "Swagger",
+      },
+      {
+        image: git,
+        tooltip: "Git",
+      },
+    ],
   };
 
   databases = {
     title: "Databases",
-    logos: [postgres, firebase, mysql],
+    logos: [
+      {
+        image: postgres,
+        tooltip: "PostgreSQL",
+      },
+      {
+        image: firebase,
+        tooltip: "Firebase",
+      },
+      {
+        image: mysql,
+        tooltip: "MySQL",
+      },
+    ],
   };
 
   hardware = {
     title: "Hardware Programming",
     logos: [
-      raspberry,
-      // Boe-Bot
-      ti,
+      {
+        image: raspberry,
+        tooltip: "Raspberry Pi",
+      },
+      {
+        image: boebot,
+        tooltip: "BoeBot",
+      },
+      {
+        image: ti,
+        tooltip: "MSP430 Microcontrollers",
+      },
     ],
   };
 
   devops = {
     title: "DevOps",
-    logos: [gitlab, docker, terraform],
+    logos: [
+      {
+        image: gitlab,
+        tooltip: "GitLab CICD",
+      },
+      {
+        image: docker,
+        tooltip: "Docker",
+      },
+      {
+        image: terraform,
+        tooltip: "Terraform",
+      },
+    ],
   };
 
   card_info = [
@@ -96,8 +209,8 @@ class AboutMe extends React.Component {
     this.libraries,
     this.tools,
     this.databases,
-    this.hardware,
     this.devops,
+    this.hardware,
   ];
 
   render() {
