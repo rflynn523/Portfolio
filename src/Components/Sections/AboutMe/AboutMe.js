@@ -16,6 +16,13 @@ import cpp from "../../../images/tech_logos/languages/cpp-logo.svg";
 import c from "../../../images/tech_logos/languages/c-logo.png";
 
 // Libraries / Frameworks
+import react from "../../../images/tech_logos/libraries/react-logo.png"
+import pytest from "../../../images/tech_logos/libraries/pytest-logo.png"
+import pydantic from "../../../images/tech_logos/libraries/pydantic-logo.svg"
+import kafka from "../../../images/tech_logos/libraries/kafka-logo.png"
+import tailwinds from "../../../images/tech_logos/libraries/tailwind-logo.png"
+import swiftui from "../../../images/tech_logos/libraries/swiftui-logo.png"
+
 
 // Tools
 import vscode from "../../../images/tech_logos/tools/vscode-logo.png";
