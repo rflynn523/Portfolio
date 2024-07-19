@@ -1,7 +1,5 @@
 import React from "react";
-import Tooltip from "../Sections/AboutMe/ToolTip";
-
-import "./Card.css";
+import Tooltip from "../Tooltip/Tooltip"
 
 class TechUsedCard extends React.Component {
   constructor(props) {

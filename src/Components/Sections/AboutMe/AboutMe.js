@@ -266,7 +266,6 @@ class AboutMe extends React.Component {
         <div className="grid grid-cols-3 gap-10 mx-24">
           {this.card_info.map((card, index) => (
             <div key={card.id}>
-              {/* Add Props to TechUsedCard to fill with the icons and probably the info needed for the grids */}
               <TechUsedCard title={card.title} logos={card.logos} />
             </div>
           ))}
