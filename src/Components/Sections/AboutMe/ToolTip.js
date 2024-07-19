@@ -1,4 +1,3 @@
-// Tooltip.js
 import React from "react";
 
 const Tooltip = ({ text, children }) => {
@@ -11,7 +10,7 @@ const Tooltip = ({ text, children }) => {
           {text}
           <div className="absolute left-1/2 transform -translate-x-1/2 top-full w-0 h-0 border-l-8 border-r-8 border-t-8 border-l-transparent border-r-transparent border-t-tooltip-bg-color"></div>
         </div>
-      </div>  
+      </div>
     </div>
   );
 };

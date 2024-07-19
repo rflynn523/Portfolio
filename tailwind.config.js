@@ -54,9 +54,8 @@ module.exports = {
       teal5: "#006666",
 
       // Tooltip
-      "tooltip-bg-color" : "#008080", // Teal4
+      "tooltip-bg-color": "#008080", // Teal4
       "tooltip-text-color": "#d3dce6", // Light Gray
-
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],
