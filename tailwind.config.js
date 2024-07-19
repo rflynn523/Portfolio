@@ -25,6 +25,7 @@ module.exports = {
       lightgray: "#cccccc",
       middarkside3: "#1b294b",
       black: "#030712",
+      transparent: "#00000000",
 
       "app-text-color": "#030712",
       "app-text-color-slate": "#f8fafc",
@@ -51,6 +52,11 @@ module.exports = {
 
       // background mid color
       teal5: "#006666",
+
+      // Tooltip
+      "tooltip-bg-color" : "#008080", // Teal4
+      "tooltip-text-color": "#d3dce6", // Light Gray
+
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],
