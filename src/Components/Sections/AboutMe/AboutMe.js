@@ -31,11 +31,12 @@ import android_studio from "../../../images/tech_logos/tools/android-studio-logo
 import pycharm from "../../../images/tech_logos/tools/pycharm-logo.png";
 import postman from "../../../images/tech_logos/tools/postman-logo.png";
 import swagger from "../../../images/tech_logos/tools/swagger-logo.svg";
-import git from "../../../images/tech_logos/tools/git-logo.png"
+import git from "../../../images/tech_logos/tools/git-logo.png";
 
 // Hardware Programming
 import raspberry from "../../../images/tech_logos/hardware/raspberry-pi-logo.png";
-import ti from "../../../images/tech_logos/hardware/ti-logo.jpg"
+import boebot from "../../../images/tech_logos/hardware/boebot-parallax-logo.png"
+import ti from "../../../images/tech_logos/hardware/ti-logo.png";
 
 // Databases
 import postgres from "../../../images/tech_logos/databases/postgres-logo.png";
