@@ -1,7 +1,6 @@
-.App
-{
+.App {
   /* Background color of the entire web app */
-  background-color: #06BC9B;
+  background-color: #06bc9b;
 
   /* Font for the website */
   font-family: "Trebuchet MS";
@@ -9,28 +8,24 @@
   overflow-x: hidden;
 }
 
-button
-{
+button {
   font-family: "Trebuchet MS";
 }
 
 /* Intro paragraph */
-p
-{
-    background-color: #fff;
-    color: #333;
+p {
+  background-color: #fff;
+  color: #333;
 
-    font-size: 25px;
-    text-align: left;
+  font-size: 25px;
+  text-align: left;
 
-    padding-top: 20px;
-    padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
-    padding-left: 30px;
-    padding-right: 30px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow:
+    0 4px 4px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-
-
