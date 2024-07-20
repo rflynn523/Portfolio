@@ -64,7 +64,8 @@ module.exports = {
       "nav-bar-color4": "#45dfb1",
       "nav-bar-color5": "#80ed99", // 50 opacity
 
-
+      "nav-bar-font-color": "#f0fdfa",
+      "name-color": "#0e1525"
 
     },
     fontFamily: {
@@ -82,6 +83,9 @@ module.exports = {
       // Not being used currently
       backgroundImage: {
         pattern: "/public/trianglify.jpeg",
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },

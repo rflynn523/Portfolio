@@ -25,15 +25,17 @@ class NavBar extends React.Component {
     ReactGA.pageview("/Contact");
 
     return (
-      <nav className="fixed w-full top-0 z-50 bg-nav-bar-color3 bg-opacity-70 backdrop-blur-md p-5 text-app-text-color">
+      // <nav className="fixed w-full top-0 z-50 bg-nav-bar-color3 bg-opacity-70 backdrop-blur-md p-5 text-app-text-color">
+      <nav className="fixed w-full top-0 z-5 z-50 p-8 bg-gradient-to-r from-middarkside2 via-teal5 to-middarkside2 text-nav-bar-font-color">
+       
         <div className="container mx-auto flex justify-between items-center">
-          <div className="flex flex-1 space-x-4">
-            <button onClick={() => scrollToSection("Home")} className="text-app-text-color">Home</button>
-            <button onClick={() => scrollToSection("About Me")} className="text-app-text-color">About Me</button>
-            <button onClick={() => scrollToSection("Projects")} className="text-app-text-color">Projects</button>
-            <button onClick={() => scrollToSection("Work")} className="text-app-text-color">Work</button>
+          <div className="flex flex-1 space-x-4 text-nav-bar-font-color" >
+            <button onClick={() => scrollToSection("Home")}>Home</button>
+            <button onClick={() => scrollToSection("About Me")}>About Me</button>
+            <button onClick={() => scrollToSection("Projects")}>Projects</button>
+            <button onClick={() => scrollToSection("Work")}>Work</button>
           </div>
-          <div className="text-app-text-color text-2xl font-bold absolute left-1/2 transform -translate-x-1/2">
+          <div className="text-name-color text-5xl poppins-semibold tracking-wide absolute left-1/2 transform -translate-x-1/2">
             Ryan Flynn
           </div>
           <div className="flex space-x-4">

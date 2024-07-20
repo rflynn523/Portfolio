@@ -819,9 +819,9 @@ video {
   padding: 2rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-sm {
@@ -838,9 +838,23 @@ video {
   font-weight: 700;
 }
 
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
 .text-app-text-color {
   --tw-text-opacity: 1;
   color: rgb(3 7 18 / var(--tw-text-opacity));
+}
+
+.text-name-color {
+  --tw-text-opacity: 1;
+  color: rgb(14 21 37 / var(--tw-text-opacity));
+}
+
+.text-nav-bar-font-color {
+  --tw-text-opacity: 1;
+  color: rgb(240 253 250 / var(--tw-text-opacity));
 }
 
 .text-tooltip-text-color {
