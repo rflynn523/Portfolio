@@ -11,6 +11,9 @@ import linkedInIcon from "../../images/LI-In-Bug.png";
 import githubIcon from "../../images/GitHub-Logo.png";
 import resumeIcon from "../../images/resumeIcno.png";
 
+import { useState, useEffect } from 'react';
+
+
 const scrollToSection = (sectionId) => {
   const section = document.getElementById(sectionId);
   if (section) {
@@ -18,7 +21,34 @@ const scrollToSection = (sectionId) => {
   }
 };
 
+
+
 class NavBar extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isScrolled: false,
+    };
+
+    this.handleScroll = this.handleScroll.bind(this);
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+
+  handleScroll() {
+    if (window.scrollY > 5) {
+      this.setState({ isScrolled: true });
+    } else {
+      this.setState({ isScrolled: false });
+    }
+  }
+
   render() {
     // To report page view
     ReactGA.pageview("/Contact");
@@ -42,8 +72,10 @@ class NavBar extends React.Component {
           </div>
 
           {/* Name */}
-          <div className="text-nav-bar-font-color text-5xl poppins-semibold tracking-wide absolute left-1/2 transform -translate-x-1/2">
-            Ryan Flynn
+          <div className="text-nav-bar-font-color poppins-semibold tracking-wide absolute left-1/2 transform -translate-x-1/2">
+            <div className={`transition-all ease-in-out duration-700 ${this.state.isScrolled ? 'text-5xl' : 'text-7xl'}`}>
+              Ryan Flynn
+            </div>
           </div>
 
           {/* Contact Links */}
