@@ -24,9 +24,14 @@ class NavBar extends React.Component {
     ReactGA.pageview("/Contact");
 
     return (
+
+      // Nav bar style that does not match the gradient back ground
       // <nav className="fixed w-full top-0 z-50 bg-nav-bar-color3 bg-opacity-70 backdrop-blur-md p-5 text-app-text-color">
+
       <nav className="fixed w-full top-0 z-5 z-50 p-8 bg-gradient-to-r from-middarkside2 via-teal5 to-middarkside2 text-nav-bar-font-color">
         <div className="container mx-auto flex justify-between items-center">
+
+          {/* Jump To Buttons */}
           <div className="flex flex-1 space-x-4 text-nav-bar-font-color">
             <button onClick={() => scrollToSection("Home")}>Home</button>
             <button onClick={() => scrollToSection("About Me")}>
@@ -37,10 +42,15 @@ class NavBar extends React.Component {
             </button>
             <button onClick={() => scrollToSection("Work")}>Work</button>
           </div>
-          <div className="text-name-color text-5xl poppins-semibold tracking-wide absolute left-1/2 transform -translate-x-1/2">
+
+          {/* Name */}
+          <div className="text-nav-bar-font-color text-5xl poppins-semibold tracking-wide absolute left-1/2 transform -translate-x-1/2">
             Ryan Flynn
           </div>
+
+          {/* Contact Links */}
           <div className="flex space-x-4">
+            {/* LinkedIn */}
             <a
               href="https://www.linkedin.com/in/ryan-flynn-5b0a56170/"
               target="_blank"
@@ -52,6 +62,8 @@ class NavBar extends React.Component {
             >
               <FaLinkedin />
             </a>
+
+            {/* GitHub */}
             <a
               href="https://github.com/rflynn523"
               target="_blank"
@@ -66,6 +78,8 @@ class NavBar extends React.Component {
             >
               <FaGithub />
             </a>
+
+            {/* Resume */}
             <a
               href={resumePDF}
               target="_blank"
