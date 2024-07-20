@@ -1,48 +1,49 @@
-.card,
-.education-card {
-  display: inline-block;
+.card, .education-card
+{
+    display: inline-block;
 
-  background-color: #fff;
-  color: #333;
+    background-color: #fff;
+    color: #333;
 
-  font-size: 20px;
+    font-size: 20px;
 
-  align-items: center;
+    align-items: center;
 
-  box-shadow:
-    0 4px 4px 0 rgba(0, 0, 0, 0.2),
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 
-  padding: 10px;
+    padding: 10px;
+
 }
 
-.cardTitle {
-  font-weight: bold;
-  text-align: center;
+.cardTitle
+{
+    font-weight: bold;
+    text-align: center;
 }
 
 /* The list of courses or skills for each category */
-ul {
-  background-color: #fff;
+ul
+{
+    background-color: #fff;
 
-  text-align: center;
+    text-align: center;
 
-  list-style-type: none;
+    list-style-type: none;
 
-  margin: 10px;
-  padding: 10px;
+    margin: 10px; 
+    padding: 10px;
 }
 
-.card:hover {
-  box-shadow:
-    0 4px 4px 0 rgba(0, 0, 0, 0.5),
-    0 6px 20px 0 rgba(0, 0, 0, 0.5);
-  cursor: pointer;
-  transform: scale(1.05);
-  transition-duration: 0.15s;
+.card:hover
+{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition-duration: 0.15s;
 }
+
