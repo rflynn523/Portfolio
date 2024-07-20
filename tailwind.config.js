@@ -65,8 +65,7 @@ module.exports = {
       "nav-bar-color5": "#80ed99", // 50 opacity
 
       "nav-bar-font-color": "#f0fdfa",
-      "name-color": "#0e1525"
-
+      "name-color": "#0e1525",
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],

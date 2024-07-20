@@ -11,7 +11,6 @@ import linkedInIcon from "../../images/LI-In-Bug.png";
 import githubIcon from "../../images/GitHub-Logo.png";
 import resumeIcon from "../../images/resumeIcno.png";
 
-
 const scrollToSection = (sectionId) => {
   const section = document.getElementById(sectionId);
   if (section) {
@@ -27,12 +26,15 @@ class NavBar extends React.Component {
     return (
       // <nav className="fixed w-full top-0 z-50 bg-nav-bar-color3 bg-opacity-70 backdrop-blur-md p-5 text-app-text-color">
       <nav className="fixed w-full top-0 z-5 z-50 p-8 bg-gradient-to-r from-middarkside2 via-teal5 to-middarkside2 text-nav-bar-font-color">
-       
         <div className="container mx-auto flex justify-between items-center">
-          <div className="flex flex-1 space-x-4 text-nav-bar-font-color" >
+          <div className="flex flex-1 space-x-4 text-nav-bar-font-color">
             <button onClick={() => scrollToSection("Home")}>Home</button>
-            <button onClick={() => scrollToSection("About Me")}>About Me</button>
-            <button onClick={() => scrollToSection("Projects")}>Projects</button>
+            <button onClick={() => scrollToSection("About Me")}>
+              About Me
+            </button>
+            <button onClick={() => scrollToSection("Projects")}>
+              Projects
+            </button>
             <button onClick={() => scrollToSection("Work")}>Work</button>
           </div>
           <div className="text-name-color text-5xl poppins-semibold tracking-wide absolute left-1/2 transform -translate-x-1/2">

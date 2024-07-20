@@ -38,7 +38,6 @@ class App extends React.Component {
         <section id="Work">
           <Work />
         </section>
-
       </div>
     );
   }
