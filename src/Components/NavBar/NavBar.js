@@ -25,7 +25,7 @@ class NavBar extends React.Component {
     ReactGA.pageview("/Contact");
 
     return (
-      <nav className="bg-slate bg-opacity-10 backdrop-blur-lg p-5 text-app-text-color">
+      <nav className="fixed w-full top-0 z-50 bg-nav-bar-color3 bg-opacity-70 backdrop-blur-md p-5 text-app-text-color">
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex flex-1 space-x-4">
             <button onClick={() => scrollToSection("Home")} className="text-app-text-color">Home</button>

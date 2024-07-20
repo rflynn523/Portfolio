@@ -56,6 +56,16 @@ module.exports = {
       // Tooltip
       "tooltip-bg-color": "#008080", // Teal4
       "tooltip-text-color": "#d3dce6", // Light Gray
+
+      // Nav Bar
+      "nav-bar-color1": "#0b6477",
+      "nav-bar-color2": "#14919b",
+      "nav-bar-color3": "#0ad1c8", // 70 opacity
+      "nav-bar-color4": "#45dfb1",
+      "nav-bar-color5": "#80ed99", // 50 opacity
+
+
+
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],
