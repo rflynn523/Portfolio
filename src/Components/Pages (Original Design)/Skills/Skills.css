@@ -1,54 +1,45 @@
-.skills
-{
-    width: 100vw;
-    height: 100vh;
+.skills {
+  width: 100vw;
+  height: 100vh;
 }
 
 /* When a Card is selected */
-.selected
-{
-    display: grid;
-    grid-template-columns: 25% 75%;
+.selected {
+  display: grid;
+  grid-template-columns: 25% 75%;
 
-    overflow-y: auto;
+  overflow-y: auto;
 }
 
-.otherSkillGroups
-{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);  
-    /* grid-template-rows: repeat(2, 1fr); */
-
+.otherSkillGroups {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-rows: repeat(2, 1fr); */
 }
 
 /* Unselected section */
-.unselected
-{
-    /* display: inline-block; */
-    /* display: flex; */
+.unselected {
+  /* display: inline-block; */
+  /* display: flex; */
 
-    margin-right: 5px;
-    transition-duration: 5s;
-    
-    overflow-y: hidden;
+  margin-right: 5px;
+  transition-duration: 5s;
+
+  overflow-y: hidden;
 }
 
-.firstRow
-{
-    display: grid;
+.firstRow {
+  display: grid;
 
-    grid-template-columns: repeat(4, 1fr);  
-    grid-template-rows: 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
 
-    grid-row-start: 1;
-    grid-row-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
-.secondRow
-{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);  
-    grid-template-rows: 1fr;
-
-    
+.secondRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
 }

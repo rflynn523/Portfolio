@@ -1,21 +1,21 @@
-import React from 'react';
-import ProjectBox from './ProjectBox';
-import './ProjectGrid.css';
+import React from "react";
+import ProjectBox from "./ProjectBox";
+import "./ProjectGrid.css";
 
 // Project Grid component that maps all of the projects to a Project Box
 // (App -> ProjectPage -> ProjectGrid)
 //              - allProjects, icons
-class ProjectGrid extends React.Component
-{
-    render()
-    {
-        // Have a loop/map functions that just creates all of the project boxes
-        return(
-                    <div className="Project_Grid_View">
-                    {this.props.allProjects.map((project) => {return <ProjectBox project={project} icons={this.props.icons}/>})}
-                    </div>
-              )
-    }
+class ProjectGrid extends React.Component {
+  render() {
+    // Have a loop/map functions that just creates all of the project boxes
+    return (
+      <div className="Project_Grid_View">
+        {this.props.allProjects.map((project) => {
+          return <ProjectBox project={project} icons={this.props.icons} />;
+        })}
+      </div>
+    );
+  }
 }
 
 export default ProjectGrid;
