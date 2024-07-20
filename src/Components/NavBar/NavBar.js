@@ -11,8 +11,7 @@ import linkedInIcon from "../../images/LI-In-Bug.png";
 import githubIcon from "../../images/GitHub-Logo.png";
 import resumeIcon from "../../images/resumeIcno.png";
 
-import { useState, useEffect } from 'react';
-
+import { useState, useEffect } from "react";
 
 const scrollToSection = (sectionId) => {
   const section = document.getElementById(sectionId);
@@ -20,8 +19,6 @@ const scrollToSection = (sectionId) => {
     section.scrollIntoView({ behavior: "smooth" });
   }
 };
-
-
 
 class NavBar extends React.Component {
   constructor(props) {
@@ -34,11 +31,11 @@ class NavBar extends React.Component {
   }
 
   componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll);
+    window.addEventListener("scroll", this.handleScroll);
   }
 
   componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll);
+    window.removeEventListener("scroll", this.handleScroll);
   }
 
   handleScroll() {
@@ -73,7 +70,9 @@ class NavBar extends React.Component {
 
           {/* Name */}
           <div className="text-nav-bar-font-color poppins-semibold tracking-wide absolute left-1/2 transform -translate-x-1/2">
-            <div className={`transition-all ease-in-out duration-700 ${this.state.isScrolled ? 'text-5xl' : 'text-7xl'}`}>
+            <div
+              className={`transition-all ease-in-out duration-700 ${this.state.isScrolled ? "text-5xl" : "text-7xl"}`}
+            >
               Ryan Flynn
             </div>
           </div>
