@@ -605,6 +605,10 @@ video {
   z-index: 50;
 }
 
+.m-12 {
+  margin: 3rem;
+}
+
 .mx-24 {
   margin-left: 6rem;
   margin-right: 6rem;
@@ -625,6 +629,10 @@ video {
 
 .ml-12 {
   margin-left: 3rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
 }
 
 .flex {
@@ -832,6 +840,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .font-bold {

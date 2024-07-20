@@ -24,13 +24,11 @@ class NavBar extends React.Component {
     ReactGA.pageview("/Contact");
 
     return (
-
       // Nav bar style that does not match the gradient back ground
       // <nav className="fixed w-full top-0 z-50 bg-nav-bar-color3 bg-opacity-70 backdrop-blur-md p-5 text-app-text-color">
 
       <nav className="fixed w-full top-0 z-5 z-50 p-8 bg-gradient-to-r from-middarkside2 via-teal5 to-middarkside2 text-nav-bar-font-color">
         <div className="container mx-auto flex justify-between items-center">
-
           {/* Jump To Buttons */}
           <div className="flex flex-1 space-x-4 text-nav-bar-font-color">
             <button onClick={() => scrollToSection("Home")}>Home</button>
