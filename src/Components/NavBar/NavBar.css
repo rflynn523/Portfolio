@@ -1,19 +1,25 @@
-.grid-navBar {
-  justify-items: center;
-  text-align: center;
+.grid-navBar
+{
+    justify-items: center;
+    text-align: center;
 
-  font-size: 30 px;
+    font-size: 30 px;
 
-  background-color: #2d3032;
+    background-color: #2D3032;
+
 }
 
-.name {
-  /* color: greenyellow; */
-  color: #1aff1a;
 
-  font-size: 30px;
-  /* font-family: 'Courgette', cursive; */
+.name
+{   
+    /* color: greenyellow; */
+    color:  #1aff1a;
 
-  letter-spacing: 2px;
-  padding: 15px;
+    font-size: 30px;
+    /* font-family: 'Courgette', cursive; */
+
+    letter-spacing: 2px;
+    padding: 15px;
 }
+
+
