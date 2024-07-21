@@ -55,18 +55,36 @@ class NavBar extends React.Component {
       // <nav className="fixed w-full h-fit top-0 z-50 bg-nav-bar-color3 bg-opacity-70 backdrop-blur-md py-5 text-app-text-color">
 
       <nav className="fixed w-full h-fit top-0 z-50 bg-gradient-to-r from-middarkside2 via-teal5 to-middarkside2 text-nav-bar-font-color">
-        <div className={`transition-all ease-in-out duration-700 ${this.state.isScrolled ? "pt-0" : "pt-6"}`}>
+        <div
+          className={`transition-all ease-in-out duration-700 ${this.state.isScrolled ? "pt-0" : "pt-6"}`}
+        >
           <div className="container mx-auto flex justify-between items-center py-5">
             {/* Jump To Buttons */}
             <div className="flex flex-1 space-x-8 text-nav-bar-font-color text-lg">
-              <button onClick={() => scrollToSection("Home")}>Home</button>
-              <button onClick={() => scrollToSection("About Me")}>
+              <button
+                className="underline-from-center"
+                onClick={() => scrollToSection("Home")}
+              >
+                Home
+              </button>
+              <button
+                className="underline-from-center"
+                onClick={() => scrollToSection("About Me")}
+              >
                 About Me
               </button>
-              <button onClick={() => scrollToSection("Projects")}>
+              <button
+                className="underline-from-center"
+                onClick={() => scrollToSection("Projects")}
+              >
                 Projects
               </button>
-              <button onClick={() => scrollToSection("Work")}>Work</button>
+              <button
+                className="underline-from-center"
+                onClick={() => scrollToSection("Work")}
+              >
+                Work
+              </button>
             </div>
 
             {/* Name */}
@@ -87,7 +105,10 @@ class NavBar extends React.Component {
                 rel="noopener noreferrer"
                 className="text-white"
                 onClick={(e) =>
-                  ReactGA.event({ category: "Link Clicked", action: "LinkedIn" })
+                  ReactGA.event({
+                    category: "Link Clicked",
+                    action: "LinkedIn",
+                  })
                 }
               >
                 <FaLinkedin className="size-8" />

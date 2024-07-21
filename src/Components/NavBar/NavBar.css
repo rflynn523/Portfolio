@@ -18,6 +18,31 @@
   padding: 15px;
 }
 
+/* Nav Bar Underline Transition */
+.underline-from-center {
+  position: relative;
+  display: inline-block;
+}
+
+.underline-from-center::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -6px;
+  left: 50%;
+  background-color: currentColor;
+  transition:
+    width 0.3s ease,
+    left 0.3s ease;
+}
+
+.underline-from-center:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+/* Google Popppins Fonts */
 .poppins-thin {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
