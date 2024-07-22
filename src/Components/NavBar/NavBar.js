@@ -3,15 +3,8 @@ import ReactGA from "react-ga";
 
 import "./NavBar.css";
 import { FaLinkedin, FaGithub, FaFilePdf } from "react-icons/fa";
-import mailIcon from "../../images/envelope.png";
 import savingsMapperPrivacyPolicy from "./Privacy Policy.pdf";
 import resumePDF from "./Ryan Flynn Resume.pdf";
-
-import linkedInIcon from "../../images/LI-In-Bug.png";
-import githubIcon from "../../images/GitHub-Logo.png";
-import resumeIcon from "../../images/resumeIcno.png";
-
-import { useState, useEffect } from "react";
 
 const scrollToSection = (sectionId) => {
   const section = document.getElementById(sectionId);
