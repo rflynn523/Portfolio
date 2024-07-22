@@ -2,14 +2,7 @@
   /* Background color of the entire web app */
   background-color: #06bc9b;
 
-  /* Font for the website */
-  font-family: "Trebuchet MS";
-
   overflow-x: hidden;
-}
-
-button {
-  font-family: "Trebuchet MS";
 }
 
 /* Intro paragraph */
@@ -28,4 +21,16 @@ p {
   box-shadow:
     0 4px 4px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* App.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;1,&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply font-poppins;
 }

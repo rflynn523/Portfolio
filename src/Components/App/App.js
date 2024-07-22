@@ -6,7 +6,6 @@ import Home from "../Sections/Home/Home";
 import AboutMe from "../Sections/AboutMe/AboutMe";
 import ProjectPage from "../Sections/Projects/ProjectPage";
 import Work from "../Sections/Work/Work";
-import Contact from "../Sections/Contact/Contact";
 import "./App.css";
 
 // Top Component of the Web app that displays the nav bar, and the active page/component
@@ -38,10 +37,6 @@ class App extends React.Component {
 
         <section id="Work">
           <Work />
-        </section>
-
-        <section id="Contact">
-          <Contact />
         </section>
       </div>
     );

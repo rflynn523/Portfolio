@@ -56,6 +56,21 @@ module.exports = {
       // Tooltip
       "tooltip-bg-color": "#008080", // Teal4
       "tooltip-text-color": "#d3dce6", // Light Gray
+
+      // Nav Bar
+      "nav-bar-color1": "#0b6477",
+      "nav-bar-color2": "#14919b",
+      "nav-bar-color3": "#0ad1c8", // 70 opacity
+      "nav-bar-color4": "#45dfb1",
+      "nav-bar-color5": "#80ed99", // 50 opacity
+
+      "nav-bar-font-color": "#f0fdfa",
+      "name-color": "#0e1525",
+
+      // Logo Colors
+      "linked-in-blue": "#0077B5",
+      "github-green": "#2dba4e",
+      "adobe-red": "#FF0000",
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],
@@ -72,6 +87,9 @@ module.exports = {
       // Not being used currently
       backgroundImage: {
         pattern: "/public/trianglify.jpeg",
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },
