@@ -66,6 +66,11 @@ module.exports = {
 
       "nav-bar-font-color": "#f0fdfa",
       "name-color": "#0e1525",
+
+      // Logo Colors
+      "linked-in-blue": "#0077B5",
+      "github-green": "#2dba4e",
+      "adobe-red": "#FF0000",
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],

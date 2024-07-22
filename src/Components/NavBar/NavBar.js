@@ -39,11 +39,7 @@ class NavBar extends React.Component {
   }
 
   handleScroll() {
-    if (window.scrollY > 5) {
-      this.setState({ isScrolled: true });
-    } else {
-      this.setState({ isScrolled: false });
-    }
+    this.setState({ isScrolled: window.scrollY > 10 });
   }
 
   render() {
@@ -56,7 +52,9 @@ class NavBar extends React.Component {
 
       <nav className="fixed w-full h-fit top-0 z-50 bg-gradient-to-r from-middarkside2 via-teal5 to-middarkside2 text-nav-bar-font-color">
         <div
-          className={`transition-all ease-in-out duration-700 ${this.state.isScrolled ? "pt-0" : "pt-6"}`}
+          className={`transition-all ease-in-out duration-700 ${
+            this.state.isScrolled ? "pt-0" : "pt-6"
+          }`}
         >
           <div className="container mx-auto flex justify-between items-center py-5">
             {/* Jump To Buttons */}
@@ -90,7 +88,9 @@ class NavBar extends React.Component {
             {/* Name */}
             <div className="text-nav-bar-font-color poppins-semibold tracking-wide absolute left-1/2 transform -translate-x-1/2">
               <div
-                className={`transition-all ease-in-out duration-700 ${this.state.isScrolled ? "text-4xl" : "text-6xl"}`}
+                className={`transition-all ease-in-out duration-700 ${
+                  this.state.isScrolled ? "text-4xl" : "text-6xl"
+                }`}
               >
                 Ryan Flynn
               </div>
@@ -103,7 +103,7 @@ class NavBar extends React.Component {
                 href="https://www.linkedin.com/in/ryan-flynn-5b0a56170/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white"
+                className="hover:text-linked-in-blue transition-colors duration-300"
                 onClick={(e) =>
                   ReactGA.event({
                     category: "Link Clicked",
@@ -119,7 +119,7 @@ class NavBar extends React.Component {
                 href="https://github.com/rflynn523"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white"
+                className="hover:text-github-green transition-colors duration-300"
                 onClick={(e) =>
                   ReactGA.event({
                     category: "Link Clicked",
@@ -135,7 +135,7 @@ class NavBar extends React.Component {
                 href={resumePDF}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white"
+                className="hover:text-adobe-red transition-colors duration-300"
               >
                 <FaFilePdf className="size-8" />
               </a>
