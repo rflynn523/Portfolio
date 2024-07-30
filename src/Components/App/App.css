@@ -1,11 +1,8 @@
-.App {
+/* .App {
   /* Background color of the entire web app */
-  background-color: #06bc9b;
+/* } */
 
-  overflow-x: hidden;
-}
-
-/* Intro paragraph */
+/* Intro paragraph 
 p {
   background-color: #fff;
   color: #333;
@@ -21,7 +18,7 @@ p {
   box-shadow:
     0 4px 4px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+} */
 
 /* App.css */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;1,&display=swap");
