@@ -71,6 +71,19 @@ module.exports = {
       "linked-in-blue": "#0077B5",
       "github-green": "#2dba4e",
       "adobe-red": "#FF0000",
+
+      // Chat GPT font color suggestions
+
+      // - Dark
+      "chat-gpt-black": "#030712",
+      "chat-gpt-dark-gray": "#273444",
+
+      // - Teal or blue shades
+      "chat-gpt-teal": "#00b3b3",
+
+      // - Neutral Gray
+      "chat-gpt-neutral-gray": "#8492a6",
+      "chat-gpt-light-gray": "#d3dce6",
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],

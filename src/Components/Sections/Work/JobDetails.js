@@ -18,24 +18,19 @@ class JobDetails extends React.Component {
       <Grid container spacing={2} alignItems="center">
         {/* Bullet Points */}
         <Grid item xs={12} md={12}>
-          <List sx={{ listStyleType: "disc" }}>
+          <ul className="list-disc px-4 text-md">
             {this.props.job_info.bullet_points.map((bullet) => (
-              <ListItem>
-                <ListItemIcon>
-                  <FiberManualRecordIcon color="black" />
-                </ListItemIcon>
-
-                <ListItemText primary={bullet} />
-              </ListItem>
+              <li className="p-2">{bullet}</li>
             ))}
-          </List>
+          </ul>
         </Grid>
 
         {/* Chips with the tech used */}
         <Grid item xs={12}>
           <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
             {this.props.job_info.technology.map((tech) => (
-              <Chip label={tech} />
+              // <Chip label={tech} />
+              <p>{tech}</p>
             ))}
           </div>
         </Grid>
