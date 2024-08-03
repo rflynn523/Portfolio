@@ -3,15 +3,15 @@ import React from "react";
 class JobSummary extends React.Component {
   render() {
     return (
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-center poppins-semibold tracking-wide text-lg">
         {/* Job Title */}
         <div className="text-left md:text-left">
-          <div className="truncate">{this.props.job_info.title}</div>
+          <div className="text-wrap">{this.props.job_info.title}</div>
         </div>
 
         {/* Company Name */}
         <div className="text-center">
-          <div className="truncate">{this.props.job_info.company}</div>
+          <div className="text-wrap">{this.props.job_info.company}</div>
         </div>
 
         {/* Dates */}
