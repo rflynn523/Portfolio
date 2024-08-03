@@ -89,6 +89,9 @@ module.exports = {
       // golden-yellow
       "golden-yellow": "#F0C800",
       "with-green": "#D0F0C0",
+
+      // Chip background color
+      "chip-color": "#14919b",
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],

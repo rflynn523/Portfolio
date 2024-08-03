@@ -1,16 +1,8 @@
 import React from "react";
-import ReactGA from "react-ga";
 
-import {
-  Chip,
-  Grid,
-  List,
-  ListItem,
-  ListItemIcon,
-  ListItemText,
-} from "@mui/material";
+import { Grid } from "@mui/material";
 
-import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
+import TechChip from "../../TechChip";
 
 class JobDetails extends React.Component {
   render() {
@@ -28,9 +20,8 @@ class JobDetails extends React.Component {
         {/* Chips with the tech used */}
         <Grid item xs={12}>
           <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
-            {this.props.job_info.technology.map((tech) => (
-              // <Chip label={tech} />
-              <p>{tech}</p>
+            {this.props.job_info.technology.map((tech, index) => (
+              <TechChip technology={tech} index={index} />
             ))}
           </div>
         </Grid>
