@@ -1,31 +1,30 @@
 import React from "react";
-
-import { Grid } from "@mui/material";
-
 import TechChip from "../../TechChip";
 
 class JobDetails extends React.Component {
   render() {
+    const { bullet_points, technology } = this.props.job_info;
+
     return (
-      <Grid container spacing={2} alignItems="center">
+      <div className="pb-2 poppins-regular">
         {/* Bullet Points */}
-        <Grid item xs={12} md={12}>
+        <div className="mb-4">
           <ul className="list-disc px-4 text-md">
-            {this.props.job_info.bullet_points.map((bullet) => (
-              <li className="p-2">{bullet}</li>
+            {bullet_points.map((bullet, index) => (
+              <li key={index} className="p-2">
+                {bullet}
+              </li>
             ))}
           </ul>
-        </Grid>
+        </div>
 
         {/* Chips with the tech used */}
-        <Grid item xs={12}>
-          <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
-            {this.props.job_info.technology.map((tech, index) => (
-              <TechChip technology={tech} index={index} />
-            ))}
-          </div>
-        </Grid>
-      </Grid>
+        <div className="flex flex-wrap gap-2">
+          {technology.map((tech, index) => (
+            <TechChip key={index} technology={tech} index={index} />
+          ))}
+        </div>
+      </div>
     );
   }
 }
