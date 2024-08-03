@@ -1041,6 +1041,10 @@ video {
   padding: 2rem;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -1082,6 +1086,10 @@ video {
 
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 
 .text-left {
@@ -1155,6 +1163,11 @@ video {
 .text-tooltip-text-color {
   --tw-text-opacity: 1;
   color: rgb(211 220 230 / var(--tw-text-opacity));
+}
+
+.text-blue {
+  --tw-text-opacity: 1;
+  color: rgb(31 182 255 / var(--tw-text-opacity));
 }
 
 .shadow {
