@@ -16,7 +16,7 @@ class Work extends React.Component {
     ReactGA.pageview("/Work");
 
     return (
-      <div className="work py-8">
+      <div className="work py-8  text-app-text-color">
         {/* Container for the work section */}
         <div className="container mx-auto px-32">
           {/* Stack job items vertically */}

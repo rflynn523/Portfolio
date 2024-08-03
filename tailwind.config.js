@@ -27,7 +27,7 @@ module.exports = {
       black: "#030712",
       transparent: "#00000000",
 
-      "app-text-color": "#030712",
+      // "app-text-color": "#030712",
       "app-text-color-slate": "#f8fafc",
       // teal variations
       teal: "#00cccc",
@@ -84,6 +84,7 @@ module.exports = {
       // - Neutral Gray
       "chat-gpt-neutral-gray": "#8492a6",
       "chat-gpt-light-gray": "#d3dce6",
+      "app-text-color": "#d3dce6",
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],

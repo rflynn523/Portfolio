@@ -959,7 +959,12 @@ video {
 
 .text-app-text-color {
   --tw-text-opacity: 1;
-  color: rgb(3 7 18 / var(--tw-text-opacity));
+  color: rgb(211 220 230 / var(--tw-text-opacity));
+}
+
+.text-chat-gpt-light-gray {
+  --tw-text-opacity: 1;
+  color: rgb(211 220 230 / var(--tw-text-opacity));
 }
 
 .text-chat-gpt-neutral-gray {
@@ -975,16 +980,6 @@ video {
 .text-tooltip-text-color {
   --tw-text-opacity: 1;
   color: rgb(211 220 230 / var(--tw-text-opacity));
-}
-
-.text-chat-gpt-light-gray {
-  --tw-text-opacity: 1;
-  color: rgb(211 220 230 / var(--tw-text-opacity));
-}
-
-.text-chat-gpt-dark-gray {
-  --tw-text-opacity: 1;
-  color: rgb(39 52 68 / var(--tw-text-opacity));
 }
 
 .shadow {
