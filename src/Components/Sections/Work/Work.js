@@ -16,7 +16,7 @@ class Work extends React.Component {
     ReactGA.pageview("/Work");
 
     return (
-      <div className="work py-8  text-app-text-color">
+      <div className="work py-8 text-app-text-color">
         {/* Container for the work section */}
         <div className="container mx-auto px-32">
           {/* Stack job items vertically */}
@@ -27,10 +27,10 @@ class Work extends React.Component {
                 <div className="bg-slate bg-opacity-10 backdrop-blur-lg rounded-lg overflow-hidden">
                   {/* Header of the card with job summary and toggle button */}
                   <div
-                    className="px-4 py-2 flex items-center justify-between cursor-pointer"
+                    className="px-4 py-2 flex items-center rounded-lg justify-between cursor-pointer border border-transparent hover:border-with-green transition-all duration-300"
                     onClick={() => {
                       const content = document.getElementById(
-                        `panel-${index}-content`
+                        `panel-${index}-content`,
                       );
                       content.classList.toggle("hidden");
                     }}
