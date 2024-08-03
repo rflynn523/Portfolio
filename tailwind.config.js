@@ -85,6 +85,10 @@ module.exports = {
       "chat-gpt-neutral-gray": "#8492a6",
       "chat-gpt-light-gray": "#d3dce6",
       "app-text-color": "#d3dce6",
+
+      // golden-yellow
+      "golden-yellow": "#F0C800",
+      "with-green": "#D0F0C0",
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],
