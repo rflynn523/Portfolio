@@ -1,46 +1,32 @@
-import React from 'react';
-import ReactGA from 'react-ga'
+import React from "react";
+import TechChip from "../../TechChip";
 
-import { Chip, Grid, List, ListItem, ListItemIcon, ListItemText } from '@mui/material';
+class JobDetails extends React.Component {
+  render() {
+    const { bullet_points, technology } = this.props.job_info;
 
-import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
+    return (
+      <div className="pb-2 poppins-regular">
+        {/* Bullet Points */}
+        <div className="mb-4">
+          <ul className="list-disc px-4 text-md">
+            {bullet_points.map((bullet, index) => (
+              <li key={index} className="p-2">
+                {bullet}
+              </li>
+            ))}
+          </ul>
+        </div>
 
-class JobDetails extends React.Component
-{
-    
-    render()
-    {
-        return (
-            
-            <Grid container spacing={2} alignItems="center">
-
-                {/* Bullet Points */}
-                <Grid item xs={12} md={12}>
-                    <List sx={{ listStyleType: 'disc' }}>
-                    {this.props.job_info.bullet_points.map((bullet) => (
-
-                        <ListItem>
-                            <ListItemIcon >
-                                <FiberManualRecordIcon color="black" />
-                            </ListItemIcon>
-
-                            <ListItemText primary={bullet} />
-                        </ListItem>
-                    ))}
-                    </List> 
-                </Grid>
-
-                {/* Chips with the tech used */}
-                <Grid item xs={12}>
-                    <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
-                        {this.props.job_info.technology.map((tech) => 
-                            <Chip label={tech} />
-                        )}
-                    </div>
-                </Grid>
-            </Grid>
-            );
-        };   
-    }
+        {/* Chips with the tech used */}
+        <div className="flex flex-wrap gap-2">
+          {technology.map((tech, index) => (
+            <TechChip key={index} technology={tech} index={index} />
+          ))}
+        </div>
+      </div>
+    );
+  }
+}
 
 export default JobDetails;

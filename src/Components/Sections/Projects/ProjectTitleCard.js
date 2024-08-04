@@ -21,13 +21,16 @@ class ProjectTitleCard extends React.Component
         return <div className="ProjectTitle" onClick={this.handleClick}>
                     <img className = "projectImg" src={this.props.project.image}/>
 
-                    <div className="title">
-                        {this.props.project.title}
-                    </div>
-                
-                    <div className="description">{this.props.project.description}</div>
-                 </div>
-    }
+        <div className="title">
+          {this.props.project.title}
+
+          <img className="detailsIcon" src={more} />
+        </div>
+
+        <div className="description">{this.props.project.description}</div>
+      </div>
+    );
+  }
 }
 
-export default ProjectTitleCard
+export default ProjectTitleCard;

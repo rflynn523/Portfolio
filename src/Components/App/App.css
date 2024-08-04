@@ -1,42 +1,33 @@
-.App
-{
+/* .App {
   /* Background color of the entire web app */
-  background-color: #06BC9B;
+/* } */
 
-  /* Font for the website */
-  font-family: "Trebuchet MS";
+/* Intro paragraph 
+p {
+  background-color: #fff;
+  color: #333;
 
-  overflow-x: hidden;
+  font-size: 25px;
+  text-align: left;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow:
+    0 4px 4px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+/* App.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;1,&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply font-poppins;
 }
-
-button
-{
-  font-family: "Trebuchet MS";
-}
-
-/* Intro paragraph */
-p
-{
-    background-color: #fff;
-    color: #333;
-
-    font-size: 25px;
-    text-align: left;
-
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-    padding-left: 30px;
-    padding-right: 30px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-}
-
-.borderBox
-{
-  border-style: solid;
-  padding: 12px;
-  box-shadow:inset 0px 0px 0px 10px #fff;
-
-}
-
