@@ -4,7 +4,7 @@ import ReactGA from "react-ga";
 import NavBar from "../NavBar/NavBar";
 import Home from "../Sections/Home/Home";
 import AboutMe from "../Sections/AboutMe/AboutMe";
-import ProjectPage from "../Sections/Projects/ProjectPage";
+import Projects from "../Sections/Projects/Projects";
 import Work from "../Sections/Work/Work";
 import "./App.css";
 
@@ -32,7 +32,7 @@ class App extends React.Component {
         </section>
 
         <section id="Projects">
-          <ProjectPage />
+          <Projects />
         </section>
 
         <section id="Work">

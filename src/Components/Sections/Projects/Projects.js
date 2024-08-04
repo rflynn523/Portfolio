@@ -6,19 +6,15 @@ import youtubeIcon from "../../../images/youtubeIcon.png";
 import appStore from "../../../images/appStoreIcon.png";
 import project_data from "./project-data";
 
-class ProjectPage extends React.Component {
+import ProjectCard from "./ProjectCard";
+
+class Projects extends React.Component {
   icons = { GitHub: githubIcon, Youtube: youtubeIcon, AppStore: appStore };
   all_Projects = [
     project_data.BudgetAssistant,
     project_data.SavingsMapper,
     project_data.PetConnect,
-    project_data.BudgetGUI,
     project_data.ResumeWebApp,
-    project_data.MultiFuncLED,
-    project_data.EscapeRoom,
-    project_data.GroupBuy,
-    project_data.SQLGUI,
-    project_data.WheresWaldo,
   ];
 
   // Constructor needed to set up switchview function and state
@@ -54,12 +50,15 @@ class ProjectPage extends React.Component {
 
   render() {
     return (
-      <div>
-        {/* <ProjectGrid allProjects={this.all_Projects} icons={this.icons} /> */}
-        Projects go here
+      <div className="text-center text-app-text-color py-8">
+        {this.all_Projects.map((project, index) => (
+          <div key={index}>
+            <ProjectCard project={project} />
+          </div>
+        ))}
       </div>
     );
   }
 }
 
-export default ProjectPage;
+export default Projects;
