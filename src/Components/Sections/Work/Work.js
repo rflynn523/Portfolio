@@ -5,9 +5,7 @@ import JobSummary from "./JobSummary";
 import JobDetails from "./JobDetails";
 import work_experience_data from "./work-data";
 
-// Work component displaying job experiences with an accordion-style expandable view
 class Work extends React.Component {
-  // Array of all job objects
   allWork = [work_experience_data.solute, work_experience_data.CP];
 
   render() {
@@ -15,39 +13,32 @@ class Work extends React.Component {
     ReactGA.pageview("/Work");
 
     return (
-      <div className="work py-8 text-app-text-color">
-        {/* Container for the work section */}
-        <div className="container mx-auto px-32">
-          {/* Stack job items vertically */}
-          <div className="space-y-4">
-            {this.allWork.map((job, index) => (
-              <div className="mb-4 w-full" key={index}>
-                {/* Card for each job with a shadow and rounded corners */}
-                <div className="bg-slate bg-opacity-10 backdrop-blur-lg rounded-lg overflow-hidden">
-                  {/* Header of the card with job summary and toggle button */}
-                  <div
-                    className="px-4 py-2 rounded-lg cursor-pointer border border-transparent hover:border-with-green transition-all duration-300"
-                    onClick={() => {
-                      const content = document.getElementById(
-                        `panel-${index}-content`
-                      );
-                      content.classList.toggle("hidden");
-                    }}
-                  >
-                    <JobSummary job_info={job} />
-                  </div>
-                  {/* Content of the accordion, initially hidden */}
-                  <div
-                    id={`panel-${index}-content`}
-                    className="hidden px-4 py-2"
-                  >
-                    <JobDetails job_info={job} />
-                  </div>
-                </div>
-              </div>
-            ))}
+      <div className="work py-8 text-app-text-color container mx-auto px-32 space-y-4">
+        {this.allWork.map((job, index) => (
+          <div
+            className="mb-4 w-full bg-slate bg-opacity-10 backdrop-blur-lg rounded-lg overflow-hidden"
+            key={index}
+          >
+            {/* Summary */}
+            <div
+              className="px-4 py-2 rounded-lg cursor-pointer border border-transparent
+                     hover:border-with-green transition-all duration-300"
+              onClick={() => {
+                const content = document.getElementById(
+                  `panel-${index}-content`
+                );
+                content.classList.toggle("hidden");
+              }}
+            >
+              <JobSummary job_info={job} />
+            </div>
+
+            {/* Details */}
+            <div id={`panel-${index}-content`} className="hidden px-4 py-2">
+              <JobDetails job_info={job} />
+            </div>
           </div>
-        </div>
+        ))}
       </div>
     );
   }
