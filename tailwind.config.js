@@ -27,7 +27,7 @@ module.exports = {
       black: "#030712",
       transparent: "#00000000",
 
-      "app-text-color": "#030712",
+      // "app-text-color": "#030712",
       "app-text-color-slate": "#f8fafc",
       // teal variations
       teal: "#00cccc",
@@ -71,6 +71,27 @@ module.exports = {
       "linked-in-blue": "#0077B5",
       "github-green": "#2dba4e",
       "adobe-red": "#FF0000",
+
+      // Chat GPT font color suggestions
+
+      // - Dark
+      "chat-gpt-black": "#030712",
+      "chat-gpt-dark-gray": "#273444",
+
+      // - Teal or blue shades
+      "chat-gpt-teal": "#00b3b3",
+
+      // - Neutral Gray
+      "chat-gpt-neutral-gray": "#8492a6",
+      "chat-gpt-light-gray": "#d3dce6",
+      "app-text-color": "#d3dce6",
+
+      // golden-yellow
+      "golden-yellow": "#F0C800",
+      "with-green": "#D0F0C0",
+
+      // Chip background color
+      "chip-color": "#14919b",
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],
