@@ -1,7 +1,7 @@
 import React from "react";
 import ReactGA from "react-ga";
 import "./Project.css";
-import ProjectTitleCard from "./ProjectTitleCard";
+import ProjectTitleCard from "../ProjectTitleCard";
 import ProjectDetailsCard from "./ProjectDetailsCard";
 
 // Project box component that display each project in the grid/box view and switches to the details view
