@@ -1,5 +1,4 @@
 import React from "react";
-import ReactGA from "react-ga";
 
 import JobSummary from "./JobSummary";
 import JobDetails from "./JobDetails";
@@ -9,9 +8,6 @@ class Work extends React.Component {
   allWork = [work_experience_data.solute, work_experience_data.CP];
 
   render() {
-    // Track page view with Google Analytics
-    ReactGA.pageview("/Work");
-
     return (
       <div className="work py-8 text-app-text-color container mx-auto px-32 space-y-4">
         {this.allWork.map((job, index) => (
