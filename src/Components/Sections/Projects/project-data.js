@@ -33,7 +33,7 @@ const project_data = {
       "An IOS app that gives people a flexible way to calculate " +
       "how much they allocate to each of their savings goals every month. " +
       "The user enters in an amount of money and then uses sliders to dictate how much money to apply to each saving category.",
-    technology: ["Swift", "SwiftUI", "XCode"],
+    technology: ["Swift", "SwiftUI", "XCode", "iOS"],
     links: [
       { url: "https://github.com/rflynn523/Money-Mapper", tooltip: "Code" },
       {
@@ -51,12 +51,12 @@ const project_data = {
       "A smart home system that allows people to let their pet outside when they are not home. Raspberry Pi controls senors, door motor, speaker, and camera. MSP430 Microcontroller controls the home display" +
       "An Android app allows the user to change the mode, open or close the door, and interact with their pet. Firebase keeps track of the user's data and keeps each component up to date.",
     technology: [
+      "Python",
+      "Java",
+      "Firebase",
       "Raspberry Pi",
       "MSP430 Microcontroller",
       "Android",
-      "Firebase",
-      "Python",
-      "Java",
     ],
     links: [
       {
@@ -76,7 +76,7 @@ const project_data = {
     image: budgetGUI,
     description:
       "A Desktop GUI Application that assists with a personal budget MicroSoft Excel Spreadsheet.",
-    technology: ["Python", "PyCharm", "Tkinter", "Openpyxl"],
+    technology: ["Python", "Tkinter", "Openpyxl", "PyCharm"],
     links: [{ url: "https://github.com/rflynn523/BudgetGUI", tooltip: "Code" }],
   },
 
@@ -86,7 +86,7 @@ const project_data = {
     image: resumeWebApp,
     description:
       "A website that displays my resume information in a more interactive way while also giving more in depth details. Also acts as a way to document the work I have done",
-    technology: ["ReactJS", "JavaScript", "Tailwindcss"],
+    technology: ["JavaScript", "ReactJS", "Tailwindcss"],
     links: [
       { url: "https://github.com/rflynn523/ResumeWebApp", tooltip: "Code" },
     ],
@@ -98,7 +98,7 @@ const project_data = {
     image: ledDisplay,
     description:
       "Two seven segment diaplays that will ouptut different modes for the user. MSP4302553 controls the two seven segment LEDs with jumper wires and a bread board",
-    technology: ["MSP4302553 Microcontroller", "C", "Code Composer Studio"],
+    technology: ["C", "MSP4302553 Microcontroller", "Code Composer Studio"],
 
     links: [
       {
@@ -129,7 +129,7 @@ const project_data = {
     image: groupBuyImage,
     description:
       "Group project that developed a web application similar to Groupon that sells items and gives out discount codes. The APIs consist of JavaScript and PHP to make queries from the database with SQL.Created for a Database Systems class",
-    technology: ["HTML", "CSS", "JavaScript", "PHP", "SQL"],
+    technology: ["JavaScript", "PHP", "SQL", "HTML", "CSS"],
 
     links: [],
   },
@@ -140,7 +140,7 @@ const project_data = {
     image: SQLWebAppImage,
     description:
       "SQL GUI and Java Servlet App that make SQL querries and disaplays the results. Developed for Enterprise Computing class",
-    technology: ["Java", "Java Servlet Pages", "MySQL Workbench"],
+    technology: ["Java", "MySQL Workbench"],
 
     links: [
       {
@@ -156,7 +156,7 @@ const project_data = {
     image: waldoImage,
     description:
       "A Template Matching assignment that solves a 'Where's Waldo' puzzle. Created in a Robotic Systems course",
-    technology: ["Python", "Google Colab", "OpenCV"],
+    technology: ["Python", "OpenCV", "Google Colab"],
 
     links: [
       {
