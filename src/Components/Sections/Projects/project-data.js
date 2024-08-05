@@ -20,7 +20,9 @@ const project_data = {
       "It runs checks to ensure everything is setup correctly, imports in data entries from a text file, " +
       "sends a summary of the month to my phone, and prints progress to the terminal",
     technology: ["Python", "Pytest", "Openpyxl"],
-    links: ["https://github.com/rflynn523/Budget-Assistant"],
+    links: [
+      { url: "https://github.com/rflynn523/Budget-Assistant", tooltip: "Code" },
+    ],
   },
 
   SavingsMapper: {
@@ -33,8 +35,11 @@ const project_data = {
       "The user enters in an amount of money and then uses sliders to dictate how much money to apply to each saving category.",
     technology: ["Swift", "SwiftUI", "XCode"],
     links: [
-      "https://github.com/rflynn523/Money-Mapper",
-      "https://apps.apple.com/us/app/savings-mapper/id1611083071?itsct=apps_box_link&itscg=30200",
+      { url: "https://github.com/rflynn523/Money-Mapper", tooltip: "Code" },
+      {
+        url: "https://apps.apple.com/us/app/savings-mapper/id1611083071?itsct=apps_box_link&itscg=30200",
+        tooltip: "App Store",
+      },
     ],
   },
 
@@ -54,8 +59,14 @@ const project_data = {
       "Java",
     ],
     links: [
-      "https://www.youtube.com/watch?v=4sF6NkZ8nSA&t=3s",
-      "https://www.youtube.com/watch?v=950Lf8dNDNU&t=2s",
+      {
+        url: "https://www.youtube.com/watch?v=4sF6NkZ8nSA&t=3s",
+        tooltip: "Demo",
+      },
+      {
+        url: "https://www.youtube.com/watch?v=950Lf8dNDNU&t=2s",
+        tooltip: "Presentation",
+      },
     ],
   },
 
@@ -66,7 +77,7 @@ const project_data = {
     description:
       "A Desktop GUI Application that assists with a personal budget MicroSoft Excel Spreadsheet.",
     technology: ["Python", "PyCharm", "Tkinter", "Openpyxl"],
-    links: ["https://github.com/rflynn523/BudgetGUI"],
+    links: [{ url: "https://github.com/rflynn523/BudgetGUI", tooltip: "Code" }],
   },
 
   ResumeWebApp: {
@@ -76,7 +87,9 @@ const project_data = {
     description:
       "A website that displays my resume information in a more interactive way while also giving more in depth details. Also acts as a way to document the work I have done",
     technology: ["ReactJS", "JavaScript", "Tailwindcss"],
-    links: [],
+    links: [
+      { url: "https://github.com/rflynn523/ResumeWebApp", tooltip: "Code" },
+    ],
   },
 
   MultiFuncLED: {
@@ -88,8 +101,14 @@ const project_data = {
     technology: ["MSP4302553 Microcontroller", "C", "Code Composer Studio"],
 
     links: [
-      "https://github.com/rflynn523/Multi-Function-LED-Display",
-      "https://www.youtube.com/watch?v=Ino6i9vFSoI&feature=youtu.be",
+      {
+        url: "https://github.com/rflynn523/Multi-Function-LED-Display",
+        tooltip: "Code",
+      },
+      {
+        url: "https://www.youtube.com/watch?v=Ino6i9vFSoI&feature=youtu.be",
+        tooltip: "Demo",
+      },
     ],
   },
 
@@ -124,7 +143,10 @@ const project_data = {
     technology: ["Java", "Java Servlet Pages", "MySQL Workbench"],
 
     links: [
-      "https://github.com/rflynn523/Java-Reference-Programs/tree/master/Assignment4/SqlGUI",
+      {
+        url: "https://github.com/rflynn523/Java-Reference-Programs/tree/master/Assignment4/SqlGUI",
+        tooltip: "Code",
+      },
     ],
   },
 
@@ -137,7 +159,10 @@ const project_data = {
     technology: ["Python", "Google Colab", "OpenCV"],
 
     links: [
-      "https://github.com/rflynn523/Python-Reference-Programs/tree/master/Template%20Matching",
+      {
+        url: "https://github.com/rflynn523/Python-Reference-Programs/tree/master/Template%20Matching",
+        tooltip: "Code",
+      },
     ],
   },
 };
