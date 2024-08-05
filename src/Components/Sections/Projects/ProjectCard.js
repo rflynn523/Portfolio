@@ -1,5 +1,5 @@
 import React from "react";
-import { FaAppStore, FaGithub, FaYoutube } from "react-icons/fa"; // Import icons from react-icons
+import { FaAppStore, FaGithub, FaYoutube } from "react-icons/fa";
 
 import TechChip from "../../TechChip";
 
@@ -33,9 +33,9 @@ class ProjectCard extends React.Component {
 
             {/* Links */}
             <div className="flex space-x-4">
-              {Object.entries(project.links).map(([url, label]) => (
+              {project.links.map((url, index) => (
                 <a
-                  key={url}
+                  key={index}
                   href={url}
                   target="_blank"
                   rel="noopener noreferrer"

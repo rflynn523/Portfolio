@@ -20,9 +20,7 @@ const project_data = {
       "It runs checks to ensure everything is setup correctly, imports in data entries from a text file, " +
       "sends a summary of the month to my phone, and prints progress to the terminal",
     technology: ["Python", "Pytest", "Openpyxl"],
-    links: {
-      "https://github.com/rflynn523/Budget-Assistant": "GitHub",
-    },
+    links: ["https://github.com/rflynn523/Budget-Assistant"],
   },
 
   SavingsMapper: {
@@ -34,11 +32,10 @@ const project_data = {
       "how much they allocate to each of their savings goals every month. " +
       "The user enters in an amount of money and then uses sliders to dictate how much money to apply to each saving category.",
     technology: ["Swift", "SwiftUI", "XCode"],
-    links: {
-      "https://github.com/rflynn523/Money-Mapper": "GitHub",
-      "https://apps.apple.com/us/app/savings-mapper/id1611083071?itsct=apps_box_link&itscg=30200":
-        "AppStore",
-    },
+    links: [
+      "https://github.com/rflynn523/Money-Mapper",
+      "https://apps.apple.com/us/app/savings-mapper/id1611083071?itsct=apps_box_link&itscg=30200",
+    ],
   },
 
   PetConnect: {
@@ -56,10 +53,10 @@ const project_data = {
       "Python",
       "Java",
     ],
-    links: {
-      "https://www.youtube.com/watch?v=4sF6NkZ8nSA&t=3s": "Youtube", // Presentation
-      "https://www.youtube.com/watch?v=950Lf8dNDNU&t=2s": "Youtube", // Demo
-    },
+    links: [
+      "https://www.youtube.com/watch?v=4sF6NkZ8nSA&t=3s",
+      "https://www.youtube.com/watch?v=950Lf8dNDNU&t=2s",
+    ],
   },
 
   BudgetGUI: {
@@ -69,7 +66,7 @@ const project_data = {
     description:
       "A Desktop GUI Application that assists with a personal budget MicroSoft Excel Spreadsheet.",
     technology: ["Python", "PyCharm", "Tkinter", "Openpyxl"],
-    links: { "https://github.com/rflynn523/BudgetGUI": "GitHub" },
+    links: ["https://github.com/rflynn523/BudgetGUI"],
   },
 
   ResumeWebApp: {
@@ -79,7 +76,7 @@ const project_data = {
     description:
       "A website that displays my resume information in a more interactive way while also giving more in depth details. Also acts as a way to document the work I have done",
     technology: ["ReactJS", "JavaScript", "Tailwindcss"],
-    links: {},
+    links: [],
   },
 
   MultiFuncLED: {
@@ -90,10 +87,10 @@ const project_data = {
       "Two seven segment diaplays that will ouptut different modes for the user. MSP4302553 controls the two seven segment LEDs with jumper wires and a bread board",
     technology: ["MSP4302553 Microcontroller", "C", "Code Composer Studio"],
 
-    links: {
-      "https://github.com/rflynn523/Multi-Function-LED-Display": "GitHub",
-      "https://www.youtube.com/watch?v=Ino6i9vFSoI&feature=youtu.be": "Youtube",
-    },
+    links: [
+      "https://github.com/rflynn523/Multi-Function-LED-Display",
+      "https://www.youtube.com/watch?v=Ino6i9vFSoI&feature=youtu.be",
+    ],
   },
 
   EscapeRoom: {
@@ -104,7 +101,7 @@ const project_data = {
       "A different take on an escape room game that consists of puzzles that you must solve to move onto the next level. Created for a group project for Process of Object Oriented Programming course",
     technology: ["Java", "Android Studio"],
 
-    links: {},
+    links: [],
   },
 
   GroupBuy: {
@@ -115,7 +112,7 @@ const project_data = {
       "Group project that developed a web application similar to Groupon that sells items and gives out discount codes. The APIs consist of JavaScript and PHP to make queries from the database with SQL.Created for a Database Systems class",
     technology: ["HTML", "CSS", "JavaScript", "PHP", "SQL"],
 
-    links: {},
+    links: [],
   },
 
   SQLGUI: {
@@ -126,10 +123,9 @@ const project_data = {
       "SQL GUI and Java Servlet App that make SQL querries and disaplays the results. Developed for Enterprise Computing class",
     technology: ["Java", "Java Servlet Pages", "MySQL Workbench"],
 
-    links: {
-      "https://github.com/rflynn523/Java-Reference-Programs/tree/master/Assignment4/SqlGUI":
-        "GitHub",
-    },
+    links: [
+      "https://github.com/rflynn523/Java-Reference-Programs/tree/master/Assignment4/SqlGUI",
+    ],
   },
 
   WheresWaldo: {
@@ -140,10 +136,9 @@ const project_data = {
       "A Template Matching assignment that solves a 'Where's Waldo' puzzle. Created in a Robotic Systems course",
     technology: ["Python", "Google Colab", "OpenCV"],
 
-    links: {
-      "https://github.com/rflynn523/Python-Reference-Programs/tree/master/Template%20Matching":
-        "GitHub",
-    },
+    links: [
+      "https://github.com/rflynn523/Python-Reference-Programs/tree/master/Template%20Matching",
+    ],
   },
 };
 
