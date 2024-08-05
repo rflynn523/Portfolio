@@ -1,5 +1,6 @@
 import React from "react";
 import { FaAppStore, FaGithub, FaYoutube } from "react-icons/fa";
+import Tooltip from "../../Tooltip/Tooltip";
 
 import TechChip from "../../TechChip";
 
@@ -33,16 +34,18 @@ class ProjectCard extends React.Component {
 
             {/* Links */}
             <div className="flex space-x-4">
-              {project.links.map((url, index) => (
-                <a
-                  key={index}
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-700 hover:text-gray-900"
-                >
-                  {getLinkIcon(url)}
-                </a>
+              {project.links.map((link, index) => (
+                <Tooltip key={index} text={link.tooltip}>
+                  <a
+                    key={index}
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-700 hover:text-gray-900"
+                  >
+                    {getLinkIcon(link.url)}
+                  </a>
+                </Tooltip>
               ))}
             </div>
           </div>

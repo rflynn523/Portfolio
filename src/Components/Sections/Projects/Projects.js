@@ -15,6 +15,12 @@ class Projects extends React.Component {
     project_data.SavingsMapper,
     project_data.PetConnect,
     project_data.ResumeWebApp,
+    project_data.BudgetGUI,
+    project_data.EscapeRoom,
+    project_data.GroupBuy,
+    project_data.WheresWaldo,
+    project_data.SQLGUI,
+    project_data.MultiFuncLED,
   ];
 
   // Constructor needed to set up switchview function and state
