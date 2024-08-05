@@ -16,15 +16,12 @@ const project_data = {
     date: "January 2023 - March 2023",
     image: budgetAssistant,
     description:
-      "Inspried by the BudgetGUI predecessor, this python script resets monthly budgets," +
-      "runs checks to ensure they are setup correctly, and prints progress to terminal.",
-    technology: [
-      "Written in Python",
-      "Unit testing with Pytest",
-      "Openpyxl used to interact with the excel spreadsheet",
-    ],
+      "A Python script that interacts with Excel spreadsheets to help reset my monthly budget. " +
+      "It runs checks to ensure everything is setup correctly, imports in data entries from a text file, " +
+      "sends a summary of the month to my phone, and prints progress to the terminal",
+    technology: ["Python", "Pytest", "Openpyxl"],
     links: {
-      "https://github.com/rflynn523/Budget-Assistant": "GitHub", // App Store Link
+      "https://github.com/rflynn523/Budget-Assistant": "GitHub",
     },
   },
 
@@ -34,11 +31,13 @@ const project_data = {
     image: savingsMapper,
     description:
       "An IOS app that gives people a flexible way to calculate " +
-      "how much they allocate to each of their savings goals every month.",
+      "how much they allocate to each of their savings goals every month. " +
+      "The user enters in an amount of money and then uses sliders to dictate how much money to apply to each saving category.",
     technology: ["Swift", "SwiftUI", "XCode"],
     links: {
+      "https://github.com/rflynn523/Money-Mapper": "GitHub",
       "https://apps.apple.com/us/app/savings-mapper/id1611083071?itsct=apps_box_link&itscg=30200":
-        "AppStore", // App Store Link
+        "AppStore",
     },
   },
 
@@ -47,12 +46,15 @@ const project_data = {
     date: "May 2020 - December 2020",
     image: petConnect,
     description:
-      "A smart home system that allows people to let their pet outside when they are not home.",
+      "A smart home system that allows people to let their pet outside when they are not home. Raspberry Pi controls senors, door motor, speaker, and camera. MSP430 Microcontroller controls the home display" +
+      "An Android app allows the user to change the mode, open or close the door, and interact with their pet. Firebase keeps track of the user's data and keeps each component up to date.",
     technology: [
-      "Raspberry Pi controls senors, door motor, speaker, and camera",
-      "MSP430 Microcontroller controls the home display",
-      "An Android app allows the user to change the mode, open or close the door, and interact with their pet",
-      "Google Firebase keeps track of the user's data and keeps each component up to date.",
+      "Raspberry Pi",
+      "MSP430 Microcontroller",
+      "Android",
+      "Firebase",
+      "Python",
+      "Java",
     ],
     links: {
       "https://www.youtube.com/watch?v=4sF6NkZ8nSA&t=3s": "Youtube", // Presentation
@@ -66,12 +68,8 @@ const project_data = {
     image: budgetGUI,
     description:
       "A Desktop GUI Application that assists with a personal budget MicroSoft Excel Spreadsheet.",
-    technology: [
-      "Developed in PyCharm using Python",
-      "The Tkinter library is used to make the GUI",
-      "Openpyxl is used to interact with the excel spreadsheet",
-    ],
-    links: { "https://github.com/rflynn523/BudgetGUI": "GitHub" }, // More pics?
+    technology: ["Python", "PyCharm", "Tkinter", "Openpyxl"],
+    links: { "https://github.com/rflynn523/BudgetGUI": "GitHub" },
   },
 
   ResumeWebApp: {
@@ -80,11 +78,8 @@ const project_data = {
     image: resumeWebApp,
     description:
       "A website that displays my resume information in a more interactive way while also giving more in depth details. Also acts as a way to document the work I have done",
-    technology: [
-      "ReactJS used to create the web pages and components",
-      "CSS handles the styling of the web app.",
-    ],
-    links: {}, // Github??
+    technology: ["ReactJS", "JavaScript", "Tailwindcss"],
+    links: {},
   },
 
   MultiFuncLED: {
@@ -92,11 +87,8 @@ const project_data = {
     date: "May 2019 - August 2019",
     image: ledDisplay,
     description:
-      "Two seven segment diaplays that will ouptut different modes for the user",
-    technology: [
-      "MSP4302553 controls the two seven segment LEDs with jumper wires and a bread board",
-      "C code developed in Code Composer Studio",
-    ],
+      "Two seven segment diaplays that will ouptut different modes for the user. MSP4302553 controls the two seven segment LEDs with jumper wires and a bread board",
+    technology: ["MSP4302553 Microcontroller", "C", "Code Composer Studio"],
 
     links: {
       "https://github.com/rflynn523/Multi-Function-LED-Display": "GitHub",
@@ -109,13 +101,10 @@ const project_data = {
     date: "August 2019 - November 2019",
     image: escapeRoomImage,
     description:
-      "A different take on an escape room game that consists of puzzles that you must solve to move onto the next level.",
-    technology: [
-      "Created for a group project for Process of Object Oriented Programming course",
-      "Made with Java in Android Studio",
-    ],
+      "A different take on an escape room game that consists of puzzles that you must solve to move onto the next level. Created for a group project for Process of Object Oriented Programming course",
+    technology: ["Java", "Android Studio"],
 
-    links: {}, // More Pictures??
+    links: {},
   },
 
   GroupBuy: {
@@ -123,14 +112,10 @@ const project_data = {
     date: "March 2020 - May 2020",
     image: groupBuyImage,
     description:
-      "Group project that developed a web application similar to Groupon that sells items and gives out discount codes.",
-    technology: [
-      "HTML and CSS was used to create the web pages",
-      "The APIs consist of JavaScript and PHP to make queries from the database with SQL",
-      "Created for a Database Systems class",
-    ],
+      "Group project that developed a web application similar to Groupon that sells items and gives out discount codes. The APIs consist of JavaScript and PHP to make queries from the database with SQL.Created for a Database Systems class",
+    technology: ["HTML", "CSS", "JavaScript", "PHP", "SQL"],
 
-    links: {}, // More Pictures?
+    links: {},
   },
 
   SQLGUI: {
@@ -138,13 +123,8 @@ const project_data = {
     date: "Janurary 2020 - April 2020",
     image: SQLWebAppImage,
     description:
-      "SQL GUI and Java Servlet App that make SQL querries and disaplays the results.",
-    technology: [
-      "Java Programming Language",
-      "Java Servlet Pages",
-      "MySQL Workbench",
-      "Developed for Enterprise Computing class",
-    ],
+      "SQL GUI and Java Servlet App that make SQL querries and disaplays the results. Developed for Enterprise Computing class",
+    technology: ["Java", "Java Servlet Pages", "MySQL Workbench"],
 
     links: {
       "https://github.com/rflynn523/Java-Reference-Programs/tree/master/Assignment4/SqlGUI":
@@ -157,12 +137,8 @@ const project_data = {
     date: "August 2019 - October 2019",
     image: waldoImage,
     description:
-      "A Template Matching assignment that solves a 'Where's Waldo' puzzle.",
-    technology: [
-      "Created in a Robotic Systems course",
-      "Developed in Python with Google Colab",
-      "OpenCV library",
-    ],
+      "A Template Matching assignment that solves a 'Where's Waldo' puzzle. Created in a Robotic Systems course",
+    technology: ["Python", "Google Colab", "OpenCV"],
 
     links: {
       "https://github.com/rflynn523/Python-Reference-Programs/tree/master/Template%20Matching":
