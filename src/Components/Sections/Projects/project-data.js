@@ -16,9 +16,9 @@ const project_data = {
     date: "January 2023 - March 2023",
     image: budgetAssistant,
     description:
-      "A Python script that interacts with Excel spreadsheets to help reset my monthly budget. " +
-      "It runs checks to ensure everything is setup correctly, imports in data entries from a text file, " +
-      "sends a summary of the month to my phone, and prints progress to the terminal",
+      "A Python script designed to manage and reset my monthly budget by interacting with Excel spreadsheets. " +
+      "The script performs validation checks to ensure proper setup, imports data from text files, sends monthly " +
+      "summaries to my phone, and outputs progress updates to the terminal.",
     technology: ["Python", "Pytest", "Openpyxl"],
     links: [
       { url: "https://github.com/rflynn523/Budget-Assistant", tooltip: "Code" },
@@ -30,9 +30,9 @@ const project_data = {
     date: "November 2021 - February 2022",
     image: savingsMapper,
     description:
-      "An IOS app that gives people a flexible way to calculate " +
-      "how much they allocate to each of their savings goals every month. " +
-      "The user enters in an amount of money and then uses sliders to dictate how much money to apply to each saving category.",
+      "An iOS app that provides a flexible way for users to allocate their monthly savings across various goals. " +
+      "Users input a total amount and use interactive sliders to distribute funds among different savings categories. " +
+      "I use this app personally to manage my own savings.",
     technology: ["Swift", "SwiftUI", "XCode", "iOS"],
     links: [
       { url: "https://github.com/rflynn523/Money-Mapper", tooltip: "Code" },
@@ -48,8 +48,10 @@ const project_data = {
     date: "May 2020 - December 2020",
     image: petConnect,
     description:
-      "A smart home system that allows people to let their pet outside when they are not home. Raspberry Pi controls senors, door motor, speaker, and camera. MSP430 Microcontroller controls the home display" +
-      "An Android app allows the user to change the mode, open or close the door, and interact with their pet. Firebase keeps track of the user's data and keeps each component up to date.",
+      "For my Senior design project, my team developed a smart home system that allows users to let their pets outside while they are away. " +
+      "The system integrates sensors, a door motor, a speaker, and a camera, all controlled via a central unit. " +
+      "An Android app lets users adjust settings, operate the door, and interact with their pet. " +
+      "Cloud-based services ensure all components are synchronized and up to date.",
     technology: [
       "Python",
       "Java",
@@ -75,7 +77,7 @@ const project_data = {
     date: "April 2020 - July 2020",
     image: budgetGUI,
     description:
-      "A Desktop GUI Application that assists with a personal budget MicroSoft Excel Spreadsheet.",
+      "A desktop application with a graphical user interface that helps manage a personal budget using a Microsoft Excel spreadsheet.",
     technology: ["Python", "Tkinter", "Openpyxl", "PyCharm"],
     links: [{ url: "https://github.com/rflynn523/BudgetGUI", tooltip: "Code" }],
   },
@@ -85,7 +87,8 @@ const project_data = {
     date: "August 2020 - Feburary 2020",
     image: resumeWebApp,
     description:
-      "A website that displays my resume information in a more interactive way while also giving more in depth details. Also acts as a way to document the work I have done",
+      "A dynamic website where I display my resume interactively and provide in-depth details about my work. " +
+      "I use it as a way to document and showcase the projects and experiences I've had.",
     technology: ["JavaScript", "ReactJS", "Tailwindcss"],
     links: [
       { url: "https://github.com/rflynn523/ResumeWebApp", tooltip: "Code" },
@@ -97,7 +100,8 @@ const project_data = {
     date: "May 2019 - August 2019",
     image: ledDisplay,
     description:
-      "Two seven segment diaplays that will ouptut different modes for the user. MSP4302553 controls the two seven segment LEDs with jumper wires and a bread board",
+      "A project featuring two seven-segment displays that indicate various modes for the user. " +
+      "The MSP4302553 microcontroller controls these displays through jumper wires and a breadboard.",
     technology: ["C", "MSP4302553 Microcontroller", "Code Composer Studio"],
 
     links: [
@@ -117,7 +121,8 @@ const project_data = {
     date: "August 2019 - November 2019",
     image: escapeRoomImage,
     description:
-      "A different take on an escape room game that consists of puzzles that you must solve to move onto the next level. Created for a group project for Process of Object Oriented Programming course",
+      "An escape room game designed as an Android app, where players solve puzzles to advance through levels. " +
+      "This project was created as part of a group assignment for a Process of Object-Oriented Programming course.",
     technology: ["Java", "Android Studio"],
 
     links: [],
@@ -128,7 +133,9 @@ const project_data = {
     date: "March 2020 - May 2020",
     image: groupBuyImage,
     description:
-      "Group project that developed a web application similar to Groupon that sells items and gives out discount codes. The APIs consist of JavaScript and PHP to make queries from the database with SQL.Created for a Database Systems class",
+      "A group project that developed a web application similar to Groupon, featuring item sales and discount codes. " +
+      "The application uses JavaScript and PHP for API interactions and SQL for database queries. " +
+      "This project was completed for a Database Systems class.",
     technology: ["JavaScript", "PHP", "SQL", "HTML", "CSS"],
 
     links: [],
@@ -139,7 +146,8 @@ const project_data = {
     date: "Janurary 2020 - April 2020",
     image: SQLWebAppImage,
     description:
-      "SQL GUI and Java Servlet App that make SQL querries and disaplays the results. Developed for Enterprise Computing class",
+      "A SQL GUI and Java Servlet application that performs SQL queries and displays the results. " +
+      "Developed as part of an Enterprise Computing class.",
     technology: ["Java", "MySQL Workbench"],
 
     links: [
@@ -155,7 +163,9 @@ const project_data = {
     date: "August 2019 - October 2019",
     image: waldoImage,
     description:
-      "A Template Matching assignment that solves a 'Where's Waldo' puzzle. Created in a Robotic Systems course",
+      "A template matching project designed to solve a 'Where's Waldo' puzzle. " +
+      "Developed using Python and OpenCV, and executed in Google Colab. " +
+      "This assignment was completed for a Robotic Systems course.",
     technology: ["Python", "OpenCV", "Google Colab"],
 
     links: [
