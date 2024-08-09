@@ -3,7 +3,7 @@ import budgetAssistant from "../../../images/project_pics/budget_assistant/termi
 import savingsMapper from "../../../images/project_pics/savings_mapper/app_store_ad.png";
 import petConnect from "../../../images/project_pics/pet_connect/frame.JPG";
 import budgetGUI from "../../../images/project_pics/budget_gui/gui.JPG";
-import resumeWebApp from "../../../images/project_pics/resume_web_app/first_draft.JPG";
+import resumeWebApp from "../../../images/project_pics/resume_web_app/new_home_page.png";
 import groupBuyImage from "../../../images/project_pics/group_buy/check_discounts_page.JPG";
 import SQLWebAppImage from "../../../images/project_pics/sql_web_app/main_page.JPG";
 import waldoImage from "../../../images/project_pics/wheres_waldo/puzzle.jpg";
