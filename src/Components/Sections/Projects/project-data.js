@@ -1,14 +1,14 @@
 // Project Pictures
-import budgetAssistant from "../../../images/BudgetAssistant Screenshot.png";
-import savingsMapper from "../../../images/savings_mapper_1200x628.png";
-import petConnect from "../../../images/Overall.JPG";
-import budgetGUI from "../../../images/New_Month.JPG";
-import resumeWebApp from "../../../images/ResumeWebApp.JPG";
-import groupBuyImage from "../../../images/CheckDiscountsPage.JPG";
-import SQLWebAppImage from "../../../images/Stretched.JPG";
-import waldoImage from "../../../images/puzzle_1.jpg";
-import escapeRoomImage from "../../../images/EscapeRoom.JPG";
-import ledDisplay from "../../../images/LEDDisplay.JPG";
+import budgetAssistant from "../../../images/project_pics/budget_assistant/terminal.png";
+import savingsMapper from "../../../images/project_pics/savings_mapper/app_store_ad.png";
+import petConnect from "../../../images/project_pics/pet_connect/frame.JPG";
+import budgetGUI from "../../../images/project_pics/budget_gui/gui.JPG";
+import resumeWebApp from "../../../images/project_pics/resume_web_app/first_draft.JPG";
+import groupBuyImage from "../../../images/project_pics/group_buy/check_discounts_page.JPG";
+import SQLWebAppImage from "../../../images/project_pics/sql_web_app/main_page.JPG";
+import waldoImage from "../../../images/project_pics/wheres_waldo/puzzle.jpg";
+import escapeRoomImage from "../../../images/project_pics/escape_room/app.JPG";
+import ledDisplay from "../../../images/project_pics/led_display/led.JPG";
 
 const project_data = {
   BudgetAssistant: {
