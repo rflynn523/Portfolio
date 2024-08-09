@@ -1,7 +1,7 @@
 import React from "react";
 import ReactGA from "react-ga";
 
-import engBuilding from "../../../images/ENGBuildingWebSize.jpg";
+import engBuilding from "../../../images/profile_pics/profile.jpg";
 import TechUsedCard from "../../Card/TechUsedCard";
 import tech_used_data from "./tech-used-data";
 
