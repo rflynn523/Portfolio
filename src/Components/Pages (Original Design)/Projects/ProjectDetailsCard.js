@@ -1,6 +1,6 @@
 import React from "react";
 import ReactGA from "react-ga";
-import "./Project.css";
+// import './Project.css'
 import close from "../../../images/close.png";
 
 class ProjectDetailsCard extends React.Component {
@@ -29,7 +29,7 @@ class ProjectDetailsCard extends React.Component {
           target="_blank"
         >
           <img className="linkIcon" src={icon} width="18px" height="18px" />
-        </a>,
+        </a>
       );
     }
     return linkList;

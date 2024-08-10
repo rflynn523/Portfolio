@@ -10,10 +10,32 @@
   background-color: #fff;
 
   margin: 1rem 1rem 3rem 1rem;
+
+  transition: transform 0.2s ease-in-out;
 }
 
 .ProjectTitle:hover {
   cursor: pointer;
+  transform: scale(1.05);
+}
+
+.ExpandedProject {
+  /* display: flex;
+  flex-direction: column; */
+  display: grid;
+  grid-template-columns: 2fr 8fr;
+  grid-template-rows: 1fr;
+
+  height: 23rem;
+  width: 69rem;
+
+  /* justify-content: top; */
+
+  background-color: #fff;
+
+  /* margin: 1rem 1rem 3rem 1rem; */
+
+  transition: transform 0.2s ease-in-out;
 }
 
 .Details {
@@ -26,7 +48,7 @@
   width: 23rem;
 
   background-color: #fff;
-  margin: 1rem 1rem 3rem 1rem;
+  /* margin: 1rem 1rem 3rem 1rem; */
 
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
   transition-duration: 5s;
@@ -36,12 +58,11 @@
   z-index: 5;
   height: 15rem;
   padding: 0px;
-  transition-duration: 5s;
 }
 
 .Details .projectImg {
   display: none;
-  transition-duration: 5s;
+  /* transition-duration: 5s; */
 }
 
 .title .detailsIcon {
