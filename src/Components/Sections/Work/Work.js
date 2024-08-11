@@ -3,6 +3,7 @@ import React from "react";
 import JobSummary from "./JobSummary";
 import JobDetails from "./JobDetails";
 import work_experience_data from "./work-data";
+import Title from "../../Title";
 
 class Work extends React.Component {
   allWork = [work_experience_data.solute, work_experience_data.CP];
@@ -10,6 +11,8 @@ class Work extends React.Component {
   render() {
     return (
       <div className="work py-8 container mx-auto px-32 space-y-4">
+        <Title text="Work" />
+
         {this.allWork.map((job, index) => (
           <div
             className="mb-4 w-full bg-slate bg-opacity-10 backdrop-blur-lg rounded-lg"

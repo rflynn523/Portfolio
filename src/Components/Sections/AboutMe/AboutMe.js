@@ -4,6 +4,7 @@ import ReactGA from "react-ga";
 import engBuilding from "../../../images/profile_pics/profile.jpg";
 import TechUsedCard from "../../Card/TechUsedCard";
 import tech_used_data from "./tech-used-data";
+import Title from "../../Title";
 
 class AboutMe extends React.Component {
   card_info = [
@@ -52,6 +53,7 @@ class AboutMe extends React.Component {
         </div>
 
         {/* Grid for the Tech Used */}
+        <Title text="Skills" />
         <div className="grid grid-cols-3 gap-10 mx-24">
           {this.card_info.map((card, index) => (
             <div key={card.id}>
