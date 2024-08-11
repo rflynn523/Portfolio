@@ -8,7 +8,7 @@ class TechUsedCard extends React.Component {
 
   render() {
     return (
-      <div className="bg-slate bg-opacity-10 backdrop-blur-lg p-5 rounded-lg shadow-lg text-app-text-color">
+      <div className="bg-slate bg-opacity-10 backdrop-blur-lg p-5 rounded-lg shadow-lg">
         <div className="flex text-xl font-bold mb-5 border-2 rounded-full justify-center">
           {this.props.title}
         </div>

@@ -20,7 +20,7 @@ class Projects extends React.Component {
 
   render() {
     return (
-      <div className="text-app-text-color mx-auto p-32 space-y-8">
+      <div className=" mx-auto p-32 space-y-8">
         {this.all_Projects.map((project, index) => (
           <div key={index}>
             <ProjectCard project={project} />

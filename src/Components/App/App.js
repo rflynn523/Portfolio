@@ -9,7 +9,7 @@ import "./App.css";
 class App extends React.Component {
   render() {
     return (
-      <div className="bg-gradient-to-r from-middarkside2 via-teal5 to-middarkside2 min-h-screen">
+      <div className="bg-gradient-to-r from-middarkside2 via-teal5 to-middarkside2 min-h-screen text-app-text-color">
         <NavBar className="navBar" />
 
         <section id="About Me">

@@ -5,7 +5,7 @@ class TechChip extends React.Component {
     return (
       <span
         key={this.props.index}
-        className="inline-flex items-center px-3 py-1 text-sm rounded-full bg-chip-color text-app-text-color"
+        className="inline-flex items-center px-3 py-1 text-sm rounded-full bg-chip-color"
         style={{ marginRight: "8px", marginBottom: "4px" }}
       >
         {this.props.technology}

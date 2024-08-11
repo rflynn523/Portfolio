@@ -37,7 +37,7 @@ class NavBar extends React.Component {
 
   render() {
     return (
-      <nav className="fixed w-full h-fit top-0 z-50 bg-gradient-to-r from-middarkside2 via-teal5 to-middarkside2 text-nav-bar-font-color">
+      <nav className="fixed w-full h-fit top-0 z-50 bg-gradient-to-r from-middarkside2 via-teal5 to-middarkside2">
         <div
           className={`transition-all ease-in-out duration-700 ${
             this.state.isScrolled ? "pt-0" : "pt-6"
@@ -45,7 +45,7 @@ class NavBar extends React.Component {
         >
           <div className="container mx-auto flex justify-between items-center py-5">
             {/* Jump To Buttons */}
-            <div className="flex flex-1 space-x-8 text-nav-bar-font-color text-lg">
+            <div className="flex flex-1 space-x-8 text-lg">
               <button
                 className="underline-from-center"
                 onClick={() => scrollToSection("Home")}

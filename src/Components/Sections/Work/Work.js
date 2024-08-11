@@ -9,7 +9,7 @@ class Work extends React.Component {
 
   render() {
     return (
-      <div className="work py-8 text-app-text-color container mx-auto px-32 space-y-4">
+      <div className="work py-8 container mx-auto px-32 space-y-4">
         {this.allWork.map((job, index) => (
           <div
             className="mb-4 w-full bg-slate bg-opacity-10 backdrop-blur-lg rounded-lg"

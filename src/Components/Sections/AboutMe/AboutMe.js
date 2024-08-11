@@ -33,7 +33,7 @@ class AboutMe extends React.Component {
 
           {/* Intro paragraph on the right */}
           <div className="ml-12">
-            <div className="mb-12 bg-slate bg-opacity-10 backdrop-blur-lg p-8 rounded-lg shadow-lg text-app-text-color text-base">
+            <div className="mb-12 bg-slate bg-opacity-10 backdrop-blur-lg p-8 rounded-lg shadow-lg text-base">
               A young engineer with a growing passion for creating software and
               learning about new technology. I recently graduated from UCF in
               December of 2020 and I am currently working as a Software Engineer
@@ -41,7 +41,7 @@ class AboutMe extends React.Component {
               "Savings Mapper". You can check it out on the App Store.
             </div>
 
-            <div className="bg-slate bg-opacity-10 backdrop-blur-lg p-8 rounded-lg shadow-lg text-app-text-color text-base">
+            <div className="bg-slate bg-opacity-10 backdrop-blur-lg p-8 rounded-lg shadow-lg text-base">
               This web app serves as an extension of my resume and also gave me
               the opportunity to learn ReactJS. It features more information
               displayed in a more interactive way. I am now using it to
