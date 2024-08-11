@@ -9,13 +9,7 @@ import "./App.css";
 class App extends React.Component {
   render() {
     return (
-      <div className="bg-gradient-to-r from-middarkside2 via-teal5 to-middarkside2 min-h-screen overflow-auto bottom-0">
-        {/* The font for the website */}
-        <link
-          href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap"
-          rel="stylesheet"
-        />
-
+      <div className="bg-gradient-to-r from-middarkside2 via-teal5 to-middarkside2 min-h-screen">
         <NavBar className="navBar" />
 
         <section id="About Me">

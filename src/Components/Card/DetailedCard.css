@@ -8,15 +8,13 @@
 
   align-items: center;
 
-  box-shadow:
-    0 4px 4px 0 rgba(0, 0, 0, 0.2),
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   margin: 20px;
   padding: 10px;
 
   height: 80vh;
-  overflow-y: auto;
+  /* overflow-y: auto; */
 }
 
 .detailedCard:hover {

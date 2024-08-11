@@ -12,7 +12,7 @@ class Work extends React.Component {
       <div className="work py-8 text-app-text-color container mx-auto px-32 space-y-4">
         {this.allWork.map((job, index) => (
           <div
-            className="mb-4 w-full bg-slate bg-opacity-10 backdrop-blur-lg rounded-lg overflow-hidden"
+            className="mb-4 w-full bg-slate bg-opacity-10 backdrop-blur-lg rounded-lg"
             key={index}
           >
             {/* Summary */}
@@ -21,7 +21,7 @@ class Work extends React.Component {
                      hover:border-with-green transition-all duration-300"
               onClick={() => {
                 const content = document.getElementById(
-                  `panel-${index}-content`,
+                  `panel-${index}-content`
                 );
                 content.classList.toggle("hidden");
               }}

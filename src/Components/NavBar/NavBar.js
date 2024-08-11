@@ -36,13 +36,7 @@ class NavBar extends React.Component {
   }
 
   render() {
-    // To report page view
-    ReactGA.pageview("/Contact");
-
     return (
-      // Nav bar style that does not match the gradient back ground
-      // <nav className="fixed w-full h-fit top-0 z-50 bg-nav-bar-color3 bg-opacity-70 backdrop-blur-md py-5 text-app-text-color">
-
       <nav className="fixed w-full h-fit top-0 z-50 bg-gradient-to-r from-middarkside2 via-teal5 to-middarkside2 text-nav-bar-font-color">
         <div
           className={`transition-all ease-in-out duration-700 ${
