@@ -21,7 +21,7 @@ class Work extends React.Component {
                      hover:border-with-green transition-all duration-300"
               onClick={() => {
                 const content = document.getElementById(
-                  `panel-${index}-content`
+                  `panel-${index}-content`,
                 );
                 content.classList.toggle("hidden");
               }}

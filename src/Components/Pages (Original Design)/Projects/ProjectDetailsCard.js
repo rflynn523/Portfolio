@@ -29,7 +29,7 @@ class ProjectDetailsCard extends React.Component {
           target="_blank"
         >
           <img className="linkIcon" src={icon} width="18px" height="18px" />
-        </a>
+        </a>,
       );
     }
     return linkList;

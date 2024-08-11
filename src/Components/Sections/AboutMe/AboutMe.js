@@ -21,7 +21,7 @@ class AboutMe extends React.Component {
 
     return (
       <div>
-        <div className="flex items-center p-32">
+        <div className="flex items-center p-32 pt-44">
           {/* Picture on the left */}
           <div className="flex-shrink-0">
             <img
