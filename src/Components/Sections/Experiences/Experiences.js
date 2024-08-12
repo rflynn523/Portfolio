@@ -20,20 +20,20 @@ class Experiences extends React.Component {
           >
             {/* Summary */}
             <div
-              className="px-4 py-2 rounded-lg cursor-pointer border border-transparent
-                     hover:border-with-green transition-all duration-300"
-              onClick={() => {
-                const content = document.getElementById(
-                  `panel-${index}-content`
-                );
-                content.classList.toggle("hidden");
-              }}
+              className="px-4 py-2 rounded-lg cursor-pointer" //border border-with-green"
+              //  hover:border-with-green transition-all duration-300"
+              // onClick={() => {
+              //   const content = document.getElementById(
+              //     `panel-${index}-content`
+              //   );
+              //   content.classList.toggle("hidden");
+              // }}
             >
               <JobSummary job_info={job} />
             </div>
 
             {/* Details */}
-            <div id={`panel-${index}-content`} className="hidden px-4 py-2">
+            <div id={`panel-${index}-content`} className="px-4 py-2">
               <JobDetails job_info={job} />
             </div>
           </div>
