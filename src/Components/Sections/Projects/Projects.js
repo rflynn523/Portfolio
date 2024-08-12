@@ -22,7 +22,7 @@ class Projects extends React.Component {
 
   render() {
     return (
-      <div className=" mx-auto p-32 space-y-8">
+      <div className=" mx-auto p-32 pb-0 space-y-8">
         <Title text="Projects" />
         {this.all_Projects.map((project, index) => (
           <div key={index}>

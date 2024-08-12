@@ -10,7 +10,7 @@ class AboutMe extends React.Component {
     ReactGA.pageview("/AboutMe");
 
     return (
-      <div className="flex items-center p-32 pt-44">
+      <div className="flex items-center px-32 pt-44">
         {/* Picture on the left */}
         <div className="flex-shrink-0">
           <img

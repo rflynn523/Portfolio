@@ -15,7 +15,7 @@ class Technologies extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="pt-32">
         {/* Grid for the Tech Used */}
         <Title text="Technologies" />
         <div className="grid grid-cols-3 gap-10 mx-24">
