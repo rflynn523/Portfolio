@@ -25,7 +25,14 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "rules": {
+      "no-unused-vars": "warn",
+      "eqeqeq": "warn",
+      "jsx-a11y/alt-text": "warn",
+      "react/jsx-no-target-blank": "warn",
+      "jsx-a11y/heading-has-content": "warn"
+    }
   },
   "browserslist": {
     "production": [
