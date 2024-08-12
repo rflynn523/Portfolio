@@ -1,20 +1,14 @@
 import React from "react";
-import ReactGA from "react-ga";
-
-import engBuilding from "../../../images/profile_pics/profile.jpg";
-import Title from "../../Title";
+import profile_pic from "../../../images/profile_pics/cruise.jpeg";
 
 class AboutMe extends React.Component {
   render() {
-    // To report page view
-    ReactGA.pageview("/AboutMe");
-
     return (
       <div className="flex items-center px-32 pt-44">
         {/* Picture on the left */}
         <div className="flex-shrink-0">
           <img
-            src={engBuilding}
+            src={profile_pic}
             alt="Image"
             className="size-128 rounded-full object-cover"
           />
