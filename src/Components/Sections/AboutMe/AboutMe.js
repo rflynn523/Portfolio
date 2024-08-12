@@ -23,19 +23,23 @@ class AboutMe extends React.Component {
         {/* Intro paragraphs on the right */}
         <div className="ml-12">
           <div className="mb-12 bg-slate bg-opacity-10 backdrop-blur-lg p-8 rounded-lg shadow-lg text-base">
-            A young engineer with a growing passion for creating software and
-            learning about new technology. I recently graduated from UCF in
-            December of 2020 and I am currently working as a Software Engineer
-            at SOLUTE. My most recent personal project is an IOS app called
-            "Savings Mapper". You can check it out on the App Store.
+            As an engineer with nearly four years of experience, I am passionate
+            about creating innovative software and exploring new technologies. I
+            graduated from the University of Central Florida in December 2020
+            and am currently working as a Software Engineer II at SOLUTE.
+            Outside of work, I enjoy working on personal projects, keeping up
+            with the NBA and NFL, and taking endless trips to Disney with my
+            wife.
           </div>
 
           <div className="bg-slate bg-opacity-10 backdrop-blur-lg p-8 rounded-lg shadow-lg text-base">
-            This web app serves as an extension of my resume and also gave me
-            the opportunity to learn ReactJS. It features more information
-            displayed in a more interactive way. I am now using it to personally
-            track my growth as a developer through my projects, skills, and work
-            experience.
+            This web app is an extension of my resume, designed to showcase my
+            skills and growth as a developer in a more interactive format. It
+            reflects my journey through various technologies, projects, and work
+            experiences. I particularly enjoy working on personal projects and
+            continually refining them as I gain new skills. This app serves as a
+            tool to track and present my ongoing development in the tech
+            industry.
           </div>
         </div>
       </div>
