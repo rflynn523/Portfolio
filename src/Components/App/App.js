@@ -4,7 +4,7 @@ import NavBar from "../NavBar/NavBar";
 import AboutMe from "../Sections/AboutMe/AboutMe";
 import Technologies from "../Sections/Technologies/Technologies";
 import Projects from "../Sections/Projects/Projects";
-import Experiences from "../Sections/Work/Work";
+import Experiences from "../Sections/Experiences/Experiences";
 import "./App.css";
 
 class App extends React.Component {
