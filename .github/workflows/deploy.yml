@@ -26,7 +26,7 @@ jobs:
       - name: Configure Git
         run: |
           git config --global user.email "rflynn0523@gmail.com"
-          git config --global user.name "Deployment Action"
+          git config --global user.name "rflynn523"
 
       - name: Deploy
         run: CI=false npm run deploy
