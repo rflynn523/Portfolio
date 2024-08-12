@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 
 import NavBar from "../NavBar/NavBar";
 import AboutMe from "../Sections/AboutMe/AboutMe";
+import Technologies from "../Sections/Technologies/Technologies";
 import Projects from "../Sections/Projects/Projects";
 import Work from "../Sections/Work/Work";
 import "./App.css";
@@ -14,6 +15,10 @@ class App extends React.Component {
 
         <section id="About Me">
           <AboutMe />
+        </section>
+
+        <section id="Technologies">
+          <Technologies />
         </section>
 
         <section id="Projects">

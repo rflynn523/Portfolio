@@ -48,15 +48,16 @@ class NavBar extends React.Component {
             <div className="flex flex-1 space-x-8 text-lg">
               <button
                 className="underline-from-center"
-                onClick={() => scrollToSection("Home")}
+                onClick={() => scrollToSection("About Me")}
               >
                 Home
               </button>
+
               <button
                 className="underline-from-center"
-                onClick={() => scrollToSection("About Me")}
+                onClick={() => scrollToSection("Technologies")}
               >
-                About Me
+                Technologies
               </button>
               <button
                 className="underline-from-center"
