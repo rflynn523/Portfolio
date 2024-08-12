@@ -2,7 +2,7 @@ import React from "react";
 import ReactGA from "react-ga";
 
 import "./NavBar.css";
-import { FaLinkedin, FaGithub, FaFilePdf } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaFilePdf, FaEnvelope } from "react-icons/fa";
 import savingsMapperPrivacyPolicy from "./Privacy Policy.pdf";
 import resumePDF from "./Ryan Flynn Resume.pdf";
 
@@ -126,6 +126,16 @@ class NavBar extends React.Component {
                 className="hover:text-adobe-red transition-colors duration-300"
               >
                 <FaFilePdf className="size-8" />
+              </a>
+
+              {/* Email */}
+              <a
+                href="mailto:rflynn0523@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-golden-yellow transition-colors duration-300"
+              >
+                <FaEnvelope className="size-8" />
               </a>
               {/* <a href={savingsMapperPrivacyPolicy} target="_blank">
               Savings Mapper Privacy Policy
