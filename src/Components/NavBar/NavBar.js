@@ -67,9 +67,9 @@ class NavBar extends React.Component {
               </button>
               <button
                 className="underline-from-center"
-                onClick={() => scrollToSection("Work")}
+                onClick={() => scrollToSection("Experiences")}
               >
-                Work
+                Experiences
               </button>
             </div>
 

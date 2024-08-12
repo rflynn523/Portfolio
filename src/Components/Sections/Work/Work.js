@@ -5,13 +5,13 @@ import JobDetails from "./JobDetails";
 import work_experience_data from "./work-data";
 import Title from "../../Title";
 
-class Work extends React.Component {
+class Experiences extends React.Component {
   allWork = [work_experience_data.solute, work_experience_data.CP];
 
   render() {
     return (
       <div className="work py-8 container mx-auto px-32 space-y-4">
-        <Title text="Work" />
+        <Title text="Experiences" />
 
         {this.allWork.map((job, index) => (
           <div
@@ -43,4 +43,4 @@ class Work extends React.Component {
   }
 }
 
-export default Work;
+export default Experiences;

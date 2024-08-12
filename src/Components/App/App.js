@@ -4,7 +4,7 @@ import NavBar from "../NavBar/NavBar";
 import AboutMe from "../Sections/AboutMe/AboutMe";
 import Technologies from "../Sections/Technologies/Technologies";
 import Projects from "../Sections/Projects/Projects";
-import Work from "../Sections/Work/Work";
+import Experiences from "../Sections/Work/Work";
 import "./App.css";
 
 class App extends React.Component {
@@ -25,8 +25,8 @@ class App extends React.Component {
           <Projects />
         </section>
 
-        <section id="Work">
-          <Work />
+        <section id="Experiences">
+          <Experiences />
         </section>
       </div>
     );
