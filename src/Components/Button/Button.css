@@ -1,36 +1,29 @@
+/* button {
+  padding: 16px 32px;
 
-button
-{
-    padding: 16px 32px;
+  margin: 15px;
 
-    margin: 15px;
+  border: 4px solid #2d3032 !important;
 
-    border: 4px solid #2D3032 !important;
+  border-radius: 6px;
+  transition: all 0.3s ease 0s;
 
-    border-radius: 6px;
-    transition: all 0.3s ease 0s;
+  background-color: #2d3032;
+  color: white;
 
-    background-color: #2D3032;
-    color: white;
-
-    font-size: 18px;
+  font-size: 18px;
 }
 
-
-button:hover      
-{
-    color: white !important;
-    border-radius: 50px;
-    border-color: white !important;
-    transition: all 0.5s ease 0s;
+button:hover {
+  color: white !important;
+  border-radius: 50px;
+  border-color: white !important;
+  transition: all 0.5s ease 0s;
 }
 
-button:focus
-{
-    color: white !important;
-    border-radius: 50px;
-    border-color: white !important;
-    transition: all 0.5s ease 0s;
-
-}
-
+button:focus {
+  color: white !important;
+  border-radius: 50px;
+  border-color: white !important;
+  transition: all 0.5s ease 0s;
+} */

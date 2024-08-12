@@ -1,47 +1,40 @@
-.detailedCard
-{
-    display: inline-block;
+.detailedCard {
+  display: inline-block;
 
-    background-color: #fff;
-    color: #333;
+  background-color: #fff;
+  color: #333;
 
-    font-size: 20px;
+  font-size: 20px;
 
-    align-items: center;
+  align-items: center;
 
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-    margin: 20px;
-    padding: 10px;
+  margin: 20px;
+  padding: 10px;
 
-    height: 80vh;
-    overflow-y: auto;
-
+  height: 80vh;
+  /* overflow-y: auto; */
 }
 
-.detailedCard:hover
-{
-    cursor: pointer;
+.detailedCard:hover {
+  cursor: pointer;
 }
 
 /* The list of courses for each category */
-ul
-{
-    background-color: #fff;
+ul {
+  background-color: #fff;
 
-    margin: 10px; 
-    
-    text-align: center;
-    list-style-type: none;
+  margin: 10px;
 
+  text-align: center;
+  list-style-type: none;
 }
 
-.skillTitle
-{
-    text-align: left;
+.skillTitle {
+  text-align: left;
 }
 
-.detail
-{
-    text-align: left;
+.detail {
+  text-align: left;
 }

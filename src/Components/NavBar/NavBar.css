@@ -1,25 +1,21 @@
-.grid-navBar
-{
-    justify-items: center;
-    text-align: center;
-
-    font-size: 30 px;
-
-    background-color: #2D3032;
-
+/* Nav Bar Underline Transition */
+.underline-from-center {
+  position: relative;
+  display: inline-block;
 }
 
-
-.name
-{   
-    /* color: greenyellow; */
-    color:  #1aff1a;
-
-    font-size: 30px;
-    /* font-family: 'Courgette', cursive; */
-
-    letter-spacing: 2px;
-    padding: 15px;
+.underline-from-center::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -6px;
+  left: 50%;
+  background-color: currentColor;
+  transition: width 0.3s ease, left 0.3s ease;
 }
 
-
+.underline-from-center:hover::after {
+  width: 100%;
+  left: 0;
+}

@@ -1,40 +1,39 @@
-.listCard
-{
-    display: grid;
-    grid-template-columns: 2fr 8fr;
-    grid-template-rows: 1fr;
+.listCard {
+  display: grid;
+  grid-template-columns: 2fr 8fr;
+  grid-template-rows: 1fr;
 
-    background-color: #fff;
-    /* color: #333; */
+  background-color: #fff;
+  /* color: #333; */
 
-    font-size: 20px;
+  font-size: 20px;
 
-    align-items: center;
+  align-items: center;
 
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow:
+    0 4px 4px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-    margin: 2rem 2rem 2rem 2rem;
-    padding: 10px;
+  margin: 2rem 2rem 2rem 2rem;
+  padding: 10px;
 }
 
-h3, h4, .listCardText
-{
-    margin-top: 10px;
-    margin-bottom: 10px;
+h3,
+h4,
+.listCardText {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.listCardText
-{
+.listCardText {
   justify-content: top;
   z-index: 10;
   grid-column-start: 2;
   grid-row-start: 1;
   grid-row-end: 8;
-
 }
 
-.listCard img
-{
+.listCard img {
   z-index: 5;
 
   height: 15rem;
@@ -42,30 +41,23 @@ h3, h4, .listCardText
   /* padding-right: 30px; */
   /* grid-column-start: 0; */
   /* grid-column-end: 1; */
-
 }
 
-.listCardGrid img
-{
-  margin : 5px;
+.listCardGrid img {
+  margin: 5px;
   height: 1rem;
   width: 1rem;
 }
 
-.listCardGrid
-{
+.listCardGrid {
   display: grid;
   padding-left: 30px;
-
 }
 
-
-.listCard .dividerLine
-{
+.listCard .dividerLine {
   /* border-top: 1px solid #333; */
-  border-top: 1px solid rgba(160,160,160,0.5);
+  border-top: 1px solid rgba(160, 160, 160, 0.5);
   display: inline-block;
-  padding-left : 5px;
-  padding-right : 5px;
-
+  padding-left: 5px;
+  padding-right: 5px;
 }
