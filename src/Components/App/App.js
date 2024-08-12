@@ -1,42 +1,32 @@
 import React, { useEffect } from "react";
-import ReactGA from "react-ga";
 
 import NavBar from "../NavBar/NavBar";
-import Home from "../Sections/Home/Home";
 import AboutMe from "../Sections/AboutMe/AboutMe";
+import Technologies from "../Sections/Technologies/Technologies";
 import Projects from "../Sections/Projects/Projects";
-import Work from "../Sections/Work/Work";
+import Experiences from "../Sections/Experiences/Experiences";
 import "./App.css";
 
-// Top Component of the Web app that displays the nav bar, and the active page/component
-// Also handles the switching of the active page
-// (App)
 class App extends React.Component {
   render() {
     return (
-      <div className="bg-gradient-to-r from-middarkside2 via-teal5 to-middarkside2 min-h-screen overflow-auto bottom-0">
-        {/* The font for the website */}
-        <link
-          href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap"
-          rel="stylesheet"
-        />
-
+      <div className="bg-gradient-to-r from-middarkside2 via-teal5 to-middarkside2 min-h-screen text-app-text-color">
         <NavBar className="navBar" />
-
-        <section id="Home">
-          <Home />
-        </section>
 
         <section id="About Me">
           <AboutMe />
+        </section>
+
+        <section id="Technologies">
+          <Technologies />
         </section>
 
         <section id="Projects">
           <Projects />
         </section>
 
-        <section id="Work">
-          <Work />
+        <section id="Experiences">
+          <Experiences />
         </section>
       </div>
     );

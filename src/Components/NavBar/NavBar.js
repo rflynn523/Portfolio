@@ -2,7 +2,7 @@ import React from "react";
 import ReactGA from "react-ga";
 
 import "./NavBar.css";
-import { FaLinkedin, FaGithub, FaFilePdf } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaFilePdf, FaEnvelope } from "react-icons/fa";
 import savingsMapperPrivacyPolicy from "./Privacy Policy.pdf";
 import resumePDF from "./Ryan Flynn Resume.pdf";
 
@@ -36,14 +36,8 @@ class NavBar extends React.Component {
   }
 
   render() {
-    // To report page view
-    ReactGA.pageview("/Contact");
-
     return (
-      // Nav bar style that does not match the gradient back ground
-      // <nav className="fixed w-full h-fit top-0 z-50 bg-nav-bar-color3 bg-opacity-70 backdrop-blur-md py-5 text-app-text-color">
-
-      <nav className="fixed w-full h-fit top-0 z-50 bg-gradient-to-r from-middarkside2 via-teal5 to-middarkside2 text-nav-bar-font-color">
+      <nav className="fixed w-full h-fit top-0 z-50 bg-gradient-to-r from-middarkside2 via-teal5 to-middarkside2">
         <div
           className={`transition-all ease-in-out duration-700 ${
             this.state.isScrolled ? "pt-0" : "pt-6"
@@ -51,18 +45,19 @@ class NavBar extends React.Component {
         >
           <div className="container mx-auto flex justify-between items-center py-5">
             {/* Jump To Buttons */}
-            <div className="flex flex-1 space-x-8 text-nav-bar-font-color text-lg">
-              <button
-                className="underline-from-center"
-                onClick={() => scrollToSection("Home")}
-              >
-                Home
-              </button>
+            <div className="flex flex-1 space-x-8 text-lg">
               <button
                 className="underline-from-center"
                 onClick={() => scrollToSection("About Me")}
               >
-                About Me
+                Home
+              </button>
+
+              <button
+                className="underline-from-center"
+                onClick={() => scrollToSection("Technologies")}
+              >
+                Technologies
               </button>
               <button
                 className="underline-from-center"
@@ -72,9 +67,9 @@ class NavBar extends React.Component {
               </button>
               <button
                 className="underline-from-center"
-                onClick={() => scrollToSection("Work")}
+                onClick={() => scrollToSection("Experiences")}
               >
-                Work
+                Experiences
               </button>
             </div>
 
@@ -131,6 +126,16 @@ class NavBar extends React.Component {
                 className="hover:text-adobe-red transition-colors duration-300"
               >
                 <FaFilePdf className="size-8" />
+              </a>
+
+              {/* Email */}
+              <a
+                href="mailto:rflynn0523@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-golden-yellow transition-colors duration-300"
+              >
+                <FaEnvelope className="size-8" />
               </a>
               {/* <a href={savingsMapperPrivacyPolicy} target="_blank">
               Savings Mapper Privacy Policy

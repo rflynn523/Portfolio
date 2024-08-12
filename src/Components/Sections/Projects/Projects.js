@@ -4,6 +4,8 @@ import project_data from "./project-data";
 
 import ProjectCard from "./ProjectCard";
 
+import Title from "../../Title";
+
 class Projects extends React.Component {
   all_Projects = [
     project_data.SavingsMapper,
@@ -20,7 +22,8 @@ class Projects extends React.Component {
 
   render() {
     return (
-      <div className="text-app-text-color mx-auto p-32 space-y-8">
+      <div className=" mx-auto p-32 pb-0 space-y-8">
+        <Title text="Projects" />
         {this.all_Projects.map((project, index) => (
           <div key={index}>
             <ProjectCard project={project} />
