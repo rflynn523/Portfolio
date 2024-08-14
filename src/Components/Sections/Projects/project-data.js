@@ -48,10 +48,10 @@ const project_data = {
     date: "May 2020 - December 2020",
     image: petConnect,
     description:
-      "For my Senior design project, my team developed a smart home system that allows users to let their pets outside while they are away. " +
-      "The system integrates sensors, a door motor, a speaker, and a camera, all controlled via a central unit. " +
-      "An Android app lets users adjust settings, operate the door, and interact with their pet. " +
-      "Cloud-based services ensure all components are synchronized and up to date.",
+      "For my Senior Design project, my team developed a smart home system that allows users to let their pets outside " +
+      "while they are away. The system integrates sensors, a door motor, a speaker, and a camera, " +
+      "all controlled via a central unit. An Android app enables users to adjust settings, operate the door, " +
+      "and interact with their pets. Cloud-based services ensure that all components are synchronized and up-to-date.",
     technology: [
       "Python",
       "Java",
