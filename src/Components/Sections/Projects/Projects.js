@@ -9,7 +9,7 @@ import Title from "../../Title";
 class Projects extends React.Component {
   all_Projects = [
     project_data.SavingsMapper,
-    project_data.ResumeWebApp,
+    project_data.Portfolio,
     project_data.BudgetAssistant,
     project_data.PetConnect,
     // project_data.BudgetGUI,
