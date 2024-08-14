@@ -90,9 +90,7 @@ const project_data = {
       "A dynamic web app where I display my resume interactively and provide in-depth details about my work. " +
       "I use it as a way to document and showcase the projects and experiences I've had.",
     technology: ["JavaScript", "ReactJS", "Tailwindcss"],
-    links: [
-      { url: "https://github.com/rflynn523/ResumeWebApp", tooltip: "Code" },
-    ],
+    links: [{ url: "https://github.com/rflynn523/Portfolio", tooltip: "Code" }],
   },
 
   MultiFuncLED: {

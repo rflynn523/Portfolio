@@ -2,7 +2,7 @@
   "name": "Portfolio",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://rflynn523.github.io/ResumeWebApp",
+  "homepage": "https://rflynn523.github.io/Portfolio",
   "dependencies": {
     "-": "0.0.1",
     "@emotion/react": "^11.11.1",
