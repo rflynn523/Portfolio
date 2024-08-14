@@ -3,7 +3,7 @@ import budgetAssistant from "../../../images/project_pics/budget_assistant/termi
 import savingsMapper from "../../../images/project_pics/savings_mapper/app_store_ad.png";
 import petConnect from "../../../images/project_pics/pet_connect/frame.JPG";
 import budgetGUI from "../../../images/project_pics/budget_gui/gui.JPG";
-import resumeWebApp from "../../../images/project_pics/resume_web_app/new_home_page.png";
+import portfolio from "../../../images/project_pics/portfolio/new_home_page.png";
 import groupBuyImage from "../../../images/project_pics/group_buy/check_discounts_page.JPG";
 import SQLWebAppImage from "../../../images/project_pics/sql_web_app/main_page.JPG";
 import waldoImage from "../../../images/project_pics/wheres_waldo/puzzle.jpg";
@@ -48,10 +48,10 @@ const project_data = {
     date: "May 2020 - December 2020",
     image: petConnect,
     description:
-      "For my Senior design project, my team developed a smart home system that allows users to let their pets outside while they are away. " +
-      "The system integrates sensors, a door motor, a speaker, and a camera, all controlled via a central unit. " +
-      "An Android app lets users adjust settings, operate the door, and interact with their pet. " +
-      "Cloud-based services ensure all components are synchronized and up to date.",
+      "For my Senior Design project, my team developed a smart home system that allows users to let their pets outside " +
+      "while they are away. The system integrates sensors, a door motor, a speaker, and a camera, " +
+      "all controlled via a central unit. An Android app enables users to adjust settings, operate the door, " +
+      "and interact with their pets. Cloud-based services ensure that all components are synchronized and up-to-date.",
     technology: [
       "Python",
       "Java",
@@ -82,17 +82,15 @@ const project_data = {
     links: [{ url: "https://github.com/rflynn523/BudgetGUI", tooltip: "Code" }],
   },
 
-  ResumeWebApp: {
-    title: "Resume Web App",
+  Portfolio: {
+    title: "Portfolio",
     date: "August 2020 - Feburary 2020",
-    image: resumeWebApp,
+    image: portfolio,
     description:
-      "A dynamic website where I display my resume interactively and provide in-depth details about my work. " +
+      "A dynamic web app where I display my resume interactively and provide in-depth details about my work. " +
       "I use it as a way to document and showcase the projects and experiences I've had.",
     technology: ["JavaScript", "ReactJS", "Tailwindcss"],
-    links: [
-      { url: "https://github.com/rflynn523/ResumeWebApp", tooltip: "Code" },
-    ],
+    links: [{ url: "https://github.com/rflynn523/Portfolio", tooltip: "Code" }],
   },
 
   MultiFuncLED: {

@@ -1,8 +1,8 @@
 {
-  "name": "ResumeWebApp",
-  "version": "2.0.0",
+  "name": "Portfolio",
+  "version": "2.0.1",
   "private": true,
-  "homepage": "https://rflynn523.github.io/ResumeWebApp",
+  "homepage": "https://rflynn523.github.io/Portfolio",
   "dependencies": {
     "@fontsource/roboto": "^5.0.4",
     "@testing-library/jest-dom": "^5.16.5",
