@@ -40,7 +40,7 @@ class NavBar extends React.Component {
       <nav className="fixed w-full h-fit top-0 z-50 bg-gradient-to-r from-middarkside2 via-teal5 to-middarkside2">
         <div
           className={`transition-all ease-in-out duration-700 ${
-            this.state.isScrolled ? "pt-0" : "pt-6"
+            this.state.isScrolled ? "pt-0" : "pt-3 sm:pt-6"
           }`}
         >
           <div className="container mx-auto flex justify-between items-center py-5">
@@ -77,7 +77,9 @@ class NavBar extends React.Component {
             <div className="text-nav-bar-font-color poppins-semibold tracking-wide absolute left-1/2 transform -translate-x-1/2">
               <div
                 className={`transition-all ease-in-out duration-700 ${
-                  this.state.isScrolled ? "text-4xl" : "text-6xl"
+                  this.state.isScrolled
+                    ? "text-2xl sm:text-3xl md:text-4xl"
+                    : "text-4xl sm:text-5xl md:text-6xl"
                 }`}
               >
                 Ryan Flynn
