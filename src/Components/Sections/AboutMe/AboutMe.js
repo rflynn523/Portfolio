@@ -4,19 +4,19 @@ import profile_pic from "../../../images/profile_pics/spain.jpeg";
 class AboutMe extends React.Component {
   render() {
     return (
-      <div className="flex items-center px-32 pt-44">
+      <div className="flex flex-col xl:flex-row items-center px-4 sm:px-16 xl:px-32 pt-24 xl:pt-44">
         {/* Picture on the left */}
-        <div className="flex-shrink-0">
+        <div className="flex-shrink-0 mb-8 xl:mb-0">
           <img
             src={profile_pic}
-            alt="Image"
-            className="size-128 rounded-full object-cover"
+            alt="Profile"
+            className="size-48 sm:size-96 xl:size-128 rounded-full object-cover"
           />
         </div>
 
         {/* Intro paragraphs on the right */}
-        <div className="ml-12">
-          <div className="mb-12 bg-slate bg-opacity-10 backdrop-blur-lg p-8 rounded-lg shadow-lg text-base">
+        <div className="xl:ml-12">
+          <div className="mb-8 xl:mb-12 bg-slate bg-opacity-10 backdrop-blur-lg p-6 xl:p-8 rounded-lg shadow-lg text-base">
             As an engineer with nearly four years of experience, I am passionate
             about creating innovative software and exploring new technologies. I
             graduated from the University of Central Florida in December 2020
@@ -26,7 +26,7 @@ class AboutMe extends React.Component {
             to Disney with my wife.
           </div>
 
-          <div className="bg-slate bg-opacity-10 backdrop-blur-lg p-8 rounded-lg shadow-lg text-base">
+          <div className="bg-slate bg-opacity-10 backdrop-blur-lg p-6 xl:p-8 rounded-lg shadow-lg text-base">
             This web app is an extension of my resume, designed to showcase my
             skills and growth as a developer in a more interactive format. It
             reflects my journey through various technologies, projects, and work
@@ -40,4 +40,5 @@ class AboutMe extends React.Component {
     );
   }
 }
+
 export default AboutMe;

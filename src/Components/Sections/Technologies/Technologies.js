@@ -15,10 +15,10 @@ class Technologies extends React.Component {
 
   render() {
     return (
-      <div className="pt-32">
+      <div className="pt-16 xl:pt-32 px-4 lg:px-16">
         {/* Grid for the Tech Used */}
         <Title text="Technologies" />
-        <div className="grid grid-cols-3 gap-10 mx-24">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-10 sm:mx-4 lg:mx-8">
           {this.card_info.map((card, index) => (
             <div key={card.id}>
               <TechUsedCard title={card.title} logos={card.logos} />
