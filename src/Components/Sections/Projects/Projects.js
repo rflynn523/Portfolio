@@ -1,7 +1,5 @@
 import React from "react";
-
 import project_data from "./project-data";
-
 import ProjectCard from "./ProjectCard";
 
 import Title from "../../Title";
@@ -22,10 +20,10 @@ class Projects extends React.Component {
 
   render() {
     return (
-      <div className=" mx-auto p-32 pb-0 space-y-8">
+      <div className="mx-4 md:mx-auto pb-0 md:p-16 lg:p-32 space-y-8">
         <Title text="Projects" />
         {this.all_Projects.map((project, index) => (
-          <div key={index}>
+          <div key={index} className="w-full">
             <ProjectCard project={project} />
           </div>
         ))}
