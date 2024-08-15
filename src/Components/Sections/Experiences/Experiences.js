@@ -1,5 +1,4 @@
 import React from "react";
-
 import JobSummary from "./JobSummary";
 import JobDetails from "./JobDetails";
 import work_experience_data from "./work-data";
@@ -10,12 +9,12 @@ class Experiences extends React.Component {
 
   render() {
     return (
-      <div className="work p-32 container mx-auto space-y-8">
+      <div className="p-4 md:p-16 lg:p-32 container md:mx-auto space-y-8">
         <Title text="Experiences" />
 
         {this.allWork.map((job, index) => (
           <div
-            className="mb-4 w-full bg-slate bg-opacity-10 backdrop-blur-lg rounded-lg"
+            className="w-full bg-slate bg-opacity-10 backdrop-blur-lg rounded-lg overflow-hidden"
             key={index}
           >
             {/* Summary */}
