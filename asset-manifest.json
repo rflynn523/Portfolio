@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.69e64cdd.css",
-    "main.js": "/Portfolio/static/js/main.34d6eecf.js",
+    "main.css": "/Portfolio/static/css/main.5190e5a7.css",
+    "main.js": "/Portfolio/static/js/main.838eb8fb.js",
     "static/media/spain.jpeg": "/Portfolio/static/media/spain.edf839c525a723e509d3.jpeg",
     "static/media/terminal.png": "/Portfolio/static/media/terminal.be77b398485b7a8320b8.png",
     "static/media/new_home_page.png": "/Portfolio/static/media/new_home_page.d6724d4e764bfc232a62.png",
@@ -15,7 +15,6 @@
     "static/media/pycharm-logo.png": "/Portfolio/static/media/pycharm-logo.389fb7a78b5f60410ce5.png",
     "static/media/check_discounts_page.JPG": "/Portfolio/static/media/check_discounts_page.c85320f5ee6628f44c29.JPG",
     "static/media/vscode-logo.png": "/Portfolio/static/media/vscode-logo.a61dc62c499ed3aeefdc.png",
-    "static/media/Privacy Policy.pdf": "/Portfolio/static/media/Privacy Policy.81c40553c1225aec90ea.pdf",
     "static/media/docker-logo.png": "/Portfolio/static/media/docker-logo.0f1d943e8a1505d609e5.png",
     "static/media/Ryan Flynn Resume.pdf": "/Portfolio/static/media/Ryan Flynn Resume.7efceacc25d419b17b26.pdf",
     "static/media/xcode-logo.svg": "/Portfolio/static/media/xcode-logo.d9c82bd0be558f7eb4be26055b0956b7.svg",
@@ -34,11 +33,11 @@
     "index.html": "/Portfolio/index.html",
     "static/media/java-logo.svg": "/Portfolio/static/media/java-logo.3c5854fce4aa30ad19d569c45d5ce874.svg",
     "static/media/pydantic-logo.svg": "/Portfolio/static/media/pydantic-logo.bd01437613f464a943cb56a6ad79da4e.svg",
-    "main.69e64cdd.css.map": "/Portfolio/static/css/main.69e64cdd.css.map",
-    "main.34d6eecf.js.map": "/Portfolio/static/js/main.34d6eecf.js.map"
+    "main.5190e5a7.css.map": "/Portfolio/static/css/main.5190e5a7.css.map",
+    "main.838eb8fb.js.map": "/Portfolio/static/js/main.838eb8fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.69e64cdd.css",
-    "static/js/main.34d6eecf.js"
+    "static/css/main.5190e5a7.css",
+    "static/js/main.838eb8fb.js"
   ]
 }
