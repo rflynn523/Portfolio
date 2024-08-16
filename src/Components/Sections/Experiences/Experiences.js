@@ -9,7 +9,7 @@ class Experiences extends React.Component {
 
   render() {
     return (
-      <div className="p-4 md:p-16 lg:p-32 container md:mx-auto space-y-8">
+      <div className="pt-20 xl:pt-24 p-4 md:p-16 lg:p-32 container md:mx-auto space-y-8">
         <Title text="Experiences" />
 
         {this.allWork.map((job, index) => (

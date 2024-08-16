@@ -23,6 +23,20 @@ jobs:
       - name: Build React app
         run: CI=false npm run build
 
+      - name: Get version from package.json
+        id: get_version
+        run: |
+          VERSION=$(jq -r '.version' package.json)
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+
+      - name: Check if version tag exists
+        id: version_check
+        run: |
+          if git rev-parse "v${{ env.VERSION }}" >/dev/null 2>&1; then
+            echo "Tag v${{ env.VERSION }} already exists."
+            exit 0
+          fi
+
       - name: Configure Git
         run: |
           git config --global user.email "rflynn0523@gmail.com"
@@ -33,3 +47,11 @@ jobs:
         run: CI=false npm run deploy
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      - name: Create and push tag
+        if: steps.version_check.outcome == 'success'
+        run: |
+          git tag v$VERSION
+          git push origin v$VERSION
+        env:
+          VERSION: ${{ env.VERSION }}
