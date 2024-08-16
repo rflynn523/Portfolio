@@ -1,5 +1,6 @@
 import React from "react";
 import { FaTimes } from "react-icons/fa";
+import "./NavBar.css";
 
 const scrollToSection = (sectionId) => {
   const section = document.getElementById(sectionId);

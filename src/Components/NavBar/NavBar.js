@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 import resumePDF from "./Ryan Flynn Resume.pdf";
 import MobileMenu from "./MobileMenu";
+import "./NavBar.css";
 
 const scrollToSection = (sectionId) => {
   const section = document.getElementById(sectionId);
