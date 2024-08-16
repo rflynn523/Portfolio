@@ -82,7 +82,7 @@ class NavBar extends React.Component {
           </div>
 
           {/* Contact Links */}
-          <div className="hidden lg:flex space-x-6">
+          <div className="flex space-x-6">
             {/* LinkedIn */}
             <a
               href="https://www.linkedin.com/in/ryan-flynn-5b0a56170/"
