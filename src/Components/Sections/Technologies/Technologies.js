@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "../../common/Title";
-import TechUsedCard from "../../Card/TechUsedCard";
+import TechUsedCard from "./TechUsedCard";
 import tech_used_data from "./tech-used-data";
 
 class Technologies extends React.Component {
