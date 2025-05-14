@@ -1,5 +1,5 @@
 import React from "react";
-import TechChip from "../../TechChip";
+import TechChip from "../../common/TechChip";
 
 class JobDetails extends React.Component {
   render() {

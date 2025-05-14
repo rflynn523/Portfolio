@@ -1,11 +1,7 @@
 import React from "react";
-import Tooltip from "../Tooltip/Tooltip";
+import Tooltip from "../../common/Tooltip";
 
 class TechUsedCard extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="bg-slate bg-opacity-10 backdrop-blur-lg p-4 md:p-5 rounded-lg shadow-lg">
@@ -18,7 +14,7 @@ class TechUsedCard extends React.Component {
               <Tooltip key={logoIndex} text={logo.tooltip}>
                 <img
                   src={logo.image}
-                  alt={`Image ${logoIndex + 1}`}
+                  alt={`${logoIndex + 1}`}
                   className="size-12 sm:size-16 object-contain"
                 />
               </Tooltip>

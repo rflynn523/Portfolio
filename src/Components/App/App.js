@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 import NavBar from "../NavBar/NavBar";
-import AboutMe from "../Sections/AboutMe/AboutMe";
-import Technologies from "../Sections/Technologies/Technologies";
-import Projects from "../Sections/Projects/Projects";
-import Experiences from "../Sections/Experiences/Experiences";
+import AboutMe from "../sections/AboutMe/AboutMe";
+import Technologies from "../sections/Technologies/Technologies";
+import Projects from "../sections/Projects/Projects";
+import Experiences from "../sections/Experiences/Experiences";
 import "./App.css";
 
 class App extends React.Component {
