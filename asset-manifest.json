@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.2d96e737.css",
-    "main.js": "/Portfolio/static/js/main.0ff48cc9.js",
+    "main.css": "/Portfolio/static/css/main.e1f4fa5d.css",
+    "main.js": "/Portfolio/static/js/main.6a17950b.js",
     "static/media/spain.jpeg": "/Portfolio/static/media/spain.edf839c525a723e509d3.jpeg",
     "static/media/terminal.png": "/Portfolio/static/media/terminal.be77b398485b7a8320b8.png",
     "static/media/new_home_page.png": "/Portfolio/static/media/new_home_page.d6724d4e764bfc232a62.png",
@@ -33,11 +33,11 @@
     "index.html": "/Portfolio/index.html",
     "static/media/java-logo.svg": "/Portfolio/static/media/java-logo.3c5854fce4aa30ad19d569c45d5ce874.svg",
     "static/media/pydantic-logo.svg": "/Portfolio/static/media/pydantic-logo.bd01437613f464a943cb56a6ad79da4e.svg",
-    "main.2d96e737.css.map": "/Portfolio/static/css/main.2d96e737.css.map",
-    "main.0ff48cc9.js.map": "/Portfolio/static/js/main.0ff48cc9.js.map"
+    "main.e1f4fa5d.css.map": "/Portfolio/static/css/main.e1f4fa5d.css.map",
+    "main.6a17950b.js.map": "/Portfolio/static/js/main.6a17950b.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d96e737.css",
-    "static/js/main.0ff48cc9.js"
+    "static/css/main.e1f4fa5d.css",
+    "static/js/main.6a17950b.js"
   ]
 }
