@@ -1,8 +1,7 @@
 import React from "react";
 import project_data from "./project-data";
 import ProjectCard from "./ProjectCard";
-
-import Title from "../../Title";
+import Title from "../../common/Title";
 
 class Projects extends React.Component {
   all_Projects = [

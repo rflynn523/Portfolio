@@ -2,7 +2,7 @@ import React from "react";
 import JobSummary from "./JobSummary";
 import JobDetails from "./JobDetails";
 import work_experience_data from "./work-data";
-import Title from "../../Title";
+import Title from "../../common/Title";
 
 class Experiences extends React.Component {
   allWork = [work_experience_data.solute, work_experience_data.CP];

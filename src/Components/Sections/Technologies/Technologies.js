@@ -1,5 +1,5 @@
 import React from "react";
-import Title from "../../Title";
+import Title from "../../common/Title";
 import TechUsedCard from "../../Card/TechUsedCard";
 import tech_used_data from "./tech-used-data";
 

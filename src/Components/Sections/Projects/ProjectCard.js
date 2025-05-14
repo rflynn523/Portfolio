@@ -1,7 +1,7 @@
 import React from "react";
 import { FaAppStore, FaGithub, FaYoutube } from "react-icons/fa";
-import Tooltip from "../../Tooltip/Tooltip";
-import TechChip from "../../TechChip";
+import Tooltip from "../../common/Tooltip";
+import TechChip from "../../common/TechChip";
 
 class ProjectCard extends React.Component {
   render() {
