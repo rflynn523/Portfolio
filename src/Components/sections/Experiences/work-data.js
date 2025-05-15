@@ -1,8 +1,26 @@
 const work_experience_data = {
+  altimetrik: {
+    title: "UPDATE TITLE",
+    company: "Altimetrik",
+    date: "Oct 2024 - Present",
+    bullet_points: ["BULLET 1", "BULLET 2"],
+    technology: [
+      "Python",
+      "Oracle",
+      "TEST FRAMEWORK (unittest)",
+      "SPLUNK",
+      "GitLab CICD Pipelines",
+      "HELM?",
+      "Jira",
+      "MORE",
+    ],
+    links: "SOLUTE A Sigma Defense Company", // Links for company information
+  },
+
   solute: {
     title: "Software Engineer",
     company: "SOLUTE",
-    date: "Aug 2021 - Present",
+    date: "Aug 2021 - Oct 2024",
     bullet_points: [
       "Contributed as a vital member of the backend team for a web application utilizing Python and React that serves as a planning tool for Navy personnel.",
       "Successfully integrated an internal tool into the web application, saving the user significant time.",

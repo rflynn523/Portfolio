@@ -5,7 +5,11 @@ import work_experience_data from "./work-data";
 import Title from "../../common/Title";
 
 class Experiences extends React.Component {
-  allWork = [work_experience_data.solute, work_experience_data.CP];
+  allWork = [
+    work_experience_data.altimetrik,
+    work_experience_data.solute,
+    work_experience_data.CP,
+  ];
 
   render() {
     return (
