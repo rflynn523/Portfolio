@@ -25,13 +25,14 @@ class AboutMe extends React.Component {
           {/* Intro paragraphs on the right */}
           <div className="xl:ml-12">
             <div className="mb-8 xl:mb-12 bg-slate bg-opacity-10 backdrop-blur-lg p-6 xl:p-8 rounded-lg shadow-lg text-base">
-              As an engineer with nearly four years of experience, I am
-              passionate about creating innovative software and exploring new
+              As a software engineer with over four years of experience, I'm
+              passionate about building innovative solutions and diving into new
               technologies. I graduated from the University of Central Florida
-              in December 2020 and am currently working as a Software Engineer
-              II at SOLUTE, a Sigma Defense company. Outside of work, I enjoy
-              working on personal projects, keeping up with the NBA and NFL, and
-              taking endless trips to Disney with my wife.
+              in December 2020 and currently work at Altimetrik as an Associate
+              Engineer contributing to Galileo's core payments infrastructure.
+              Outside of work, I enjoy working on personal projects, keeping up
+              with the NBA and NFL, and taking endless trips to Disney with my
+              wife.
             </div>
 
             <div className="bg-slate bg-opacity-10 backdrop-blur-lg p-6 xl:p-8 rounded-lg shadow-lg text-base">
