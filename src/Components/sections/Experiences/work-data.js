@@ -1,24 +1,31 @@
 const work_experience_data = {
   altimetrik: {
-    title: "UPDATE TITLE",
+    title: "Associate Engineer - Product and Platform Engineering",
     company: "Altimetrik",
     date: "Oct 2024 - Present",
-    bullet_points: ["BULLET 1", "BULLET 2"],
+    bullet_points: [
+      "Working as a Software Engineer on Galileo's payments infrastructure, which powers digital banking services for fintech clients including Robinhood, Chime, and more",
+      "Implementing card network mandates and compliance updates from Mastercard and Visa",
+      "Investigating and resolving client-reported issues related to payment processing, account activity, and transaction failures",
+      "Parsing and troubleshooting ISO 8583 messages to support accurate and reliable transaction processing",
+      "Using Splunk to monitor application logs, trace errors, and troubleshoot production issues",
+      "Contributing to release planning and rollout strategy by managing feature flags and staging deployments across environments",
+    ],
     technology: [
       "Python",
-      "Oracle",
-      "TEST FRAMEWORK (unittest)",
-      "SPLUNK",
+      "Oracle SQL Developer",
       "GitLab CICD Pipelines",
-      "HELM?",
+      "Splunk",
+      "Helm",
+      "ArgoCD",
+      "Amazon Workspaces",
       "Jira",
-      "MORE",
     ],
-    links: "SOLUTE A Sigma Defense Company", // Links for company information
+    links: "", // Links for company information
   },
 
   solute: {
-    title: "Software Engineer",
+    title: "Software Engineer II",
     company: "SOLUTE",
     date: "Aug 2021 - Oct 2024",
     bullet_points: [
@@ -28,7 +35,7 @@ const work_experience_data = {
       "Handled data validation with Pydantic, managed PostgreSQL databases, and interfaced with REST APIs.",
       "Improved code quality, addressed bugs, conducted testing, and actively participated in code reviews as needed.",
       "Took on several DevOps roles, enhancing GitLab CI/CD pipelines and implementing infrastructure as code with Terraform.",
-      "Utilized agile methodologies with two-week sprints and eﬃciently managed tasks with GitLab.",
+      "Utilized agile methodologies with two-week sprints and efficiently managed tasks with GitLab.",
       "Promoted from Software Engineer I (November 2022)",
     ],
     technology: [
