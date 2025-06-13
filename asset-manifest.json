@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.e1f4fa5d.css",
-    "main.js": "/Portfolio/static/js/main.6a17950b.js",
+    "main.js": "/Portfolio/static/js/main.3bc014f1.js",
     "static/media/spain.jpeg": "/Portfolio/static/media/spain.edf839c525a723e509d3.jpeg",
     "static/media/terminal.png": "/Portfolio/static/media/terminal.be77b398485b7a8320b8.png",
     "static/media/new_home_page.png": "/Portfolio/static/media/new_home_page.d6724d4e764bfc232a62.png",
@@ -12,13 +12,14 @@
     "static/media/main_page.JPG": "/Portfolio/static/media/main_page.03230e52a8416206debc.JPG",
     "static/media/app.JPG": "/Portfolio/static/media/app.a59c3656ec898510798f.JPG",
     "static/media/frame.JPG": "/Portfolio/static/media/frame.eec48fcb935adf275ce9.JPG",
-    "static/media/pycharm-logo.png": "/Portfolio/static/media/pycharm-logo.389fb7a78b5f60410ce5.png",
+    "static/media/splunk-logo.png": "/Portfolio/static/media/splunk-logo.d1c288d7c50910e5a5ed.png",
+    "static/media/Ryan Flynn Resume.pdf": "/Portfolio/static/media/Ryan Flynn Resume.cad673a725c0a120ca14.pdf",
     "static/media/check_discounts_page.JPG": "/Portfolio/static/media/check_discounts_page.c85320f5ee6628f44c29.JPG",
     "static/media/vscode-logo.png": "/Portfolio/static/media/vscode-logo.a61dc62c499ed3aeefdc.png",
     "static/media/docker-logo.png": "/Portfolio/static/media/docker-logo.0f1d943e8a1505d609e5.png",
-    "static/media/Ryan Flynn Resume.pdf": "/Portfolio/static/media/Ryan Flynn Resume.7efceacc25d419b17b26.pdf",
     "static/media/xcode-logo.svg": "/Portfolio/static/media/xcode-logo.d9c82bd0be558f7eb4be26055b0956b7.svg",
     "static/media/gitlab-logo.png": "/Portfolio/static/media/gitlab-logo.0070cd7089f05fff5644.png",
+    "static/media/argo-cd-logo.png": "/Portfolio/static/media/argo-cd-logo.b3d1c539d60e9d669425.png",
     "static/media/swiftui-logo.png": "/Portfolio/static/media/swiftui-logo.52a267111e7c36b0c5ca.png",
     "static/media/python-logo.png": "/Portfolio/static/media/python-logo.632369df831d16241b59.png",
     "static/media/firebase-logo.png": "/Portfolio/static/media/firebase-logo.6ea3b0b39b97b0e49515.png",
@@ -34,10 +35,10 @@
     "static/media/java-logo.svg": "/Portfolio/static/media/java-logo.3c5854fce4aa30ad19d569c45d5ce874.svg",
     "static/media/pydantic-logo.svg": "/Portfolio/static/media/pydantic-logo.bd01437613f464a943cb56a6ad79da4e.svg",
     "main.e1f4fa5d.css.map": "/Portfolio/static/css/main.e1f4fa5d.css.map",
-    "main.6a17950b.js.map": "/Portfolio/static/js/main.6a17950b.js.map"
+    "main.3bc014f1.js.map": "/Portfolio/static/js/main.3bc014f1.js.map"
   },
   "entrypoints": [
     "static/css/main.e1f4fa5d.css",
-    "static/js/main.6a17950b.js"
+    "static/js/main.3bc014f1.js"
   ]
 }
