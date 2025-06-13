@@ -20,10 +20,12 @@ import swiftui from "../../../images/tech_logos/libraries/swiftui-logo.png";
 import vscode from "../../../images/tech_logos/tools/vscode-logo.png";
 import xcode from "../../../images/tech_logos/tools/xcode-logo.svg";
 import android_studio from "../../../images/tech_logos/tools/android-studio-logo.png";
-import pycharm from "../../../images/tech_logos/tools/pycharm-logo.png";
+// import pycharm from "../../../images/tech_logos/tools/pycharm-logo.png";
 import postman from "../../../images/tech_logos/tools/postman-logo.png";
 import swagger from "../../../images/tech_logos/tools/swagger-logo.svg";
 import git from "../../../images/tech_logos/tools/git-logo.png";
+import splunk from "../../../images/tech_logos/tools/splunk-logo.png";
+import jira from "../../../images/tech_logos/tools/jira-logo.png";
 
 // Hardware Programming
 import raspberry from "../../../images/tech_logos/hardware/raspberry-pi-logo.png";
@@ -34,11 +36,13 @@ import ti from "../../../images/tech_logos/hardware/ti-logo.png";
 import postgres from "../../../images/tech_logos/databases/postgres-logo.png";
 import firebase from "../../../images/tech_logos/databases/firebase-logo.png";
 import mysql from "../../../images/tech_logos/databases/mysql-logo.png";
+import oracle from "../../../images/tech_logos/databases/sql-developer-logo.png";
 
 // DevOps
 import gitlab from "../../../images/tech_logos/devops/gitlab-logo.png";
 import terraform from "../../../images/tech_logos/devops/terraform-logo.png";
 import docker from "../../../images/tech_logos/devops/docker-logo.png";
+import argocd from "../../../images/tech_logos/devops/argo-cd-logo.png";
 
 const tech_used_data = {
   prog_lang: {
@@ -71,10 +75,12 @@ const tech_used_data = {
       { image: vscode, tooltip: "Visual Studio Code" },
       { image: xcode, tooltip: "Xcode" },
       { image: android_studio, tooltip: "Android Studio" },
-      { image: pycharm, tooltip: "PyCharm" },
+      // { image: pycharm, tooltip: "PyCharm" },
+      { image: git, tooltip: "Git" },
       { image: postman, tooltip: "Postman" },
       { image: swagger, tooltip: "Swagger" },
-      { image: git, tooltip: "Git" },
+      { image: splunk, tooltip: "Splunk" },
+      { image: jira, tooltip: "Jira" },
     ],
   },
   databases: {
@@ -83,6 +89,7 @@ const tech_used_data = {
       { image: postgres, tooltip: "PostgreSQL" },
       { image: firebase, tooltip: "Firebase" },
       { image: mysql, tooltip: "MySQL" },
+      { image: oracle, tooltip: "Oracle SQL Developer" },
     ],
   },
   hardware: {
@@ -99,6 +106,7 @@ const tech_used_data = {
       { image: gitlab, tooltip: "GitLab CICD" },
       { image: docker, tooltip: "Docker" },
       { image: terraform, tooltip: "Terraform" },
+      { image: argocd, tooltip: "Argo CD" },
     ],
   },
 };
