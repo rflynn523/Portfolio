@@ -1,5 +1,10 @@
 # Change Log
 
+## 2.1.2
+
+- Made minor updates to wording of work with Galileo
+- Updated project picture and tools used for _Budget Assistant_
+
 ## 2.0.3
 
 - Removed old and unused files

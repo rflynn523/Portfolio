@@ -4,12 +4,12 @@ const work_experience_data = {
     company: "Altimetrik",
     date: "Oct 2024 - Present",
     bullet_points: [
-      "Working as a Software Engineer on core payments infrastructure at Galileo Financial Technologies, powering digital banking services for fintech clients including Robinhood, Chime, and more",
+      "Working as a Software Engineer on core payments infrastructure at Galileo Financial Technologies, powering digital banking services for fintech clients including Robinhood, SoFi, and more",
       "Implementing card network mandates and compliance updates from Mastercard and Visa",
       "Investigating and resolving client-reported issues related to payment processing, account activity, and transaction failures",
       "Parsing and troubleshooting ISO 8583 messages to support accurate and reliable transaction processing",
       "Using Splunk to monitor application logs, trace errors, and troubleshoot production issues",
-      "Contributing to release planning and rollout strategy by managing feature flags and staging deployments across environments",
+      "Contributing to release planning and rollout strategy by managing feature flags across multiple environments",
     ],
     technology: [
       "Python",

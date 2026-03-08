@@ -1,5 +1,5 @@
 // Project Pictures
-import budgetAssistant from "../../../images/project_pics/budget_assistant/terminal.png";
+import budgetAssistant from "../../../images/project_pics/budget_assistant/updated_terminal_03_2026.png";
 import savingsMapper from "../../../images/project_pics/savings_mapper/app_store_ad.png";
 import petConnect from "../../../images/project_pics/pet_connect/frame.JPG";
 import budgetGUI from "../../../images/project_pics/budget_gui/gui.JPG";
@@ -13,13 +13,13 @@ import ledDisplay from "../../../images/project_pics/led_display/led.JPG";
 const project_data = {
   BudgetAssistant: {
     title: "Budget Assistant",
-    date: "January 2023 - March 2023",
+    date: "January 2023 - March 2023, February 2026",
     image: budgetAssistant,
     description:
       "A Python script designed to manage and reset my monthly budget by interacting with Excel spreadsheets. " +
       "The script performs validation checks to ensure proper setup, imports data from text files, sends monthly " +
       "summaries to my phone, and outputs progress updates to the terminal.",
-    technology: ["Python", "Pytest", "Openpyxl"],
+    technology: ["Python", "Openpyxl", "Rich", "Pytest"],
     links: [
       { url: "https://github.com/rflynn523/Budget-Assistant", tooltip: "Code" },
     ],
