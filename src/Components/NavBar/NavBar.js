@@ -86,7 +86,7 @@ class NavBar extends React.Component {
           <div className="flex space-x-6">
             {/* LinkedIn */}
             <a
-              href="https://www.linkedin.com/in/ryan-flynn-5b0a56170/"
+              href="https://www.linkedin.com/in/ryan-flynn523"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-linked-in-blue transition-colors duration-300"
