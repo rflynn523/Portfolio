@@ -17,11 +17,11 @@ import tailwinds from "../../../images/tech_logos/libraries/tailwind-logo.png";
 import kafka from "../../../images/tech_logos/libraries/kafka-logo.png";
 
 // Developer Tools
-import git from "../../../images/tech_logos/tools/git-logo.png";
-import postman from "../../../images/tech_logos/tools/postman-logo.png";
-import swagger from "../../../images/tech_logos/tools/swagger-logo.svg";
-import jira from "../../../images/tech_logos/tools/jira-logo.png";
-import claudecode from "../../../images/tech_logos/tools/Claude Spark - Clay.png";
+import git from "../../../images/tech_logos/developer_tools/git-logo.png";
+import postman from "../../../images/tech_logos/developer_tools/postman-logo.png";
+import swagger from "../../../images/tech_logos/developer_tools/swagger-logo.svg";
+import jira from "../../../images/tech_logos/developer_tools/jira-logo.png";
+import claudecode from "../../../images/tech_logos/developer_tools/Claude Spark - Clay.png";
 
 // Databases
 import postgres from "../../../images/tech_logos/databases/postgres-logo.png";
@@ -39,15 +39,15 @@ import terraform from "../../../images/tech_logos/devops/terraform-logo.png";
 import helm from "../../../images/tech_logos/helm-icon-black.png";
 
 // Observability
-import splunk from "../../../images/tech_logos/tools/splunk-logo.png";
-import datadog from "../../../images/tech_logos/tools/dd_icon_white.png";
-import coralogix from "../../../images/tech_logos/RGB, Logo Mark, Favicon.svg";
+import splunk from "../../../images/tech_logos/observability/splunk-logo.png";
+import datadog from "../../../images/tech_logos/observability/datadog-logo.png";
+import coralogix from "../../../images/tech_logos/observability/coralogix-logo.svg";
 
 // IDEs
-import vscode from "../../../images/tech_logos/tools/vscode-logo.png";
-import xcode from "../../../images/tech_logos/tools/xcode-logo.svg";
-import android_studio from "../../../images/tech_logos/tools/android-studio-logo.png";
-// import pycharm from "../../../images/tech_logos/tools/pycharm-logo.png";
+import vscode from "../../../images/tech_logos/ides/vscode-logo.png";
+import xcode from "../../../images/tech_logos/ides/xcode-logo.svg";
+import android_studio from "../../../images/tech_logos/ides/android-studio-logo.png";
+// import pycharm from "../../../images/tech_logos/ides/pycharm-logo.png";
 
 // Hardware Programming
 import raspberry from "../../../images/tech_logos/hardware/raspberry-pi-logo.png";
