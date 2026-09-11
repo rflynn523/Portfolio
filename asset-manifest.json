@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e1f4fa5d.css",
-    "main.js": "/Portfolio/static/js/main.6a5a7bcb.js",
+    "main.css": "/Portfolio/static/css/main.21b75369.css",
+    "main.js": "/Portfolio/static/js/main.acae36a3.js",
     "static/media/new_home_page.png": "/Portfolio/static/media/new_home_page.d6724d4e764bfc232a62.png",
     "static/media/puzzle.jpg": "/Portfolio/static/media/puzzle.3f9baa458b7d62aea1d2.jpg",
     "static/media/standing_profile_pic.jpeg": "/Portfolio/static/media/standing_profile_pic.aab107334e977edda78e.jpeg",
@@ -38,11 +38,11 @@
     "static/media/java-logo.svg": "/Portfolio/static/media/java-logo.3c5854fce4aa30ad19d569c45d5ce874.svg",
     "static/media/pydantic-logo.svg": "/Portfolio/static/media/pydantic-logo.bd01437613f464a943cb56a6ad79da4e.svg",
     "static/media/coralogix-logo.svg": "/Portfolio/static/media/coralogix-logo.c5fd31d55d862b30010289bd5bdb8490.svg",
-    "main.e1f4fa5d.css.map": "/Portfolio/static/css/main.e1f4fa5d.css.map",
-    "main.6a5a7bcb.js.map": "/Portfolio/static/js/main.6a5a7bcb.js.map"
+    "main.21b75369.css.map": "/Portfolio/static/css/main.21b75369.css.map",
+    "main.acae36a3.js.map": "/Portfolio/static/js/main.acae36a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1f4fa5d.css",
-    "static/js/main.6a5a7bcb.js"
+    "static/css/main.21b75369.css",
+    "static/js/main.acae36a3.js"
   ]
 }
