@@ -12,25 +12,16 @@ import c from "../../../images/tech_logos/languages/c-logo.png";
 import react from "../../../images/tech_logos/libraries/react-logo.png";
 import pytest from "../../../images/tech_logos/libraries/pytest-logo.png";
 import pydantic from "../../../images/tech_logos/libraries/pydantic-logo.svg";
-import kafka from "../../../images/tech_logos/libraries/kafka-logo.png";
-import tailwinds from "../../../images/tech_logos/libraries/tailwind-logo.png";
 import swiftui from "../../../images/tech_logos/libraries/swiftui-logo.png";
+import tailwinds from "../../../images/tech_logos/libraries/tailwind-logo.png";
+import kafka from "../../../images/tech_logos/libraries/kafka-logo.png";
 
-// Tools
-import vscode from "../../../images/tech_logos/tools/vscode-logo.png";
-import xcode from "../../../images/tech_logos/tools/xcode-logo.svg";
-import android_studio from "../../../images/tech_logos/tools/android-studio-logo.png";
-// import pycharm from "../../../images/tech_logos/tools/pycharm-logo.png";
-import postman from "../../../images/tech_logos/tools/postman-logo.png";
-import swagger from "../../../images/tech_logos/tools/swagger-logo.svg";
-import git from "../../../images/tech_logos/tools/git-logo.png";
-import splunk from "../../../images/tech_logos/tools/splunk-logo.png";
-import jira from "../../../images/tech_logos/tools/jira-logo.png";
-
-// Hardware Programming
-import raspberry from "../../../images/tech_logos/hardware/raspberry-pi-logo.png";
-import boebot from "../../../images/tech_logos/hardware/boebot-parallax-logo.png";
-import ti from "../../../images/tech_logos/hardware/ti-logo.png";
+// Developer Tools
+import git from "../../../images/tech_logos/developer_tools/git-logo.png";
+import postman from "../../../images/tech_logos/developer_tools/postman-logo.png";
+import swagger from "../../../images/tech_logos/developer_tools/swagger-logo.svg";
+import jira from "../../../images/tech_logos/developer_tools/jira-logo.png";
+import claudecode from "../../../images/tech_logos/developer_tools/Claude Spark - Clay.png";
 
 // Databases
 import postgres from "../../../images/tech_logos/databases/postgres-logo.png";
@@ -39,10 +30,29 @@ import mysql from "../../../images/tech_logos/databases/mysql-logo.png";
 import oracle from "../../../images/tech_logos/databases/sql-developer-logo.png";
 
 // DevOps
-import gitlab from "../../../images/tech_logos/devops/gitlab-logo.png";
-import terraform from "../../../images/tech_logos/devops/terraform-logo.png";
 import docker from "../../../images/tech_logos/devops/docker-logo.png";
+import gitlab from "../../../images/tech_logos/devops/gitlab-logo.png";
 import argocd from "../../../images/tech_logos/devops/argo-cd-logo.png";
+
+// Cloud / Infrastructure
+import terraform from "../../../images/tech_logos/devops/terraform-logo.png";
+import helm from "../../../images/tech_logos/helm-icon-black.png";
+
+// Observability
+import splunk from "../../../images/tech_logos/observability/splunk-logo.png";
+import datadog from "../../../images/tech_logos/observability/datadog-logo.png";
+import coralogix from "../../../images/tech_logos/observability/coralogix-logo.svg";
+
+// IDEs
+import vscode from "../../../images/tech_logos/ides/vscode-logo.png";
+import xcode from "../../../images/tech_logos/ides/xcode-logo.svg";
+import android_studio from "../../../images/tech_logos/ides/android-studio-logo.png";
+// import pycharm from "../../../images/tech_logos/ides/pycharm-logo.png";
+
+// Hardware Programming
+import raspberry from "../../../images/tech_logos/hardware/raspberry-pi-logo.png";
+import boebot from "../../../images/tech_logos/hardware/boebot-parallax-logo.png";
+import ti from "../../../images/tech_logos/hardware/ti-logo.png";
 
 const tech_used_data = {
   prog_lang: {
@@ -69,18 +79,14 @@ const tech_used_data = {
       { image: kafka, tooltip: "Kafka" },
     ],
   },
-  tools: {
-    title: "Tools",
+  developer_tools: {
+    title: "Developer Tools",
     logos: [
-      { image: vscode, tooltip: "Visual Studio Code" },
-      { image: xcode, tooltip: "Xcode" },
-      { image: android_studio, tooltip: "Android Studio" },
-      // { image: pycharm, tooltip: "PyCharm" },
       { image: git, tooltip: "Git" },
       { image: postman, tooltip: "Postman" },
       { image: swagger, tooltip: "Swagger" },
-      { image: splunk, tooltip: "Splunk" },
       { image: jira, tooltip: "Jira" },
+      { image: claudecode, tooltip: "Claude Code" },
     ],
   },
   databases: {
@@ -92,21 +98,46 @@ const tech_used_data = {
       { image: oracle, tooltip: "Oracle SQL Developer" },
     ],
   },
+  devops: {
+    title: "DevOps",
+    logos: [
+      { image: docker, tooltip: "Docker" },
+      { image: gitlab, tooltip: "GitLab CICD" },
+      { image: argocd, tooltip: "Argo CD" },
+    ],
+  },
+
+  infrastructure: {
+    title: "Infrastructure",
+    logos: [
+      { image: terraform, tooltip: "Terraform" },
+      // { image: aws, tooltip: "AWS" },
+      { image: helm, tooltip: "Helm" },
+    ],
+  },
+  observability: {
+    title: "Observability",
+    logos: [
+      { image: splunk, tooltip: "Splunk" },
+      { image: datadog, tooltip: "DataDog" },
+      { image: coralogix, tooltip: "Coralogix" },
+    ],
+  },
+  ides: {
+    title: "IDEs",
+    logos: [
+      { image: vscode, tooltip: "Visual Studio Code" },
+      { image: xcode, tooltip: "Xcode" },
+      { image: android_studio, tooltip: "Android Studio" },
+      // { image: pycharm, tooltip: "PyCharm" },
+    ],
+  },
   hardware: {
     title: "Hardware Programming",
     logos: [
       { image: raspberry, tooltip: "Raspberry Pi" },
       { image: boebot, tooltip: "BoeBot" },
       { image: ti, tooltip: "MSP430 Microcontrollers" },
-    ],
-  },
-  devops: {
-    title: "DevOps",
-    logos: [
-      { image: gitlab, tooltip: "GitLab CICD" },
-      { image: docker, tooltip: "Docker" },
-      { image: terraform, tooltip: "Terraform" },
-      { image: argocd, tooltip: "Argo CD" },
     ],
   },
 };
