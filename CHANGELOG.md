@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.1.3
+
+- Made minor info updates
+
 ## 2.1.2
 
 - Made minor updates to wording of work with Galileo
