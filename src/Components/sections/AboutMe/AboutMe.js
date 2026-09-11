@@ -25,7 +25,7 @@ class AboutMe extends React.Component {
           {/* Intro paragraphs on the right */}
           <div className="xl:ml-12">
             <div className="mb-8 xl:mb-12 bg-slate bg-opacity-10 backdrop-blur-lg p-6 xl:p-8 rounded-lg shadow-lg text-base">
-              As a software engineer with over four years of experience, I'm
+              As a software engineer with over five years of experience, I'm
               passionate about building innovative solutions and exploring new
               technologies. I graduated from the University of Central Florida
               in December 2020 and currently work at Altimetrik as an Associate
