@@ -108,7 +108,7 @@ const tech_used_data = {
   },
 
   infrastructure: {
-    title: "Cloud / Infrastructure",
+    title: "Infrastructure",
     logos: [
       { image: terraform, tooltip: "Terraform" },
       // { image: aws, tooltip: "AWS" },
