@@ -29,10 +29,10 @@ class AboutMe extends React.Component {
               passionate about building innovative solutions and exploring new
               technologies. I graduated from the University of Central Florida
               in December 2020 and currently work at Altimetrik as an Associate
-              Engineer, contributing to the core payments infrastructure at
-              Galileo Financial Technologies. Outside of work, I enjoy building
-              personal projects, keeping up with the NBA and NFL, and taking
-              endless Disney trips with my wife.
+              Engineer, contributing to the core payments infrastructure at Sofi
+              Tech Solutions. Outside of work, I enjoy building personal
+              projects, keeping up with the NBA and NFL, and taking endless
+              Disney trips with my wife.
             </div>
 
             <div className="bg-slate bg-opacity-10 backdrop-blur-lg p-6 xl:p-8 rounded-lg shadow-lg text-base">
